@@ -19,3 +19,6 @@ resources/glove.6B.50d.txt
 .idea/
 Thumbs.db
 Desktop.ini
+
+# project handoff notes (local only)
+HANDOFF.md
