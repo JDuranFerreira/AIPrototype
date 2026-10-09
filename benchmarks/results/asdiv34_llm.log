@@ -1,0 +1,25 @@
+qwen3:0.6b nothink: 44/50
+qwen3:0.6b nothink: 87/100
+qwen3:0.6b nothink: 126/150
+qwen3:0.6b nothink: 167/200
+qwen3:0.6b nothink: 210/250
+qwen3:0.6b nothink: 253/300
+qwen3:0.6b nothink: 286/350
+qwen3:0.6b nothink: 328/400
+qwen3:0.6b nothink: 367/450
+qwen3:0.6b nothink: 391/500
+qwen3:0.6b nothink: 421/550
+qwen3:0.6b nothink: 466/600
+qwen3:0.6b nothink: 502/650
+qwen3:0.6b nothink: 548/700
+qwen3:0.6b nothink: 589/750
+qwen3:0.6b nothink asdiv3: 625/799 = 78.2% -> asdiv3_qwen3-0.6b_nothink.json
+qwen3:8b nothink: 43/50
+qwen3:8b nothink: 89/100
+qwen3:8b nothink: 126/150
+qwen3:8b nothink: 167/200
+qwen3:8b nothink: 211/250
+qwen3:8b nothink: 256/300
+qwen3:8b nothink: 300/350
+qwen3:8b nothink: 342/400
+qwen3:8b nothink: 381/450

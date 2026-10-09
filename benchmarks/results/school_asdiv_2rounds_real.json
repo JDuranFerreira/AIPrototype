@@ -1,0 +1,26 @@
+{
+ "1-dev": {
+  "n": 97,
+  "understood": 34,
+  "right": 14,
+  "guess_right": 17
+ },
+ "1-test": {
+  "n": 97,
+  "understood": 29,
+  "right": 13,
+  "guess_right": 19
+ },
+ "2-dev": {
+  "n": 163,
+  "understood": 47,
+  "right": 21,
+  "guess_right": 33
+ },
+ "2-test": {
+  "n": 162,
+  "understood": 50,
+  "right": 24,
+  "guess_right": 29
+ }
+}

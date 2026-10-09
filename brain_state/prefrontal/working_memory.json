@@ -1,0 +1,20 @@
+{
+ "values": {
+  "last": "60",
+  "total": "63",
+  "counter": "1",
+  "i": "2",
+  "n": "40",
+  "left": "47",
+  "each": "7"
+ },
+ "order": [
+  "counter",
+  "i",
+  "left",
+  "total",
+  "n",
+  "each",
+  "last"
+ ]
+}

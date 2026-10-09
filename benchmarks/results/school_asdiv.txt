@@ -1,0 +1,8 @@
+P1: readiness 57%, exam A 97% (AL1); says it understood 99%
+P2: readiness 86%, exam A 92% (AL1); says it understood 98%
+(taught in 61 s, CPU, no language model)
+
+ASDiv grade 1 dev  ( 97): brain understood  26, right 12.4% (46% of those) | always answering 26.8% | 5.8 ms/problem | qwen3:0.6b: 85.6% (88% on the ones it understood) | qwen3:8b: 84.5% (92% on the ones it understood)
+ASDiv grade 1 test ( 97): brain understood  25, right 13.4% (52% of those) | always answering 33.0% | 5.8 ms/problem | qwen3:0.6b: 89.7% (84% on the ones it understood) | qwen3:8b: 83.5% (92% on the ones it understood)
+ASDiv grade 2 dev  (163): brain understood  35, right 10.4% (49% of those) | always answering 22.7% | 6.3 ms/problem | qwen3:0.6b: 82.2% (83% on the ones it understood) | qwen3:8b: 84.0% (74% on the ones it understood)
+ASDiv grade 2 test (162): brain understood  32, right  8.6% (44% of those) | always answering 21.6% | 6.2 ms/problem | qwen3:0.6b: 82.1% (97% on the ones it understood) | qwen3:8b: 80.2% (81% on the ones it understood)

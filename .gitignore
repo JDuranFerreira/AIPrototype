@@ -1,0 +1,21 @@
+# virtual environment
+.venv/
+
+# python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# state backups (the live brain_state/ is tracked; these are pre-change snapshots)
+brain_state_backup*/
+brain_state_before_*/
+
+# raw GloVe download (163 MB, regenerable via benchmarks/build_wordvec.py;
+# the filtered product resources/wordvec.npz IS tracked)
+resources/glove.6B.50d.txt
+
+# editors / os
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

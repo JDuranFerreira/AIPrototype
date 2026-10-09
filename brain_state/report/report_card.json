@@ -1,0 +1,1868 @@
+{
+ "level": "P3",
+ "report": [
+  {
+   "level": "P1",
+   "subject": "math",
+   "about": "numbers to 100; adding and subtracting within 100 (mental within 20); number bonds (missing numbers); comparing; concepts of multiplication and division; money; time",
+   "readiness": 0.833,
+   "score": 1.0,
+   "grade": "AL1",
+   "predicted": 0.972,
+   "attempts": [
+    {
+     "exam": "A",
+     "score": 1.0,
+     "predicted": 0.9722222222222222
+    }
+   ],
+   "mastered": true,
+   "strengths": [
+    "adding within 20",
+    "subtracting within 20",
+    "within 100",
+    "missing numbers",
+    "comparing",
+    "multiplying and dividing",
+    "word problems",
+    "money",
+    "time"
+   ],
+   "work_on": [],
+   "mistakes": [],
+   "date": "2026-10-01"
+  },
+  {
+   "level": "P1",
+   "subject": "english",
+   "about": "nouns: one and many (-s, -es); a/an; verbs: present (he plays) and past (-ed); opposites; groups of things (a cow is an animal); nouns, verbs and adjectives",
+   "readiness": 0.136,
+   "score": 1.0,
+   "grade": "AL1",
+   "predicted": 0.9,
+   "attempts": [
+    {
+     "exam": "A",
+     "score": 1.0,
+     "predicted": 0.9
+    }
+   ],
+   "mastered": true,
+   "strengths": [
+    "plurals: add -s",
+    "plurals: add -es",
+    "a or an",
+    "he/she form",
+    "past -ed",
+    "sentences",
+    "opposites",
+    "groups"
+   ],
+   "work_on": [],
+   "mistakes": [],
+   "date": "2026-10-01"
+  },
+  {
+   "level": "P1",
+   "subject": "integrated",
+   "about": "math in English sentences, money and time in real life (Estonia: learning across subjects)",
+   "readiness": 1.0,
+   "score": 1.0,
+   "grade": "AL1",
+   "predicted": 1.0,
+   "attempts": [
+    {
+     "exam": "A",
+     "score": 1.0,
+     "predicted": 1.0
+    }
+   ],
+   "mastered": true,
+   "strengths": [
+    "money",
+    "time",
+    "word problems"
+   ],
+   "work_on": [],
+   "mistakes": [],
+   "date": "2026-10-01"
+  },
+  {
+   "level": "P2",
+   "subject": "math",
+   "about": "numbers to 1000; adding and subtracting up to 3 digits; times tables 2, 3, 4, 5 and 10 and the link between multiplying and dividing; fractions (part of a whole, compare, add like fractions); money in dollars and cents; length, mass, volume; time in hours and minutes",
+   "readiness": 0.8,
+   "score": 1.0,
+   "grade": "AL1",
+   "predicted": 0.966,
+   "attempts": [
+    {
+     "exam": "A",
+     "score": 1.0,
+     "predicted": 0.9664999999999999
+    }
+   ],
+   "mastered": true,
+   "strengths": [
+    "3-digit adding and subtracting",
+    "times tables",
+    "dividing",
+    "missing numbers",
+    "fractions",
+    "measurement",
+    "time",
+    "money",
+    "word problems"
+   ],
+   "work_on": [],
+   "mistakes": [],
+   "date": "2026-10-01"
+  },
+  {
+   "level": "P2",
+   "subject": "english",
+   "about": "plurals with -ies and words that change (child -> children); past tense: doubled letters, -ied and irregular verbs (went, saw); -ing and 'is ...-ing' sentences; same meanings (big = large)",
+   "readiness": 0.042,
+   "score": 1.0,
+   "grade": "AL1",
+   "predicted": 0.925,
+   "attempts": [
+    {
+     "exam": "A",
+     "score": 1.0,
+     "predicted": 0.9249999999999999
+    }
+   ],
+   "mastered": true,
+   "strengths": [
+    "plurals: -ies or -s",
+    "plurals that change",
+    "past: doubling and -ied",
+    "irregular past",
+    "-ing",
+    "sentences now",
+    "same meaning",
+    "opposites by reasoning",
+    "groups"
+   ],
+   "work_on": [],
+   "mistakes": [],
+   "date": "2026-10-01"
+  },
+  {
+   "level": "P2",
+   "subject": "integrated",
+   "about": "word problems in English with money, length and time (several steps)",
+   "readiness": 1.0,
+   "score": 1.0,
+   "grade": "AL1",
+   "predicted": 1.0,
+   "attempts": [
+    {
+     "exam": "A",
+     "score": 1.0,
+     "predicted": 1.0
+    }
+   ],
+   "mastered": true,
+   "strengths": [
+    "money",
+    "length",
+    "time",
+    "word problems"
+   ],
+   "work_on": [],
+   "mistakes": [],
+   "date": "2026-10-01"
+  },
+  {
+   "level": "P3",
+   "subject": "math",
+   "about": "numbers to 10 000; adding and subtracting up to 4 digits; times tables 6, 7, 8 and 9; division with remainder and what the remainder means; equivalent fractions and simplest form; money with $; km/m, l/ml; time in minutes; area and perimeter of rectangles and squares",
+   "readiness": 1.0,
+   "score": 1.0,
+   "grade": "AL1",
+   "predicted": 1.0,
+   "attempts": [
+    {
+     "exam": "A",
+     "score": 1.0,
+     "predicted": 1.0
+    }
+   ],
+   "mastered": true,
+   "strengths": [
+    "4-digit adding and subtracting",
+    "times tables 6-9",
+    "multiplying and dividing",
+    "division with remainder",
+    "fractions",
+    "money",
+    "measurement",
+    "area and perimeter",
+    "time",
+    "remainders in word problems"
+   ],
+   "work_on": [],
+   "mistakes": [],
+   "date": "2026-10-01"
+  },
+  {
+   "level": "P3",
+   "subject": "english",
+   "about": "comparing: -er/-est and more/most, better/best; adverbs (-ly); opposites with un- and dis-; past continuous (was reading) and future (will go); agreement with nouns (the dog barks / the dogs bark); word endings that show the word class (-ful, -ly, -ness)",
+   "readiness": 0.034,
+   "score": 1.0,
+   "grade": "AL1",
+   "predicted": 0.91,
+   "attempts": [
+    {
+     "exam": "A",
+     "score": 1.0,
+     "predicted": 0.9103448275862069
+    }
+   ],
+   "mastered": true,
+   "strengths": [
+    "comparing: -er",
+    "comparing: more/most",
+    "superlatives",
+    "irregular",
+    "adverbs",
+    "prefixes",
+    "past continuous",
+    "future",
+    "agreement",
+    "word classes",
+    "vocabulary"
+   ],
+   "work_on": [],
+   "mistakes": [],
+   "date": "2026-10-01"
+  },
+  {
+   "level": "P3",
+   "subject": "integrated",
+   "about": "real-life problems in English: change with dollars and cents, remainders that must be interpreted, lengths, durations and areas (several steps)",
+   "readiness": 0.8,
+   "score": 1.0,
+   "grade": "AL1",
+   "predicted": 1.0,
+   "attempts": [
+    {
+     "exam": "A",
+     "score": 1.0,
+     "predicted": 1.0
+    }
+   ],
+   "mastered": true,
+   "strengths": [
+    "money",
+    "remainders",
+    "measurement",
+    "area",
+    "time"
+   ],
+   "work_on": [],
+   "mistakes": [],
+   "date": "2026-10-01"
+  },
+  {
+   "level": "S1",
+   "subject": "world",
+   "about": "secondary 1: negative numbers; simple equations; proportion (the unitary method); averages; circles",
+   "readiness": 0.839,
+   "score": 0.95,
+   "grade": "AL1",
+   "predicted": 0.398,
+   "attempts": [
+    {
+     "exam": "A",
+     "score": 0.8951219512195122,
+     "predicted": 0.44146341463414634
+    },
+    {
+     "exam": "B",
+     "score": 0.95,
+     "predicted": 0.3975609756097561
+    }
+   ],
+   "mastered": true,
+   "strengths": [
+    "transfer",
+    "compare",
+    "each",
+    "days",
+    "colours",
+    "half",
+    "money",
+    "groups",
+    "share",
+    "cents",
+    "length",
+    "before",
+    "place",
+    "parts",
+    "difference",
+    "need",
+    "rate",
+    "removed",
+    "fraction",
+    "price",
+    "pay",
+    "mass",
+    "leftover",
+    "afford",
+    "percent",
+    "common",
+    "meet",
+    "speed",
+    "negative",
+    "proportion",
+    "average",
+    "circle"
+   ],
+   "work_on": [
+    "change (19/20)",
+    "unknown (18/20)",
+    "clock (14/20)",
+    "needed (10/20)",
+    "twostep (18/20)",
+    "lastday (10/20)",
+    "convert (19/20)",
+    "square (18/20)",
+    "equation (13/20)"
+   ],
+   "mistakes": [
+    "Lily has 8 pencils. Lily makes 4 pencils. Then Lily picks 9 more. How many pencils are left? -> 13 (right: 21; understood every sentence)",
+    "Leo had some leaves. Leo bought 5 leaves. He has 22 leaves left. How many leaves did Leo have at first? -> 5 (right: 17; not sure: these words have led me wrong before: first)",
+    "Sam had some bottles. He bought 1 bottles. Now he has 7 bottles. How many bottles did Sam have at first? -> 1 (right: 6; not sure: these words have led me wrong before: first)",
+    "The game starts at 8 o'clock. It lasts 3 hours. At what o'clock does it end? -> 2 (right: 11; not sure: these words have led me wrong before: end, game, lasts)",
+    "The game starts at 7 o'clock. It lasts 4 hours. At what o'clock does it end? -> 3 (right: 11; not sure: these words have led me wrong before: end, game, lasts)",
+    "The lesson starts at 1 o'clock. It lasts 4 hours. At what o'clock does the lesson end? -> 1 (right: 5; not sure: these words have led me wrong before: end, lasts, lesson)",
+    "The race starts at 6 o'clock. It lasts 3 hours. At what o'clock does the race end? -> 0 (right: 9; not sure: these words have led me wrong before: end, lasts, starts)",
+    "The race starts at 2 o'clock. It lasts 2 hours. At what o'clock does the race end? -> 0 (right: 4; not sure: these words have led me wrong before: end, lasts, starts)",
+    "The race starts at 8 o'clock. It lasts 1 hours. At what o'clock does the race end? -> 0 (right: 9; not sure: these words have led me wrong before: end, lasts, starts)",
+    "There are 428 people. Each car holds 11 people. How many cars are needed? -> 4708 (right: 39; not sure: these words have led me wrong before: car, holds, needed)",
+    "There are 763 people. Each boat holds 8 people. How many boats do they need? -> 6104 (right: 96; not sure: these words have led me wrong before: holds, need)",
+    "There are 344 children. Each bus can hold 4 children. How many buses do they need? -> 344 (right: 86; guessed: only guessed 'how many buse do they need')",
+    "There are 253 people. Each car holds 3 people. How many cars do they need? -> 759 (right: 85; not sure: these words have led me wrong before: car, holds, need)",
+    "260 pupils are going on a trip. Each table holds 26 pupils. How many tables are needed? -> 6760 (right: 10; not sure: these words have led me wrong before: going, holds, needed)",
+    "1038 people are going on a trip. Each car can hold 81 people. How many cars do they need? -> 12 (right: 13; not sure: two ways of reading the question give 12 or 13; these words have led me wrong before: car, going, hold)",
+    "32 children are going on a trip. 3 children can ride in each tent. How many tents do they need? -> 10 (right: 11; not sure: two ways of reading the question give 10 or 11; these words have led me wrong before: going, need, ride)",
+    "715 people are going on a trip. Each boat holds 93 people. How many boats do they need? -> 66495 (right: 8; not sure: these words have led me wrong before: going, holds, need)",
+    "2696 children are going on a trip. 69 children can ride in each bus. How many buses are needed? -> 2696 (right: 40; guessed: only guessed 'how many buse are needed')",
+    "It was a sunny day. There are 34 people. Each boat holds 5 people. How many boats do they need? -> 170 (right: 7; not sure: these words have led me wrong before: holds, need)",
+    "It was a sunny day. Lily bought 72 jars of sandwiches. Each jar has 12 sandwiches. She sold 67 sandwiches. How many sandwiches are left? -> 67 (right: 797; guessed: only guessed 'how many sandwich are left')"
+   ],
+   "date": "2026-10-04",
+   "outside": {
+    "grade": "gsm8k",
+    "split": "test",
+    "n": 659,
+    "understood": 4,
+    "right": 1,
+    "guess_right": 8
+   },
+   "outside_before": {
+    "n": 659,
+    "understood": 36,
+    "right": 1,
+    "guess_right": 6
+   },
+   "round": 1,
+   "real": {
+    "n": 60,
+    "understood": 7,
+    "right": 6,
+    "guess_right": 24
+   },
+   "real_before": {
+    "n": 60,
+    "understood": 29,
+    "right": 20,
+    "guess_right": 26
+   },
+   "real_lessons": {
+    "real stories": 600,
+    "right first time": 251,
+    "learned from": 113,
+    "pool": 632,
+    "words to ask": [
+     "depreciated",
+     "period"
+    ]
+   },
+   "words_to_learn": [
+    "depreciated",
+    "period"
+   ],
+   "rules": [
+    {
+     "rule": "unitary method",
+     "said": "To find many from some, first find one: divide, then multiply.",
+     "learned": true
+    }
+   ],
+   "history": []
+  },
+  {
+   "level": "S2",
+   "subject": "world",
+   "about": "secondary 2: ratios; simple interest; volume; problems with three steps",
+   "readiness": 0.858,
+   "score": 0.891,
+   "grade": "AL2",
+   "predicted": 0.314,
+   "attempts": [
+    {
+     "exam": "A",
+     "score": 0.8611111111111112,
+     "predicted": 0.3055555555555556
+    },
+    {
+     "exam": "B",
+     "score": 0.8911111111111111,
+     "predicted": 0.31444444444444447
+    }
+   ],
+   "mastered": false,
+   "strengths": [
+    "transfer",
+    "compare",
+    "each",
+    "days",
+    "colours",
+    "half",
+    "groups",
+    "share",
+    "cents",
+    "length",
+    "before",
+    "place",
+    "parts",
+    "difference",
+    "need",
+    "rate",
+    "removed",
+    "fraction",
+    "price",
+    "pay",
+    "mass",
+    "leftover",
+    "afford",
+    "convert",
+    "percent",
+    "common",
+    "meet",
+    "speed",
+    "negative",
+    "proportion",
+    "average",
+    "circle",
+    "ratio"
+   ],
+   "work_on": [
+    "change (18/20)",
+    "unknown (18/20)",
+    "money (17/20)",
+    "clock (18/20)",
+    "needed (8/20)",
+    "twostep (18/20)",
+    "lastday (11/20)",
+    "square (19/20)",
+    "equation (15/20)",
+    "interest (0/20)",
+    "volume (0/20)",
+    "threestep (0/20)"
+   ],
+   "mistakes": [
+    "Tom had a shelf of 15 cups with his friends. Tom bought 4 cups after lunch. How many cups are left? -> 4 (right: 19; not sure: these words have led me wrong before: after, lunch)",
+    "Ali has 13 leaves. He picks another 5 leaves. Then he receives 4 more leaves. How many leaves are left? -> 18 (right: 22; guessed: didn't understand 'then he receives 4 more leaf')",
+    "Raj had some shells. He bought 7 shells. He has 22 shells left. How many shells did Raj have initially? -> 7 (right: 15; understood every sentence)",
+    "Ali got 5 kites. He had 20 kites at first. How many kites does Ali have now? -> 20 (right: 25; not sure: these words have led me wrong before: first, got)",
+    "Raj had $36 in his wallet. Ema gave him $8. How much money does Raj have now? -> 36 (right: 44; not sure: these words have led me wrong before: wallet)",
+    "Mia has $13 after lunch. She spends $2 on a coin. Mia gets $1. How much money is left? -> 1 (right: 12; not sure: these words have led me wrong before: after, gets, lunch)",
+    "Raj had $36. He got $5. How much money does Raj have now? -> 5 (right: 41; not sure: these words have led me wrong before: got)",
+    "It was a cold morning. The game starts at 5 o'clock. The game ends at 9 o'clock. How many hours does the game last? -> -4 (right: 4; not sure: two ways of reading the question give -4 or 4; these words have led me wrong before: last)",
+    "It was a sunny day. The race starts at 4 o'clock. It ends 4 hours later. At what o'clock does the race end? -> 4 (right: 8; not sure: these words have led me wrong before: later, sunny)",
+    "45 people are going on a trip. Each car holds 6 people. How many cars are needed? -> 270 (right: 8; understood every sentence)",
+    "It was a rainy day. 636 people are going on a trip. 7 people can ride in each boat. How many boats do they need? -> 7 (right: 91; guessed: only guessed 'how many boat do they need')",
+    "There are 67 people. 2 people can ride in each car. How many cars do they need? -> 33 (right: 34; not sure: two ways of reading the question give 33 or 34)",
+    "It was a cold morning. 385 children are going on a trip. Each bus holds 5 children. How many buses do they need? -> None (right: 77; didn't understand the question)",
+    "684 children are going on a trip. 76 children can ride in each bus. How many buses are needed? -> 684 (right: 9; guessed: only guessed 'how many buse are needed')",
+    "There are 672 people. Each car holds 84 people. How many cars are needed? -> 56448 (right: 8; understood every sentence)",
+    "There are 48 people. Each car holds 6 people. How many cars do they need? -> 288 (right: 8; understood every sentence)",
+    "53 children are going on a trip. Each bus holds 8 children. How many buses are needed? -> 424 (right: 7; guessed: only guessed 'how many buse are needed')",
+    "It was a sunny day. There are 110 people. 10 people can ride in each boat. How many boats do they need? -> 10 (right: 11; guessed: only guessed 'how many boat do they need')",
+    "There are 22 children. Each van holds 6 children. How many vans are needed? -> 132 (right: 4; not sure: these words have led me wrong before: van)",
+    "1139 children are going on a trip. Each van holds 97 children. How many vans are needed? -> 110483 (right: 12; not sure: these words have led me wrong before: van)"
+   ],
+   "date": "2026-10-05",
+   "outside": {
+    "grade": "gsm8k",
+    "split": "test",
+    "n": 659,
+    "understood": 3,
+    "right": 1,
+    "guess_right": 5
+   },
+   "outside_before": {
+    "n": 659,
+    "understood": 4,
+    "right": 1,
+    "guess_right": 6
+   },
+   "round": 1,
+   "real": {
+    "n": 60,
+    "understood": 6,
+    "right": 5,
+    "guess_right": 23
+   },
+   "real_before": {
+    "n": 60,
+    "understood": 7,
+    "right": 6,
+    "guess_right": 24
+   },
+   "real_lessons": {
+    "real stories": 600,
+    "right first time": 254,
+    "learned from": 111,
+    "pool": 632,
+    "words to ask": []
+   },
+   "words_to_learn": [],
+   "rules": [],
+   "history": []
+  },
+  {
+   "level": "code",
+   "subject": "code",
+   "about": "tools taught with worked examples (what is left over, a power, which is bigger, numbers in order, counting on), recipes that turn a sentence into a program, and programs run and checked step by step",
+   "round": 1,
+   "tools": {
+    "kept": 5,
+    "of": 5
+   },
+   "recipes": {
+    "kept": 13,
+    "of": 13
+   },
+   "used": {
+    "tasks": [
+     6,
+     6
+    ],
+    "programs": [
+     9,
+     24,
+     24
+    ]
+   },
+   "score": 0.9166666666666666,
+   "before": 0.9166666666666666,
+   "learned": [],
+   "learned_n": 0,
+   "grade": "AL1",
+   "predicted": 1.0,
+   "mastered": true,
+   "attempts": [
+    {
+     "exam": "code",
+     "score": 0.9166666666666666
+    }
+   ],
+   "strengths": [],
+   "work_on": [
+    "There are 253 people. Each car holds 5 people. How many people are in one car? (1 wrong)",
+    "5 pens cost 15 dollars. How many pens cost 15 dollars? (1 wrong)"
+   ],
+   "exam": {
+    "n": 24,
+    "right": 22,
+    "score": 0.9166666666666666,
+    "rows": [
+     {
+      "task": "There are 253 people. Each car holds 5 people. How many cars do they need?",
+      "answer": "51",
+      "got": "51",
+      "ok": true,
+      "checked": true,
+      "how": "253 divup 5"
+     },
+     {
+      "task": "There are 600 apples. There are 24 per basket. How many baskets are needed?",
+      "answer": "25",
+      "got": "25",
+      "ok": true,
+      "checked": true,
+      "how": "600 divup 24"
+     },
+     {
+      "task": "48 pens shared between 8 friends: how many each?",
+      "answer": "6",
+      "got": "6",
+      "ok": true,
+      "checked": true,
+      "how": "48 div 8"
+     },
+     {
+      "task": "There are 8 boxes with 7 pencils in each. Ana gives away 9 pencils. How many pencils does Ana have?",
+      "answer": "47",
+      "got": "47",
+      "ok": true,
+      "checked": true,
+      "how": "total = 8*7; left = total-9"
+     },
+     {
+      "task": "sort 7, 2, 9, 4",
+      "answer": "2, 4, 7, 9",
+      "got": "2, 4, 7, 9",
+      "ok": true,
+      "checked": true,
+      "how": "smallest left is 2; smallest left is 4; smallest left is 7; smallest left is 9; in order: 2, 4, 7, 9"
+     },
+     {
+      "task": "count on from 5 to 9",
+      "answer": "5, 6, 7, 8, 9",
+      "got": "5, 6, 7, 8, 9",
+      "ok": true,
+      "checked": true,
+      "how": "count on from 5 in 1s: 5, 6, 7, 8, 9; that ends at 9"
+     },
+     {
+      "task": "2^6",
+      "answer": "64",
+      "got": "64",
+      "ok": true,
+      "checked": true,
+      "how": "multiply by 2 again and again: 2 × 2 = 4, 2 × 2 = 4, 4 × 2 = 8, 8 × 2 = 16, 16 × 2 = 32, 32 × 2 = 64; 2 to the power 6 = 64"
+     },
+     {
+      "task": "17 % 4",
+      "answer": "1",
+      "got": "1",
+      "ok": true,
+      "checked": true,
+      "how": "count in 4s: 17, 13, 9, 5; 1 is less than 4; 17 − 4×4 = 1 left over"
+     },
+     {
+      "task": "plan: total = 9*7; total-5",
+      "answer": "58",
+      "got": "58",
+      "ok": true,
+      "checked": true,
+      "how": null
+     },
+     {
+      "task": "plan: n = 4; if n > 2 then n = n * 10 else n = n + 1",
+      "answer": "40",
+      "got": "40",
+      "ok": true,
+      "checked": true,
+      "how": null
+     },
+     {
+      "task": "There are 8 boxes with 7 pencils in each. How many boxes are there?",
+      "answer": "8",
+      "got": "8",
+      "ok": true,
+      "checked": false,
+      "how": "understood every sentence"
+     },
+     {
+      "task": "There are 253 people. Each car holds 5 people. How many people are in one car?",
+      "answer": "5",
+      "got": "1/5",
+      "ok": false,
+      "checked": false,
+      "how": "not sure: two ways of reading the question give 1/5 or 0; these words have led me wrong before: one"
+     },
+     {
+      "task": "72 marbles shared between 8 friends. How many marbles are there?",
+      "answer": "72",
+      "got": "72",
+      "ok": true,
+      "checked": false,
+      "how": "not sure: two ways of reading the question give 72 or 64; these words have led me wrong before: friends"
+     },
+     {
+      "task": "5 pens cost 15 dollars. How many pens cost 15 dollars?",
+      "answer": "5",
+      "got": "1/3",
+      "ok": false,
+      "checked": false,
+      "how": "not sure: two ways of reading the question give 1/3 or 0; these words have led me wrong before: cost"
+     },
+     {
+      "task": "Each jar has 12 sandwiches. There are 72 jars. How many jars are there?",
+      "answer": "72",
+      "got": "72",
+      "ok": true,
+      "checked": false,
+      "how": "not sure: two ways of reading the question give 72 or 12; these words have led me wrong before: jar"
+     },
+     {
+      "task": "There are 30 red pens and 42 blue pens. How many red pens are there?",
+      "answer": "30",
+      "got": "30",
+      "ok": true,
+      "checked": false,
+      "how": "not sure: these words have led me wrong before: blue, red"
+     },
+     {
+      "task": "12 kids are going on a trip. 4 kids can sit in each bus. How many buses do they need?",
+      "answer": "3",
+      "got": "3",
+      "ok": true,
+      "checked": true,
+      "how": "12 divup 4"
+     },
+     {
+      "task": "Ana has 12 pens. Raj has 3 times as many. How many pens does Raj have?",
+      "answer": "36",
+      "got": "36",
+      "ok": true,
+      "checked": true,
+      "how": "12*3"
+     },
+     {
+      "task": "What is 10 percent of 250?",
+      "answer": "25",
+      "got": "25",
+      "ok": true,
+      "checked": false,
+      "how": "250*10/100"
+     },
+     {
+      "task": "A box is 3 cm long, 4 cm wide and 2 cm high. How many cubic cm are inside?",
+      "answer": "24",
+      "got": "24",
+      "ok": true,
+      "checked": false,
+      "how": "3*4*2"
+     },
+     {
+      "task": "Ana scored 70 and then 90. What is Ana's average score?",
+      "answer": "80",
+      "got": "80",
+      "ok": true,
+      "checked": false,
+      "how": "(70+90)/2"
+     },
+     {
+      "task": "Ana has 20 pears. Raj has 8 pears. How many more pears does Ana have?",
+      "answer": "12",
+      "got": "12",
+      "ok": true,
+      "checked": true,
+      "how": "20-8"
+     },
+     {
+      "task": "There are 12 boys and 15 girls in the class. How many children are there?",
+      "answer": "27",
+      "got": "27",
+      "ok": true,
+      "checked": true,
+      "how": "12+15"
+     },
+     {
+      "task": "3 tickets cost 21 dollars. How much do 7 tickets cost?",
+      "answer": "49",
+      "got": "49",
+      "ok": true,
+      "checked": true,
+      "how": "each = 21 div 3; 7*each"
+     }
+    ]
+   },
+   "date": "2026-10-05",
+   "history": [
+    {
+     "round": 1,
+     "score": 1.0,
+     "grade": "AL1",
+     "outside": null,
+     "real": null,
+     "date": "2026-10-05"
+    },
+    {
+     "round": 1,
+     "score": 0.875,
+     "grade": "AL2",
+     "outside": null,
+     "real": null,
+     "date": "2026-10-05"
+    }
+   ]
+  },
+  {
+   "level": "P1",
+   "subject": "world",
+   "about": "numbers to 100 (number words); adding and taking away within 100; comparing (also told out of order); equal groups and sharing; money in cents; o'clock; length in cm; how many more are needed; a day / per day; taken out, removed, got off",
+   "readiness": 0.881,
+   "score": 0.893,
+   "grade": "AL2",
+   "predicted": 0.052,
+   "attempts": [
+    {
+     "exam": "A",
+     "score": 0.8857142857142857,
+     "predicted": 0.10952380952380952
+    },
+    {
+     "exam": "B",
+     "score": 0.8928571428571429,
+     "predicted": 0.05238095238095238
+    }
+   ],
+   "mastered": false,
+   "strengths": [
+    "compare",
+    "days",
+    "colours",
+    "unknown",
+    "half",
+    "groups",
+    "share",
+    "cents",
+    "length",
+    "before",
+    "parts",
+    "difference",
+    "need",
+    "rate",
+    "removed"
+   ],
+   "work_on": [
+    "change (12/20)",
+    "transfer (12/20)",
+    "each (13/20)",
+    "money (12/20)",
+    "clock (10/20)",
+    "place (16/20)"
+   ],
+   "mistakes": [
+    "Raj has 9 pears. He picks another 3 pears. Then he gets 6 more pears. How many pears does Raj have now? -> 6 (right: 18; not sure: these words have led me wrong before: another, raj)",
+    "It was a cold morning. Leo has a jar of 20 flowers. Leo receives another 1 flowers. Then Leo gets 9 more flowers. How many flowers does Leo have left? -> 9 (right: 30; not sure: these words have led me wrong before: another, cold, jar)",
+    "Ben has 6 dolls. He receives another 2 dolls. How many dolls does he have left? -> 2 (right: 8; not sure: these words have led me wrong before: another, ben)",
+    "Kim has a jar of 5 apples. She wins 9 apples. How many apples does Kim have left? -> 9 (right: 14; not sure: these words have led me wrong before: jar, kim, wins)",
+    "Ali has a bowl of 17 grapes. He makes 7 grapes. How many grapes does he have left? -> 7 (right: 24; understood every sentence)",
+    "Ema had a bag of 20 leaves. Ema made another 3 leaves. How many leaves does Ema have now? -> 3 (right: 23; not sure: these words have led me wrong before: another, ema)",
+    "Tom has 18 puzzles. Tom uses 16 puzzles. Then he wins 5 more. How many puzzles does Tom have now? -> 5 (right: 7; guessed: only guessed 'then he wins 5 more')",
+    "Ali has 14 peaches. Ali gets 3 peaches. Then Ali makes 9 more peaches. How many peaches does Ali have now? -> 9 (right: 26; understood every sentence)",
+    "Raj had 19 apples. Lily had 14 apples. Raj took 4 apples from Lily. How many apples does Raj have now? -> 19 (right: 23; not sure: these words have led me wrong before: lily, raj)",
+    "Kim had 17 sandwiches and Ali had 6 sandwiches. Kim gave 2 of her sandwiches to Ali. How many sandwiches does Ali have now? -> 6 (right: 8; not sure: these words have led me wrong before: gave, kim)",
+    "Ana has 9 books and Ben has 9 books. Ana takes 8 books from Ben. How many books does Ana have now? -> 9 (right: 17; not sure: these words have led me wrong before: ana, ben, books)",
+    "Ana has 7 dolls and Ben has 6 dolls. Ana takes 2 dolls from Ben. How many dolls does Ana have now? -> 7 (right: 9; not sure: these words have led me wrong before: ana, ben, takes)",
+    "It was a cold morning. Kim has 9 marbles. Leo has 11 marbles. Kim takes 6 marbles from Leo. How many marbles does Kim have now? -> 9 (right: 15; not sure: these words have led me wrong before: cold, kim, leo)",
+    "Ema has 6 candies. Sam has 7 candies. Ema gives Sam 3 candies. How many candies does Sam have now? -> 7 (right: 10; not sure: these words have led me wrong before: ema, gives, sam)",
+    "It was a sunny day. Ben has 13 cups. Mia has 18 cups. Ben gives Mia 9 cups. How many cups does Mia have now? -> 18 (right: 27; not sure: these words have led me wrong before: ben, day, gives)",
+    "Mia has 17 cups. Leo has 3 cups. Mia takes 2 cups from Leo. How many cups does Mia have now? -> 17 (right: 19; not sure: these words have led me wrong before: leo, mia, takes)",
+    "Zoe has 9 bags. There are 4 balloons in each bag. She uses 3 balloons. How many balloons does Zoe have now? -> 3 (right: 33; guessed: only guessed 'how many balloon does zoe have now')",
+    "Zoe has 4 jars. Each jar has 8 mangos. Zoe loses 6 mangos. How many mangos are left? -> 6 (right: 26; guessed: only guessed 'how many mango are left')",
+    "Tom had 8 jars. There were 8 mangos in each jar. He gave away 4 mangos. How many mangos does Tom have now? -> 4 (right: 60; guessed: only guessed 'how many mango does tom have now')",
+    "It was a cold morning. Ali had 6 boxes. Each box had 5 bottles. He lost 23 bottles. How many bottles does Ali have now? -> 23 (right: 7; guessed: only guessed 'how many bottle does ali have now')"
+   ],
+   "date": "2026-10-06",
+   "outside": {
+    "grade": 1,
+    "split": "test",
+    "n": 97,
+    "understood": 2,
+    "right": 2,
+    "guess_right": 19
+   },
+   "outside_before": {
+    "n": 97,
+    "understood": 7,
+    "right": 4,
+    "guess_right": 18
+   },
+   "round": 6,
+   "real": {
+    "n": 60,
+    "understood": 9,
+    "right": 7,
+    "guess_right": 38
+   },
+   "real_before": {
+    "n": 60,
+    "understood": 12,
+    "right": 10,
+    "guess_right": 37
+   },
+   "real_lessons": {
+    "real stories": 200,
+    "right first time": 92,
+    "learned from": 34,
+    "pool": 287,
+    "words to ask": []
+   },
+   "words_to_learn": [],
+   "rules": [],
+   "history": [
+    {
+     "round": null,
+     "score": 0.981,
+     "grade": "AL1",
+     "outside": {
+      "grade": 1,
+      "split": "test",
+      "n": 97,
+      "understood": 24,
+      "right": 12,
+      "guess_right": 34
+     },
+     "real": null,
+     "date": "2026-10-01"
+    },
+    {
+     "round": 2,
+     "score": 0.994,
+     "grade": "AL1",
+     "outside": {
+      "grade": 1,
+      "split": "test",
+      "n": 97,
+      "understood": 28,
+      "right": 14,
+      "guess_right": 31
+     },
+     "real": {
+      "n": 60,
+      "understood": 17,
+      "right": 8,
+      "guess_right": 16
+     },
+     "date": "2026-10-01"
+    },
+    {
+     "round": 3,
+     "score": 0.957,
+     "grade": "AL1",
+     "outside": {
+      "grade": 1,
+      "split": "test",
+      "n": 97,
+      "understood": 31,
+      "right": 14,
+      "guess_right": 26
+     },
+     "real": {
+      "n": 60,
+      "understood": 32,
+      "right": 20,
+      "guess_right": 27
+     },
+     "date": "2026-10-02"
+    },
+    {
+     "round": 4,
+     "score": 0.988,
+     "grade": "AL1",
+     "outside": {
+      "grade": 1,
+      "split": "test",
+      "n": 97,
+      "understood": 39,
+      "right": 17,
+      "guess_right": 27
+     },
+     "real": {
+      "n": 60,
+      "understood": 43,
+      "right": 32,
+      "guess_right": 34
+     },
+     "date": "2026-10-04"
+    },
+    {
+     "round": 5,
+     "score": 0.91,
+     "grade": "AL1",
+     "outside": {
+      "grade": 1,
+      "split": "test",
+      "n": 97,
+      "understood": 6,
+      "right": 3,
+      "guess_right": 18
+     },
+     "real": {
+      "n": 60,
+      "understood": 16,
+      "right": 14,
+      "guess_right": 39
+     },
+     "date": "2026-10-06"
+    }
+   ]
+  },
+  {
+   "level": "P2",
+   "subject": "world",
+   "about": "numbers to 1000; everything in P1 with bigger numbers; times tables and prices; fractions of a whole; dollars and change; mass and volume; two steps",
+   "readiness": 0.88,
+   "score": 0.868,
+   "grade": "AL2",
+   "predicted": 0.064,
+   "attempts": [
+    {
+     "exam": "A",
+     "score": 0.88,
+     "predicted": 0.09
+    },
+    {
+     "exam": "B",
+     "score": 0.868,
+     "predicted": 0.064
+    }
+   ],
+   "mastered": false,
+   "strengths": [
+    "compare",
+    "days",
+    "colours",
+    "half",
+    "groups",
+    "share",
+    "cents",
+    "length",
+    "before",
+    "parts",
+    "difference",
+    "need",
+    "rate",
+    "removed",
+    "fraction",
+    "price"
+   ],
+   "work_on": [
+    "change (16/20)",
+    "transfer (16/20)",
+    "each (14/20)",
+    "unknown (18/20)",
+    "money (6/20)",
+    "clock (11/20)",
+    "place (14/20)",
+    "pay (0/20)",
+    "mass (19/20)"
+   ],
+   "mistakes": [
+    "It was a cold morning. Leo had 20 candies. Leo made another 5 candies. How many candies does Leo have now? -> 5 (right: 25; not sure: these words have led me wrong before: another, cold, leo)",
+    "Ben had 7 coins. He found another 2 coins. He sold 3 of his coins. How many coins are left? -> 8 (right: 6; guessed: only guessed 'how many coin are left')",
+    "It was a rainy day. Lily already has 7 oranges. Lily picks 4 oranges. How many oranges did Lily pick? -> -3 (right: 4; not sure: two ways of reading the question give -3 or 3; these words have led me wrong before: day, lily, pick)",
+    "Ben had 9 pies. He won 6 pies. How many pies does he have left? -> 6 (right: 15; not sure: these words have led me wrong before: ben, won)",
+    "Ben had 19 plums. Ema had 18 plums. Ben took 6 plums from Ema. How many plums does Ben have now? -> 19 (right: 25; not sure: these words have led me wrong before: ben, ema)",
+    "Ali has 7 pies. Zoe has 2 pies. Ali gives 4 pies to Zoe. How many pies does Zoe have now? -> 2 (right: 6; not sure: these words have led me wrong before: ali, gives)",
+    "It was a rainy day. Leo has 14 cups. Ana has 10 cups. Leo gives 11 of his cups to Ana. How many cups does Ana have now? -> 10 (right: 21; not sure: these words have led me wrong before: ana, day, gives)",
+    "Lily had 15 pencils and Sam had 3 pencils. Lily took 2 pencils from Sam. How many pencils does Lily have now? -> 15 (right: 17; not sure: these words have led me wrong before: lily)",
+    "Mia has 5 plates. Each plate has 8 bottles. She uses 30 bottles. How many bottles does Mia have now? -> 30 (right: 10; guessed: only guessed 'how many bottle does mia have now')",
+    "Tom had 2 bowls. Each bowl had 5 apples. Tom broke 4 apples. How many apples does Tom have now? -> 4 (right: 6; guessed: only guessed 'how many apple does tom have now')",
+    "Ben had 8 baskets. There were 3 bottles in each basket. Ben lost 1 bottles. How many bottles are left? -> 1 (right: 23; guessed: only guessed 'how many bottle are left')",
+    "Leo has 9 shelves. Each shelf has 6 sandwiches. Leo loses 7 sandwiches. How many sandwiches does Leo have now? -> 7 (right: 47; guessed: only guessed 'how many sandwich does leo have now')",
+    "Zoe has 9 plates. There are 5 mangos in each plate. Zoe sells 12 mangos. How many mangos does Zoe have now? -> 12 (right: 33; guessed: only guessed 'how many mango does zoe have now')",
+    "Sam had 6 bags. There were 7 cookies in each bag. Sam ate 38 cookies. How many cookies are left? -> 38 (right: 4; guessed: only guessed 'how many cookie are left')",
+    "Tom bought 6 pears. He had 8 pears at the start. How many pears does Tom have now? -> 8 (right: 14; not sure: these words have led me wrong before: bought, start, tom)",
+    "Ana bought 4 sandwiches. If she had 17 sandwiches at the start, how many sandwiches does she have left? -> 17 (right: 21; not sure: these words have led me wrong before: ana, bought, start)",
+    "Mia had $11 in her wallet. She found $13. How much money does Mia have now? -> 13 (right: 24; not sure: these words have led me wrong before: found, mia, wallet)",
+    "Ana had $21. She bought a puzzle for $4. How much money does Ana have now? -> 4 (right: 17; guessed: only guessed 'she bought a puzzle for 4 dollar')",
+    "Zoe has $10. Zoe spends $6 on cakes in the garden. How much money does Zoe have now? -> 6 (right: 4; not sure: these words have led me wrong before: garden, spends)",
+    "Ali had $25. Ali earned $15. How much money is left? -> 15 (right: 40; not sure: these words have led me wrong before: ali, earned)"
+   ],
+   "date": "2026-10-06",
+   "outside": {
+    "grade": 2,
+    "split": "test",
+    "n": 162,
+    "understood": 2,
+    "right": 1,
+    "guess_right": 26
+   },
+   "outside_before": {
+    "n": 162,
+    "understood": 1,
+    "right": 1,
+    "guess_right": 24
+   },
+   "round": 6,
+   "real": {
+    "n": 60,
+    "understood": 1,
+    "right": 0,
+    "guess_right": 25
+   },
+   "real_before": {
+    "n": 60,
+    "understood": 4,
+    "right": 4,
+    "guess_right": 23
+   },
+   "real_lessons": {
+    "real stories": 300,
+    "right first time": 125,
+    "learned from": 59,
+    "pool": 543,
+    "words to ask": []
+   },
+   "words_to_learn": [],
+   "rules": [],
+   "history": [
+    {
+     "round": null,
+     "score": 0.932,
+     "grade": "AL1",
+     "outside": {
+      "grade": 2,
+      "split": "test",
+      "n": 162,
+      "understood": 34,
+      "right": 16,
+      "guess_right": 38
+     },
+     "real": null,
+     "date": "2026-10-01"
+    },
+    {
+     "round": 2,
+     "score": 0.934,
+     "grade": "AL1",
+     "outside": {
+      "grade": 2,
+      "split": "test",
+      "n": 162,
+      "understood": 44,
+      "right": 22,
+      "guess_right": 31
+     },
+     "real": {
+      "n": 60,
+      "understood": 22,
+      "right": 3,
+      "guess_right": 5
+     },
+     "date": "2026-10-01"
+    },
+    {
+     "round": 3,
+     "score": 0.944,
+     "grade": "AL1",
+     "outside": {
+      "grade": 2,
+      "split": "test",
+      "n": 162,
+      "understood": 50,
+      "right": 25,
+      "guess_right": 33
+     },
+     "real": {
+      "n": 60,
+      "understood": 29,
+      "right": 15,
+      "guess_right": 18
+     },
+     "date": "2026-10-02"
+    },
+    {
+     "round": 4,
+     "score": 0.976,
+     "grade": "AL1",
+     "outside": {
+      "grade": 2,
+      "split": "test",
+      "n": 162,
+      "understood": 51,
+      "right": 25,
+      "guess_right": 31
+     },
+     "real": {
+      "n": 60,
+      "understood": 38,
+      "right": 27,
+      "guess_right": 29
+     },
+     "date": "2026-10-04"
+    },
+    {
+     "round": 5,
+     "score": 0.868,
+     "grade": "AL2",
+     "outside": {
+      "grade": 2,
+      "split": "test",
+      "n": 162,
+      "understood": 4,
+      "right": 4,
+      "guess_right": 25
+     },
+     "real": {
+      "n": 60,
+      "understood": 7,
+      "right": 6,
+      "guess_right": 21
+     },
+     "date": "2026-10-06"
+    }
+   ]
+  },
+  {
+   "level": "P3",
+   "subject": "world",
+   "about": "numbers to 10 000; times tables 6, 7, 8, 9; division with a remainder (left over, full groups, how many are needed, how many you can buy); two steps",
+   "readiness": 0.814,
+   "score": 0.833,
+   "grade": "AL3",
+   "predicted": 0.04,
+   "attempts": [
+    {
+     "exam": "A",
+     "score": 0.8137931034482758,
+     "predicted": 0.03793103448275862
+    },
+    {
+     "exam": "B",
+     "score": 0.8327586206896552,
+     "predicted": 0.039655172413793106
+    }
+   ],
+   "mastered": false,
+   "strengths": [
+    "compare",
+    "days",
+    "colours",
+    "unknown",
+    "half",
+    "groups",
+    "share",
+    "cents",
+    "length",
+    "before",
+    "parts",
+    "difference",
+    "need",
+    "rate",
+    "removed",
+    "fraction",
+    "price",
+    "mass"
+   ],
+   "work_on": [
+    "change (16/20)",
+    "transfer (12/20)",
+    "each (13/20)",
+    "money (12/20)",
+    "clock (12/20)",
+    "place (17/20)",
+    "pay (1/20)",
+    "leftover (10/20)",
+    "needed (18/20)",
+    "afford (12/20)",
+    "twostep (0/20)"
+   ],
+   "mistakes": [
+    "Kim had 6 oranges. She picked another 2 oranges. How many oranges does Kim have now? -> 2 (right: 8; not sure: these words have led me wrong before: kim)",
+    "It was a sunny day. Lily has a jar of 11 oranges. Lily throws away 6 oranges that day. Then she picks 3 more oranges. How many oranges does Lily have now? -> 3 (right: 8; not sure: these words have led me wrong before: day, jar, lily)",
+    "Ben has 5 balls. He buys another 9 balls. How many balls does he have left? -> 9 (right: 14; understood every sentence)",
+    "Zoe had 14 cakes. She made another 5 cakes. How many cakes are left? -> 5 (right: 19; not sure: these words have led me wrong before: zoe)",
+    "Raj has 8 books and Kim has 18 books. Raj gives 7 of his books to Kim. How many books does Kim have now? -> 18 (right: 25; not sure: these words have led me wrong before: books, gives, kim)",
+    "Lily had 7 marbles and Ben had 6 marbles. Lily took 5 marbles from Ben. How many marbles does Lily have now? -> 7 (right: 12; not sure: these words have led me wrong before: lily, took)",
+    "Raj has 8 leaves. Zoe has 11 leaves. Raj takes 7 leaves from Zoe. How many leaves does Raj have now? -> 8 (right: 15; not sure: these words have led me wrong before: raj, takes, zoe)",
+    "Ana has 13 apples. Ben has 17 apples. Ana gives 10 apples to Ben. How many apples does Ben have now? -> 17 (right: 27; not sure: these words have led me wrong before: ana, gives)",
+    "Sam has 8 books. Kim has 10 books. Sam gives Kim 5 books. How many books does Kim have now? -> 10 (right: 15; not sure: these words have led me wrong before: books, gives, kim)",
+    "Ema has 10 sandwiches. Ali has 18 sandwiches. Ema takes 15 sandwiches from Ali. How many sandwiches does Ema have now? -> 10 (right: 25; not sure: these words have led me wrong before: ali, takes)",
+    "It was a cold morning. Sam had 5 pencils and Lily had 11 pencils. Sam took 4 pencils from Lily. How many pencils does Sam have now? -> 5 (right: 9; not sure: these words have led me wrong before: cold, lily, morning)",
+    "Kim had 19 pencils. Ben had 13 pencils. Kim took 11 pencils from Ben. How many pencils does Kim have now? -> 19 (right: 30; not sure: these words have led me wrong before: kim, took)",
+    "Sam had 8 jars. There were 6 eggs in each jar. He sold 19 eggs. How many eggs does Sam have now? -> 19 (right: 29; guessed: only guessed 'how many egg does sam have now')",
+    "Leo had 6 baskets. Each basket had 5 lemons. He ate 28 lemons. How many lemons does Leo have now? -> 25/6 (right: 2; guessed: only guessed 'how many lemon does leo have now')",
+    "Mia has 8 bowls. There are 5 eggs in each bowl. She eats 21 eggs. How many eggs does Mia have now? -> 21 (right: 19; guessed: only guessed 'how many egg does mia have now')",
+    "Kim has 4 bowls. Each bowl has 4 oranges. She uses 7 oranges. How many oranges does Kim have now? -> 7 (right: 9; guessed: only guessed 'how many orange does kim have now')",
+    "Tom had 3 shelves. There were 2 flowers in each shelf. He lost 1 flowers. How many flowers are left? -> 1 (right: 5; guessed: only guessed 'how many flower are left')",
+    "Lily has 8 jars. Each jar has 6 kites. She uses 37 kites. How many kites does Lily have now? -> 37 (right: 11; guessed: only guessed 'how many kite does lily have now')",
+    "It was a rainy day. Ana has 4 shelves. Each shelf has 7 blocks. Ana gives away 26 blocks. How many blocks does Ana have now? -> 26 (right: 2; guessed: only guessed 'how many block does ana have now')",
+    "Kim had $12. She bought a puzzle for $10. How much money does Kim have now? -> 10 (right: 2; guessed: only guessed 'she bought a puzzle for 10 dollar')"
+   ],
+   "date": "2026-10-06",
+   "outside": {
+    "grade": 3,
+    "split": "test",
+    "n": 399,
+    "understood": 5,
+    "right": 2,
+    "guess_right": 39
+   },
+   "outside_before": {
+    "n": 399,
+    "understood": 5,
+    "right": 2,
+    "guess_right": 39
+   },
+   "round": 4,
+   "real": {
+    "n": 60,
+    "understood": 5,
+    "right": 5,
+    "guess_right": 28
+   },
+   "real_before": {
+    "n": 60,
+    "understood": 8,
+    "right": 7,
+    "guess_right": 28
+   },
+   "real_lessons": {
+    "real stories": 600,
+    "right first time": 242,
+    "learned from": 113,
+    "pool": 586,
+    "words to ask": []
+   },
+   "words_to_learn": [],
+   "rules": [],
+   "history": [
+    {
+     "round": 1,
+     "score": 0.926,
+     "grade": "AL1",
+     "outside": {
+      "grade": 3,
+      "split": "test",
+      "n": 399,
+      "understood": 55,
+      "right": 18,
+      "guess_right": 42
+     },
+     "real": {
+      "n": 60,
+      "understood": 33,
+      "right": 19,
+      "guess_right": 19
+     },
+     "date": "2026-10-02"
+    },
+    {
+     "round": 2,
+     "score": 0.966,
+     "grade": "AL1",
+     "outside": {
+      "grade": 3,
+      "split": "test",
+      "n": 399,
+      "understood": 74,
+      "right": 23,
+      "guess_right": 47
+     },
+     "real": {
+      "n": 60,
+      "understood": 43,
+      "right": 29,
+      "guess_right": 30
+     },
+     "date": "2026-10-04"
+    },
+    {
+     "round": 3,
+     "score": 0.833,
+     "grade": "AL3",
+     "outside": {
+      "grade": 3,
+      "split": "test",
+      "n": 399,
+      "understood": 4,
+      "right": 2,
+      "guess_right": 46
+     },
+     "real": {
+      "n": 60,
+      "understood": 6,
+      "right": 6,
+      "guess_right": 28
+     },
+     "date": "2026-10-06"
+    }
+   ]
+  },
+  {
+   "level": "P4",
+   "subject": "world",
+   "about": "numbers to 100 000; multiplying and dividing by 2-digit numbers; remainders in bigger stories (the last day)",
+   "readiness": 0.813,
+   "score": 0.813,
+   "grade": "AL3",
+   "predicted": 0.063,
+   "attempts": [
+    {
+     "exam": "A",
+     "score": 0.82,
+     "predicted": 0.10833333333333334
+    },
+    {
+     "exam": "B",
+     "score": 0.8133333333333334,
+     "predicted": 0.06333333333333334
+    }
+   ],
+   "mastered": false,
+   "strengths": [
+    "compare",
+    "days",
+    "colours",
+    "half",
+    "groups",
+    "share",
+    "cents",
+    "length",
+    "before",
+    "parts",
+    "difference",
+    "need",
+    "rate",
+    "removed",
+    "fraction",
+    "price",
+    "mass"
+   ],
+   "work_on": [
+    "change (12/20)",
+    "transfer (13/20)",
+    "each (16/20)",
+    "unknown (19/20)",
+    "money (11/20)",
+    "clock (6/20)",
+    "place (16/20)",
+    "pay (0/20)",
+    "leftover (11/20)",
+    "needed (16/20)",
+    "afford (14/20)",
+    "twostep (0/20)",
+    "lastday (14/20)"
+   ],
+   "mistakes": [
+    "Tom already has 19 stickers. Tom buys another 1 stickers. Then Tom receives 9 more. How many stickers does Tom have left? -> 9 (right: 29; guessed: only guessed 'then tom receives 9 more')",
+    "It was a cold morning. Ali has 6 dolls. He loses 3 dolls. Then he makes 6 more. How many dolls does he have left? -> 6 (right: 9; guessed: only guessed 'then he makes 6 more')",
+    "Mia has a plate of 20 lemons that day. Mia collects another 5 lemons. How many lemons did Mia have at first? -> 5 (right: 20; guessed: only guessed 'how many lemon did mia have at first')",
+    "It was a sunny day. Zoe has 20 stamps at the shop. Zoe gets another 2 stamps. Then Zoe breaks 7 more stamps. How many stamps does Zoe have left? -> 25 (right: 15; guessed: only guessed 'how many stamp does zoe have left')",
+    "Ben had 15 mangos. Ben received another 7 mangos. How many mangos are left? -> 7 (right: 22; not sure: these words have led me wrong before: another, received)",
+    "Zoe had 9 flowers on the way home. She ate 4 of them. Zoe picked another 8 flowers. How many flowers does Zoe have now? -> 8 (right: 13; not sure: these words have led me wrong before: another, ate, them)",
+    "Lily has 18 flowers on the way home. She finds another 3 flowers. How many flowers are left? -> 3 (right: 21; not sure: these words have led me wrong before: another, finds, lily)",
+    "Raj has 14 pears. He loses 2 of them. Raj receives 5 pears at school. How many pears are left? -> 3 (right: 17; not sure: these words have led me wrong before: school, them)",
+    "Ben had 14 marbles. Ana had 19 marbles. Ben gave 13 marbles to Ana. How many marbles does Ana have now? -> 19 (right: 32; not sure: these words have led me wrong before: gave)",
+    "It was a rainy day. Mia has 19 leaves and Ben has 10 leaves. Mia takes 5 leaves from Ben. How many leaves does Mia have now? -> 19 (right: 24; not sure: these words have led me wrong before: mia, rainy, takes)",
+    "Mia had 7 bananas. Ben had 6 bananas. Mia gave 4 bananas to Ben. How many bananas does Ben have now? -> 6 (right: 10; not sure: these words have led me wrong before: gave, mia)",
+    "It was a cold morning. Zoe had 19 leaves. Leo had 6 leaves. Zoe took 2 leaves from Leo. How many leaves does Zoe have now? -> 19 (right: 21; not sure: these words have led me wrong before: cold, leo, morning)",
+    "Lily had 15 coins and Raj had 5 coins. Lily took 2 coins from Raj. How many coins does Lily have now? -> 15 (right: 17; not sure: these words have led me wrong before: lily, took)",
+    "Zoe had 7 cups and Sam had 19 cups. Zoe took 4 cups from Sam. How many cups does Zoe have now? -> 7 (right: 11; not sure: these words have led me wrong before: took, zoe)",
+    "Raj has 9 stamps. Zoe has 5 stamps. Raj takes 3 stamps from Zoe. How many stamps does Raj have now? -> 9 (right: 12; not sure: these words have led me wrong before: takes, zoe)",
+    "Zoe had 5 jars. There were 8 books in each jar. She ate 23 books. How many books are left? -> 23 (right: 17; guessed: only guessed 'how many book are left')",
+    "Ana has 8 plates. There are 4 oranges in each plate. She throws away 14 oranges. How many oranges are left? -> 14 (right: 18; guessed: only guessed 'how many orange are left')",
+    "Leo has 8 shelves. Each shelf has 8 pears. Leo loses 46 pears. How many pears does Leo have now? -> 46 (right: 18; guessed: only guessed 'how many pear does leo have now')",
+    "Ana had 2 bowls. There were 5 cards in each bowl. She used 2 cards. How many cards does Ana have now? -> 2 (right: 8; guessed: only guessed 'how many card does ana have now')",
+    "It was a sunny day. Tom had some stamps. He got 3 stamps in his room. He has 13 stamps left. How many stamps did Tom have initially? -> 3 (right: 10; not sure: these words have led me wrong before: got, initially, room)"
+   ],
+   "date": "2026-10-06",
+   "outside": {
+    "grade": 4,
+    "split": "test",
+    "n": 145,
+    "understood": 1,
+    "right": 0,
+    "guess_right": 11
+   },
+   "outside_before": {
+    "n": 145,
+    "understood": 2,
+    "right": 0,
+    "guess_right": 6
+   },
+   "round": 4,
+   "real": {
+    "n": 60,
+    "understood": 4,
+    "right": 3,
+    "guess_right": 21
+   },
+   "real_before": {
+    "n": 60,
+    "understood": 4,
+    "right": 4,
+    "guess_right": 20
+   },
+   "real_lessons": {
+    "real stories": 600,
+    "right first time": 249,
+    "learned from": 107,
+    "pool": 629,
+    "words to ask": []
+   },
+   "words_to_learn": [],
+   "rules": [],
+   "history": [
+    {
+     "round": 1,
+     "score": 0.915,
+     "grade": "AL1",
+     "outside": {
+      "grade": 4,
+      "split": "test",
+      "n": 145,
+      "understood": 19,
+      "right": 1,
+      "guess_right": 7
+     },
+     "real": {
+      "n": 60,
+      "understood": 27,
+      "right": 15,
+      "guess_right": 16
+     },
+     "date": "2026-10-02"
+    },
+    {
+     "round": 2,
+     "score": 0.947,
+     "grade": "AL1",
+     "outside": {
+      "grade": 4,
+      "split": "test",
+      "n": 145,
+      "understood": 19,
+      "right": 1,
+      "guess_right": 7
+     },
+     "real": {
+      "n": 60,
+      "understood": 38,
+      "right": 25,
+      "guess_right": 26
+     },
+     "date": "2026-10-04"
+    },
+    {
+     "round": 3,
+     "score": 0.803,
+     "grade": "AL3",
+     "outside": {
+      "grade": 4,
+      "split": "test",
+      "n": 145,
+      "understood": 1,
+      "right": 0,
+      "guess_right": 7
+     },
+     "real": {
+      "n": 60,
+      "understood": 3,
+      "right": 3,
+      "guess_right": 18
+     },
+     "date": "2026-10-06"
+    }
+   ]
+  },
+  {
+   "level": "P5",
+   "subject": "world",
+   "about": "numbers to 10 million; units (kg and g, km and m, m and cm, hours and minutes, weeks and days, dollars and cents); percentage; the area of a square",
+   "readiness": 0.795,
+   "score": 0.798,
+   "grade": "AL4",
+   "predicted": 0.05,
+   "attempts": [
+    {
+     "exam": "A",
+     "score": 0.796969696969697,
+     "predicted": 0.1
+    },
+    {
+     "exam": "B",
+     "score": 0.7984848484848485,
+     "predicted": 0.05
+    }
+   ],
+   "mastered": false,
+   "strengths": [
+    "compare",
+    "days",
+    "colours",
+    "half",
+    "groups",
+    "share",
+    "cents",
+    "length",
+    "before",
+    "parts",
+    "difference",
+    "need",
+    "rate",
+    "removed",
+    "fraction",
+    "price",
+    "percent",
+    "square"
+   ],
+   "work_on": [
+    "change (15/20)",
+    "transfer (12/20)",
+    "each (11/20)",
+    "unknown (17/20)",
+    "money (10/20)",
+    "clock (11/20)",
+    "place (18/20)",
+    "pay (0/20)",
+    "mass (17/20)",
+    "leftover (12/20)",
+    "needed (17/20)",
+    "afford (19/20)",
+    "twostep (1/20)",
+    "lastday (7/20)",
+    "convert (0/20)"
+   ],
+   "mistakes": [
+    "Lily had a box of 16 coins. Lily bought another 4 coins. How many coins does Lily have now? -> 4 (right: 20; understood every sentence)",
+    "Leo had 11 blocks. Leo found another 9 blocks. He collected another 3 blocks. How many blocks are left? -> 3 (right: 23; not sure: these words have led me wrong before: collected, found)",
+    "Leo had 17 blocks. Leo ate 11 of his blocks. Then he found 6 more. How many blocks does Leo have now? -> 6 (right: 12; guessed: only guessed 'then he found 6 more')",
+    "Leo had 7 flowers. He ate 6 of his flowers. Then he made 6 more. How many flowers does Leo have now? -> 6 (right: 7; guessed: only guessed 'then he made 6 more')",
+    "Leo had 20 lemons with his friends. He won another 6 lemons. Then he lost 23 more. How many lemons are left? -> 37 (right: 3; guessed: only guessed 'how many lemon are left')",
+    "Ema had 8 leaves. Leo had 17 leaves. Ema gave Leo 6 leaves. How many leaves does Leo have now? -> 17 (right: 23; not sure: these words have led me wrong before: gave)",
+    "Leo had 9 balloons. Mia had 15 balloons. Leo gave Mia 3 balloons. How many balloons does Mia have now? -> 15 (right: 18; not sure: these words have led me wrong before: gave, mia)",
+    "Ali had 9 peaches. Mia had 16 peaches. Ali gave Mia 6 peaches. How many peaches does Mia have now? -> 16 (right: 22; not sure: these words have led me wrong before: ali, gave, mia)",
+    "It was a rainy day. Lily had 11 blocks. Leo had 9 blocks. Lily gave Leo 9 blocks. How many blocks does Leo have now? -> 9 (right: 18; not sure: these words have led me wrong before: day, gave, rainy)",
+    "Raj has 10 pencils. Ana has 12 pencils. Raj takes 2 pencils from Ana. How many pencils does Raj have now? -> 10 (right: 12; not sure: these words have led me wrong before: raj)",
+    "Tom had 9 cookies. Mia had 3 cookies. Tom took 1 cookies from Mia. How many cookies does Tom have now? -> 9 (right: 10; not sure: these words have led me wrong before: mia, tom)",
+    "Ema had 19 lemons. Tom had 9 lemons. Ema took 3 lemons from Tom. How many lemons does Ema have now? -> 19 (right: 22; not sure: these words have led me wrong before: tom)",
+    "Lily had 15 oranges. Sam had 7 oranges. Lily took 1 oranges from Sam. How many oranges does Lily have now? -> 15 (right: 16; understood every sentence)",
+    "Raj had 2 plates. Each plate had 3 plums. Raj used 5 plums. How many plums does Raj have now? -> 5 (right: 1; guessed: only guessed 'how many plum does raj have now')",
+    "Mia has 4 shelves. There are 2 balls in each shelf. She drops 7 balls. How many balls does Mia have now? -> 7 (right: 1; guessed: only guessed 'how many ball does mia have now')",
+    "Ali had 2 bags. There were 5 cups in each bag. He dropped 2 cups. How many cups does Ali have now? -> 2 (right: 8; guessed: only guessed 'how many cup does ali have now')",
+    "Sam had 9 boxes. Each box had 6 pencils. He broke 44 pencils. How many pencils does Sam have now? -> 44 (right: 10; guessed: only guessed 'how many pencil does sam have now')",
+    "Ema has 7 bags. Each bag has 5 bananas. Ema loses 18 bananas. How many bananas does Ema have now? -> 18 (right: 17; guessed: only guessed 'how many banana does ema have now')",
+    "Zoe had 4 bags. There were 4 pencils in each bag. Zoe sold 5 pencils. How many pencils does Zoe have now? -> 5 (right: 11; guessed: only guessed 'how many pencil does zoe have now')",
+    "Leo had 2 jars. Each jar had 7 eggs. He gave away 4 eggs. How many eggs does Leo have now? -> 4 (right: 10; guessed: only guessed 'how many egg does leo have now')"
+   ],
+   "date": "2026-10-06",
+   "outside": {
+    "grade": 5,
+    "split": "test",
+    "n": 65,
+    "understood": 0,
+    "right": 0,
+    "guess_right": 1
+   },
+   "outside_before": {
+    "n": 65,
+    "understood": 0,
+    "right": 0,
+    "guess_right": 1
+   },
+   "round": 3,
+   "real": {
+    "n": 60,
+    "understood": 1,
+    "right": 1,
+    "guess_right": 24
+   },
+   "real_before": {
+    "n": 60,
+    "understood": 3,
+    "right": 3,
+    "guess_right": 24
+   },
+   "real_lessons": {
+    "real stories": 600,
+    "right first time": 243,
+    "learned from": 111,
+    "pool": 632,
+    "words to ask": []
+   },
+   "words_to_learn": [],
+   "rules": [],
+   "history": [
+    {
+     "round": 1,
+     "score": 0.929,
+     "grade": "AL1",
+     "outside": {
+      "grade": 5,
+      "split": "test",
+      "n": 65,
+      "understood": 8,
+      "right": 1,
+      "guess_right": 1
+     },
+     "real": {
+      "n": 60,
+      "understood": 34,
+      "right": 18,
+      "guess_right": 22
+     },
+     "date": "2026-10-02"
+    },
+    {
+     "round": 2,
+     "score": 0.803,
+     "grade": "AL3",
+     "outside": {
+      "grade": 5,
+      "split": "test",
+      "n": 65,
+      "understood": 0,
+      "right": 0,
+      "guess_right": 1
+     },
+     "real": {
+      "n": 60,
+      "understood": 6,
+      "right": 5,
+      "guess_right": 22
+     },
+     "date": "2026-10-06"
+    }
+   ]
+  },
+  {
+   "level": "P6",
+   "subject": "world",
+   "about": "greatest common factor and least common multiple; speed, distance and time",
+   "readiness": 0.799,
+   "score": 0.781,
+   "grade": "AL4",
+   "predicted": 0.057,
+   "attempts": [
+    {
+     "exam": "A",
+     "score": 0.7986111111111112,
+     "predicted": 0.1
+    },
+    {
+     "exam": "B",
+     "score": 0.7805555555555556,
+     "predicted": 0.05694444444444444
+    }
+   ],
+   "mastered": false,
+   "strengths": [
+    "compare",
+    "days",
+    "colours",
+    "half",
+    "groups",
+    "share",
+    "cents",
+    "length",
+    "before",
+    "parts",
+    "difference",
+    "need",
+    "rate",
+    "removed",
+    "fraction",
+    "price",
+    "percent",
+    "square",
+    "meet"
+   ],
+   "work_on": [
+    "change (16/20)",
+    "transfer (14/20)",
+    "each (14/20)",
+    "unknown (18/20)",
+    "money (5/20)",
+    "clock (11/20)",
+    "place (18/20)",
+    "pay (1/20)",
+    "mass (18/20)",
+    "leftover (15/20)",
+    "needed (19/20)",
+    "afford (17/20)",
+    "twostep (0/20)",
+    "lastday (8/20)",
+    "convert (0/20)",
+    "common (2/20)",
+    "speed (6/20)"
+   ],
+   "mistakes": [
+    "Zoe had 15 cakes. She received 5 cakes in the garden. How many cakes does Zoe have now? -> 5 (right: 20; not sure: these words have led me wrong before: received, zoe)",
+    "It was a cold morning. Kim had 14 grapes. Kim won another 1 grapes. How many grapes does Kim have left? -> 1 (right: 15; not sure: these words have led me wrong before: won)",
+    "Ema has 13 bottles. She gets another 5 bottles. How many bottles does Ema have now? -> 5 (right: 18; not sure: these words have led me wrong before: gets)",
+    "It was a cold morning. Ana had 9 cookies at the shop. She received another 4 cookies. Then she collected 9 more cookies. How many cookies are left? -> 9 (right: 22; not sure: these words have led me wrong before: ana, collected, received)",
+    "It was a cold morning. Ana had 7 books and Sam had 11 books. Ana took 10 books from Sam. How many books does Ana have now? -> 7 (right: 17; not sure: these words have led me wrong before: ana, books, sam)",
+    "Raj has 10 dolls and Ana has 6 dolls. Raj takes 5 dolls from Ana. How many dolls does Raj have now? -> 10 (right: 15; not sure: these words have led me wrong before: ana, takes)",
+    "It was a sunny day. Ema has 15 candies. Sam has 19 candies. Ema takes 10 candies from Sam. How many candies does Ema have now? -> 15 (right: 25; not sure: these words have led me wrong before: day, sam, sunny)",
+    "Sam has 13 flowers. Mia has 2 flowers. Sam gives 7 of his flowers to Mia. How many flowers does Mia have now? -> 2 (right: 9; not sure: these words have led me wrong before: mia, sam)",
+    "Ana had 14 books. Ali had 17 books. Ana gave 8 books to Ali. How many books does Ali have now? -> 17 (right: 25; not sure: these words have led me wrong before: ana, books)",
+    "Sam has 18 cups. Kim has 20 cups. Sam takes 6 cups from Kim. How many cups does Sam have now? -> 18 (right: 24; not sure: these words have led me wrong before: sam, takes)",
+    "Leo had 8 boxes. Each box had 3 apples. He used 3 apples. How many apples does Leo have now? -> 3 (right: 21; guessed: only guessed 'how many apple does leo have now')",
+    "Leo had 5 plates. Each plate had 8 dolls. Leo ate 39 dolls. How many dolls does Leo have now? -> 39 (right: 1; guessed: only guessed 'how many doll does leo have now')",
+    "Raj has 6 boxes. Each box has 4 candies. He uses 20 candies. How many candies are left? -> 20 (right: 4; guessed: only guessed 'how many candy are left')",
+    "It was a sunny day. Lily has 5 bowls. Each bowl has 2 apples. Lily loses 7 apples. How many apples are left? -> 7 (right: 3; guessed: only guessed 'how many apple are left')",
+    "Kim has 2 bags. There are 3 bananas in each bag. She eats 4 bananas. How many bananas are left? -> 4 (right: 2; guessed: only guessed 'how many banana are left')",
+    "It was a cold morning. Mia had 5 bags. Each bag had 3 bottles. She dropped 11 bottles. How many bottles are left? -> 11 (right: 4; guessed: only guessed 'how many bottle are left')",
+    "Mia had some apples. She bought 2 apples after lunch. She still has 10 apples. How many apples did Mia have in the beginning? -> 2 (right: 8; not sure: these words have led me wrong before: after, bought, lunch)",
+    "Raj had some pears. Raj got 1 pears. He still has 18 pears. How many pears did Raj have at first? -> 1 (right: 17; not sure: these words have led me wrong before: first)",
+    "Mia has $30 in her wallet. She spends $3 on oranges. She finds $9. How much money does Mia have left? -> 9 (right: 36; not sure: these words have led me wrong before: finds, mia, spends)",
+    "Kim had $14 in her wallet. She earned $2. Kim bought a pencil for $3. How much money does Kim have now? -> 3 (right: 13; guessed: only guessed 'kim bought a pencil for 3 dollar')"
+   ],
+   "date": "2026-10-06",
+   "outside": {
+    "grade": 6,
+    "split": "test",
+    "n": 213,
+    "understood": 0,
+    "right": 0,
+    "guess_right": 3
+   },
+   "outside_before": {
+    "n": 213,
+    "understood": 0,
+    "right": 0,
+    "guess_right": 5
+   },
+   "round": 2,
+   "real": {
+    "n": 60,
+    "understood": 4,
+    "right": 3,
+    "guess_right": 23
+   },
+   "real_before": {
+    "n": 60,
+    "understood": 1,
+    "right": 1,
+    "guess_right": 24
+   },
+   "real_lessons": {
+    "real stories": 600,
+    "right first time": 248,
+    "learned from": 108,
+    "pool": 632,
+    "words to ask": []
+   },
+   "words_to_learn": [],
+   "rules": [],
+   "history": [
+    {
+     "round": 1,
+     "score": 0.942,
+     "grade": "AL1",
+     "outside": {
+      "grade": 6,
+      "split": "test",
+      "n": 213,
+      "understood": 10,
+      "right": 1,
+      "guess_right": 5
+     },
+     "real": {
+      "n": 60,
+      "understood": 34,
+      "right": 18,
+      "guess_right": 19
+     },
+     "date": "2026-10-02"
+    }
+   ]
+  }
+ ]
+}

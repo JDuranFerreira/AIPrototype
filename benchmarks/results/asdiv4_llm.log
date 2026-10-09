@@ -1,0 +1,6 @@
+qwen3:0.6b nothink: 29/50
+qwen3:0.6b nothink: 50/100
+qwen3:0.6b nothink: 85/150
+qwen3:0.6b nothink: 130/200
+qwen3:0.6b nothink: 179/250
+qwen3:0.6b nothink asdiv4: 204/291 = 70.1% -> asdiv4_qwen3-0.6b_nothink.json

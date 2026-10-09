@@ -1,0 +1,14 @@
+[before] ASDiv g1 TEST  right 9/97, claims 11 (82% true), always answers 22
+[before] ASDiv g1 dev   right 3/97, claims 5 (60% true), always answers 26
+[before] real stories         right 24/60, claims 28 (86% true)
+taught the 97 dev problems (weight 3): it already had 27 right, learned from 38, could not find the misread sentence in 32
+[after teach] ASDiv g1 TEST  right 8/97, claims 14 (57% true), always answers 25
+[after teach] ASDiv g1 dev   right 8/97, claims 10 (80% true), always answers 31
+[after teach] real stories         right 7/60, claims 10 (70% true)
+sleep: replaying 600 remembered stories ...
+[after sleep] ASDiv g1 TEST  right 7/97, claims 16 (44% true), always answers 24
+[after sleep] ASDiv g1 dev   right 13/97, claims 17 (76% true), always answers 30
+[after sleep] real stories         right 25/60, claims 29 (86% true)
+[after sleep] P1 world exam 96.0%, claims 173/175 (99% true)
+[after sleep] kindergarten 388/400
+saved

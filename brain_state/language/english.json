@@ -1,0 +1,2479 @@
+{
+ "forms": {
+  "plural": {
+   "cat": "cats",
+   "dog": "dogs",
+   "book": "books",
+   "pen": "pens",
+   "tree": "trees",
+   "girl": "girls",
+   "car": "cars",
+   "bag": "bags",
+   "cup": "cups",
+   "hat": "hats",
+   "frog": "frogs",
+   "ball": "balls",
+   "door": "doors",
+   "bed": "beds",
+   "bus": "buses",
+   "glass": "glasses",
+   "box": "boxes",
+   "fox": "foxes",
+   "dish": "dishes",
+   "brush": "brushes",
+   "watch": "watches",
+   "bench": "benches",
+   "dress": "dresses",
+   "lunch": "lunches",
+   "baby": "babies",
+   "city": "cities",
+   "lady": "ladies",
+   "story": "stories",
+   "party": "parties",
+   "berry": "berries",
+   "boy": "boys",
+   "toy": "toys",
+   "day": "days",
+   "key": "keys",
+   "monkey": "monkeys",
+   "child": "children",
+   "man": "men",
+   "woman": "women",
+   "foot": "feet",
+   "tooth": "teeth",
+   "mouse": "mice",
+   "sheep": "sheep",
+   "fish": "fish",
+   "goose": "geese",
+   "person": "people"
+  },
+  "article": {
+   "apple": "an apple",
+   "egg": "an egg",
+   "orange": "an orange",
+   "umbrella": "an umbrella",
+   "ant": "an ant",
+   "elephant": "an elephant",
+   "cat": "a cat",
+   "dog": "a dog",
+   "ball": "a ball",
+   "book": "a book",
+   "car": "a car",
+   "pen": "a pen"
+  },
+  "third": {
+   "play": "plays",
+   "run": "runs",
+   "eat": "eats",
+   "sing": "sings",
+   "jump": "jumps",
+   "read": "reads",
+   "walk": "walks",
+   "help": "helps",
+   "go": "goes",
+   "watch": "watches",
+   "fix": "fixes",
+   "wash": "washes",
+   "catch": "catches",
+   "cry": "cries",
+   "fly": "flies",
+   "carry": "carries",
+   "try": "tries",
+   "do": "does",
+   "have": "has",
+   "bark": "barks",
+   "sleep": "sleeps"
+  },
+  "past": {
+   "walk": "walked",
+   "jump": "jumped",
+   "play": "played",
+   "look": "looked",
+   "help": "helped",
+   "call": "called",
+   "clean": "cleaned",
+   "cook": "cooked",
+   "kick": "kicked",
+   "pull": "pulled",
+   "talk": "talked",
+   "climb": "climbed",
+   "like": "liked",
+   "love": "loved",
+   "smile": "smiled",
+   "dance": "danced",
+   "bake": "baked",
+   "close": "closed",
+   "sing": "sang",
+   "carry": "carried",
+   "cry": "cried",
+   "try": "tried",
+   "study": "studied",
+   "stop": "stopped",
+   "hop": "hopped",
+   "clap": "clapped",
+   "drop": "dropped",
+   "plan": "planned",
+   "hug": "hugged",
+   "go": "went",
+   "eat": "ate",
+   "see": "saw",
+   "run": "ran",
+   "come": "came",
+   "have": "had",
+   "sit": "sat",
+   "swim": "swam",
+   "drink": "drank",
+   "write": "wrote",
+   "give": "gave",
+   "take": "took",
+   "make": "made",
+   "get": "got",
+   "say": "said",
+   "do": "did",
+   "buy": "bought",
+   "fly": "flew"
+  },
+  "ing": {
+   "play": "playing",
+   "read": "reading",
+   "eat": "eating",
+   "sing": "singing",
+   "jump": "jumping",
+   "walk": "walking",
+   "make": "making",
+   "ride": "riding",
+   "write": "writing",
+   "smile": "smiling",
+   "dance": "dancing",
+   "run": "running",
+   "swim": "swimming",
+   "sit": "sitting",
+   "hop": "hopping",
+   "stop": "stopping",
+   "clap": "clapping"
+  },
+  "comparative": {
+   "tall": "taller",
+   "short": "shorter",
+   "fast": "faster",
+   "small": "smaller",
+   "old": "older",
+   "cold": "colder",
+   "strong": "stronger",
+   "quick": "quicker",
+   "nice": "nicer",
+   "large": "larger",
+   "wide": "wider",
+   "safe": "safer",
+   "happy": "happier",
+   "easy": "easier",
+   "busy": "busier",
+   "heavy": "heavier",
+   "big": "bigger",
+   "hot": "hotter",
+   "thin": "thinner",
+   "fat": "fatter",
+   "beautiful": "more beautiful",
+   "expensive": "more expensive",
+   "dangerous": "more dangerous",
+   "important": "more important",
+   "famous": "more famous",
+   "careful": "more careful",
+   "good": "better",
+   "bad": "worse",
+   "far": "farther"
+  },
+  "superlative": {
+   "tall": "tallest",
+   "short": "shortest",
+   "fast": "fastest",
+   "small": "smallest",
+   "old": "oldest",
+   "nice": "nicest",
+   "large": "largest",
+   "wide": "widest",
+   "happy": "happiest",
+   "easy": "easiest",
+   "busy": "busiest",
+   "big": "biggest",
+   "hot": "hottest",
+   "thin": "thinnest",
+   "beautiful": "most beautiful",
+   "expensive": "most expensive",
+   "dangerous": "most dangerous",
+   "famous": "most famous",
+   "good": "best",
+   "bad": "worst",
+   "far": "farthest"
+  },
+  "adverb": {
+   "quick": "quickly",
+   "slow": "slowly",
+   "loud": "loudly",
+   "quiet": "quietly",
+   "careful": "carefully",
+   "sad": "sadly",
+   "kind": "kindly",
+   "brave": "bravely",
+   "nice": "nicely",
+   "happy": "happily",
+   "easy": "easily",
+   "angry": "angrily",
+   "busy": "busily",
+   "gentle": "gently",
+   "simple": "simply",
+   "terrible": "terribly",
+   "good": "well",
+   "fast": "fast",
+   "hard": "hard"
+  },
+  "negative": {
+   "happy": "unhappy",
+   "kind": "unkind",
+   "fair": "unfair",
+   "safe": "unsafe",
+   "tidy": "untidy",
+   "well": "unwell",
+   "friendly": "unfriendly",
+   "known": "unknown",
+   "agree": "disagree",
+   "like": "dislike",
+   "honest": "dishonest",
+   "obey": "disobey",
+   "appear": "disappear"
+  }
+ },
+ "rules": {
+  "article": [
+   {
+    "where": "start",
+    "shape": "V",
+    "drop": 0,
+    "add": "an",
+    "name": "article: 'an' before a word starting with a vowel",
+    "specific": 1
+   },
+   {
+    "where": "start",
+    "shape": "C",
+    "drop": 0,
+    "add": "a",
+    "name": "article: 'a' before a word starting with a consonant",
+    "specific": 1
+   }
+  ],
+  "past": [
+   {
+    "where": "end",
+    "shape": "=e",
+    "drop": 0,
+    "add": "d",
+    "name": "past: ends in -e: add -d",
+    "specific": 1.25
+   },
+   {
+    "where": "end",
+    "shape": "",
+    "drop": 0,
+    "add": "ed",
+    "name": "past: any word: add -ed",
+    "specific": 0
+   },
+   {
+    "where": "end",
+    "shape": "Vp",
+    "drop": 0,
+    "add": "ped",
+    "name": "past: ends in [vowel]p: add -ped",
+    "specific": 2
+   },
+   {
+    "where": "end",
+    "shape": "=ry",
+    "drop": 1,
+    "add": "ied",
+    "name": "past: ends in -ry: drop 1, add -ied",
+    "specific": 2.75
+   },
+   {
+    "where": "end",
+    "shape": "CVC",
+    "drop": 0,
+    "add": "ed",
+    "name": "past: short consonant-vowel-consonant word: double the last letter, add -ed",
+    "specific": 3
+   }
+  ],
+  "plural": [
+   {
+    "where": "end",
+    "shape": "=h",
+    "drop": 0,
+    "add": "es",
+    "name": "plural: ends in -h: add -es",
+    "specific": 1.25
+   },
+   {
+    "where": "end",
+    "shape": "",
+    "drop": 0,
+    "add": "s",
+    "name": "plural: any word: add -s",
+    "specific": 0
+   },
+   {
+    "where": "end",
+    "shape": "=s",
+    "drop": 0,
+    "add": "es",
+    "name": "plural: ends in -s: add -es",
+    "specific": 1.25
+   },
+   {
+    "where": "end",
+    "shape": "Cy",
+    "drop": 1,
+    "add": "ies",
+    "name": "plural: ends in [consonant]y: drop 1, add -ies",
+    "specific": 2.5
+   }
+  ],
+  "third": [
+   {
+    "where": "end",
+    "shape": "=h",
+    "drop": 0,
+    "add": "es",
+    "name": "third: ends in -h: add -es",
+    "specific": 1.25
+   },
+   {
+    "where": "end",
+    "shape": "",
+    "drop": 0,
+    "add": "s",
+    "name": "third: any word: add -s",
+    "specific": 0
+   },
+   {
+    "where": "end",
+    "shape": "Cy",
+    "drop": 1,
+    "add": "ies",
+    "name": "third: ends in [consonant]y: drop 1, add -ies",
+    "specific": 2.5
+   }
+  ],
+  "ing": [
+   {
+    "where": "end",
+    "shape": "CVC",
+    "drop": 0,
+    "add": "ing",
+    "name": "ing: short consonant-vowel-consonant word: double the last letter, add -ing",
+    "specific": 3
+   },
+   {
+    "where": "end",
+    "shape": "=e",
+    "drop": 1,
+    "add": "ing",
+    "name": "ing: ends in -e: drop 1, add -ing",
+    "specific": 1.75
+   },
+   {
+    "where": "end",
+    "shape": "",
+    "drop": 0,
+    "add": "ing",
+    "name": "ing: any word: add -ing",
+    "specific": 0
+   }
+  ],
+  "comparative": [
+   {
+    "where": "start",
+    "shape": "LONG",
+    "drop": 0,
+    "add": "more",
+    "name": "comparative: long word (3+ syllables, or 2 not ending in -y/-le/-er/-ow): put 'more' before it",
+    "specific": 3
+   },
+   {
+    "where": "end",
+    "shape": "=e",
+    "drop": 0,
+    "add": "r",
+    "name": "comparative: ends in -e: add -r",
+    "specific": 1.25
+   },
+   {
+    "where": "end",
+    "shape": "=y",
+    "drop": 1,
+    "add": "ier",
+    "name": "comparative: ends in -y: drop 1, add -ier",
+    "specific": 1.75
+   },
+   {
+    "where": "end",
+    "shape": "CVC",
+    "drop": 0,
+    "add": "er",
+    "name": "comparative: short consonant-vowel-consonant word: double the last letter, add -er",
+    "specific": 3
+   },
+   {
+    "where": "end",
+    "shape": "",
+    "drop": 0,
+    "add": "er",
+    "name": "comparative: any word: add -er",
+    "specific": 0
+   }
+  ],
+  "adverb": [
+   {
+    "where": "end",
+    "shape": "=y",
+    "drop": 1,
+    "add": "ily",
+    "name": "adverb: ends in -y: drop 1, add -ily",
+    "specific": 1.75
+   },
+   {
+    "where": "end",
+    "shape": "=le",
+    "drop": 1,
+    "add": "y",
+    "name": "adverb: ends in -le: drop 1, add -y",
+    "specific": 2.75
+   },
+   {
+    "where": "end",
+    "shape": "",
+    "drop": 0,
+    "add": "ly",
+    "name": "adverb: any word: add -ly",
+    "specific": 0
+   }
+  ],
+  "superlative": [
+   {
+    "where": "start",
+    "shape": "LONG",
+    "drop": 0,
+    "add": "most",
+    "name": "superlative: long word (3+ syllables, or 2 not ending in -y/-le/-er/-ow): put 'most' before it",
+    "specific": 3
+   },
+   {
+    "where": "end",
+    "shape": "=e",
+    "drop": 0,
+    "add": "st",
+    "name": "superlative: ends in -e: add -st",
+    "specific": 1.25
+   },
+   {
+    "where": "end",
+    "shape": "=y",
+    "drop": 1,
+    "add": "iest",
+    "name": "superlative: ends in -y: drop 1, add -iest",
+    "specific": 1.75
+   },
+   {
+    "where": "end",
+    "shape": "CVC",
+    "drop": 0,
+    "add": "est",
+    "name": "superlative: short consonant-vowel-consonant word: double the last letter, add -est",
+    "specific": 3
+   },
+   {
+    "where": "end",
+    "shape": "",
+    "drop": 0,
+    "add": "est",
+    "name": "superlative: any word: add -est",
+    "specific": 0
+   }
+  ],
+  "negative": [
+   {
+    "where": "prefix",
+    "shape": "",
+    "drop": 0,
+    "add": "un",
+    "name": "negative: put un- in front",
+    "specific": 0
+   }
+  ]
+ },
+ "relations": {
+  "antonym": [
+   [
+    "big",
+    "small"
+   ],
+   [
+    "hot",
+    "cold"
+   ],
+   [
+    "happy",
+    "sad"
+   ],
+   [
+    "tall",
+    "short"
+   ],
+   [
+    "fast",
+    "slow"
+   ],
+   [
+    "up",
+    "down"
+   ],
+   [
+    "day",
+    "night"
+   ],
+   [
+    "old",
+    "young"
+   ],
+   [
+    "wet",
+    "dry"
+   ],
+   [
+    "open",
+    "shut"
+   ],
+   [
+    "light",
+    "dark"
+   ],
+   [
+    "full",
+    "empty"
+   ],
+   [
+    "early",
+    "late"
+   ],
+   [
+    "rich",
+    "poor"
+   ],
+   [
+    "clean",
+    "dirty"
+   ],
+   [
+    "noisy",
+    "quiet"
+   ],
+   [
+    "strong",
+    "weak"
+   ],
+   [
+    "brave",
+    "afraid"
+   ],
+   [
+    "cheap",
+    "expensive"
+   ],
+   [
+    "easy",
+    "difficult"
+   ]
+  ],
+  "is-a": [
+   [
+    "dog",
+    "animal"
+   ],
+   [
+    "cat",
+    "animal"
+   ],
+   [
+    "cow",
+    "animal"
+   ],
+   [
+    "lion",
+    "animal"
+   ],
+   [
+    "puppy",
+    "dog"
+   ],
+   [
+    "kitten",
+    "cat"
+   ],
+   [
+    "apple",
+    "fruit"
+   ],
+   [
+    "banana",
+    "fruit"
+   ],
+   [
+    "mango",
+    "fruit"
+   ],
+   [
+    "red",
+    "colour"
+   ],
+   [
+    "blue",
+    "colour"
+   ],
+   [
+    "calf",
+    "cow"
+   ],
+   [
+    "car",
+    "vehicle"
+   ],
+   [
+    "bus",
+    "vehicle"
+   ],
+   [
+    "sparrow",
+    "bird"
+   ],
+   [
+    "bird",
+    "animal"
+   ],
+   [
+    "rose",
+    "flower"
+   ],
+   [
+    "flower",
+    "plant"
+   ]
+  ],
+  "synonym": [
+   [
+    "big",
+    "large"
+   ],
+   [
+    "small",
+    "little"
+   ],
+   [
+    "happy",
+    "glad"
+   ],
+   [
+    "fast",
+    "quick"
+   ],
+   [
+    "begin",
+    "start"
+   ],
+   [
+    "shut",
+    "close"
+   ],
+   [
+    "sick",
+    "ill"
+   ],
+   [
+    "end",
+    "finish"
+   ],
+   [
+    "angry",
+    "cross"
+   ],
+   [
+    "smart",
+    "clever"
+   ],
+   [
+    "scared",
+    "afraid"
+   ],
+   [
+    "tired",
+    "sleepy"
+   ],
+   [
+    "silent",
+    "quiet"
+   ]
+  ]
+ },
+ "classes": {
+  "cat": "noun",
+  "book": "noun",
+  "school": "noun",
+  "apple": "noun",
+  "run": "verb",
+  "eat": "verb",
+  "jump": "verb",
+  "sing": "verb",
+  "big": "adjective",
+  "happy": "adjective",
+  "red": "adjective",
+  "tall": "adjective",
+  "careful": "adjective",
+  "useful": "adjective",
+  "helpful": "adjective",
+  "playful": "adjective",
+  "quickly": "adverb",
+  "slowly": "adverb",
+  "happily": "adverb",
+  "loudly": "adverb",
+  "kindness": "noun",
+  "darkness": "noun",
+  "sadness": "noun",
+  "goodness": "noun"
+ },
+ "time_cues": {
+  "day": {
+   "present": 10
+  },
+  "with": {
+   "present": 1
+  },
+  "every": {
+   "present": 17,
+   "past": 1
+  },
+  "she": {
+   "present": 2,
+   "past": 3,
+   "continuous": 1,
+   "past continuous": 1,
+   "future": 1
+  },
+  "friends": {
+   "present": 1
+  },
+  "her": {
+   "present": 1
+  },
+  "he": {
+   "present": 2,
+   "past": 1,
+   "continuous": 1,
+   "past continuous": 1
+  },
+  "night": {
+   "present": 5,
+   "past": 2
+  },
+  "book": {
+   "present": 1,
+   "continuous": 1,
+   "past continuous": 1,
+   "future": 1
+  },
+  "a": {
+   "present": 1,
+   "past": 2,
+   "continuous": 2,
+   "past continuous": 1,
+   "future": 1
+  },
+  "an": {
+   "present": 1
+  },
+  "tom": {
+   "present": 1,
+   "past": 1
+  },
+  "apple": {
+   "present": 1
+  },
+  "they": {
+   "present": 1,
+   "past": 1,
+   "continuous": 1,
+   "past continuous": 1,
+   "future": 1
+  },
+  "football": {
+   "present": 1
+  },
+  "i": {
+   "present": 1,
+   "past": 2,
+   "continuous": 1,
+   "past continuous": 1,
+   "future": 1
+  },
+  "school": {
+   "present": 1
+  },
+  "to": {
+   "present": 1,
+   "past": 2,
+   "future": 1
+  },
+  "morning": {
+   "past": 1,
+   "present": 1
+  },
+  "we": {
+   "past": 3,
+   "continuous": 1,
+   "past continuous": 1,
+   "future": 1
+  },
+  "songs": {
+   "past": 1
+  },
+  "your": {
+   "present": 1
+  },
+  "mum": {
+   "present": 1
+  },
+  "you": {
+   "present": 1,
+   "past continuous": 1
+  },
+  "it": {
+   "present": 1,
+   "past continuous": 1
+  },
+  "tv": {
+   "present": 1,
+   "past continuous": 1
+  },
+  "evening": {
+   "present": 1
+  },
+  "yesterday": {
+   "past": 7
+  },
+  "the": {
+   "past": 5,
+   "continuous": 3,
+   "present": 9,
+   "past continuous": 3
+  },
+  "park": {
+   "past": 1
+  },
+  "rain": {
+   "past": 1
+  },
+  "in": {
+   "past": 1
+  },
+  "last": {
+   "past": 4
+  },
+  "week": {
+   "past": 2,
+   "future": 2
+  },
+  "rice": {
+   "past": 1,
+   "present": 2
+  },
+  "ball": {
+   "past": 1
+  },
+  "for": {
+   "past": 1
+  },
+  "hours": {
+   "past": 1
+  },
+  "dad": {
+   "past": 1
+  },
+  "his": {
+   "past": 1
+  },
+  "cake": {
+   "past": 1
+  },
+  "me": {
+   "past": 1
+  },
+  "baby": {
+   "past": 1,
+   "past continuous": 1,
+   "present": 1
+  },
+  "at": {
+   "past": 1,
+   "continuous": 2
+  },
+  "look": {
+   "continuous": 1
+  },
+  "now": {
+   "continuous": 4
+  },
+  "listen": {
+   "continuous": 1
+  },
+  "bird": {
+   "continuous": 1
+  },
+  "moment": {
+   "continuous": 2
+  },
+  "letter": {
+   "continuous": 1
+  },
+  "zoo": {
+   "past": 1
+  },
+  "noodles": {
+   "past": 1
+  },
+  "rainbow": {
+   "past": 1
+  },
+  "car": {
+   "present": 1
+  },
+  "raining": {
+   "past continuous": 1
+  },
+  "was": {
+   "past continuous": 1
+  },
+  "while": {
+   "past continuous": 3
+  },
+  "slept": {
+   "past continuous": 1
+  },
+  "watched": {
+   "past continuous": 1
+  },
+  "when": {
+   "past continuous": 2
+  },
+  "home": {
+   "past continuous": 1
+  },
+  "came": {
+   "past continuous": 1
+  },
+  "storm": {
+   "past continuous": 1
+  },
+  "phone": {
+   "past continuous": 1
+  },
+  "rang": {
+   "past continuous": 1
+  },
+  "grandma": {
+   "future": 1
+  },
+  "tomorrow": {
+   "future": 2
+  },
+  "japan": {
+   "future": 1
+  },
+  "next": {
+   "future": 2
+  },
+  "new": {
+   "future": 1
+  },
+  "house": {
+   "future": 1
+  },
+  "dog": {
+   "present": 1
+  },
+  "dogs": {
+   "present": 1
+  },
+  "sofa": {
+   "present": 1
+  },
+  "my": {
+   "present": 1
+  },
+  "cat": {
+   "present": 1
+  },
+  "on": {
+   "present": 1
+  },
+  "cats": {
+   "present": 1
+  },
+  "babies": {
+   "present": 1
+  },
+  "boy": {
+   "present": 1
+  },
+  "boys": {
+   "present": 1
+  }
+ },
+ "third": {
+  "she": {
+   "yes": 2,
+   "no": 0
+  },
+  "he": {
+   "yes": 2,
+   "no": 0
+  },
+  "<name>": {
+   "yes": 1,
+   "no": 0
+  },
+  "they": {
+   "yes": 0,
+   "no": 1
+  },
+  "i": {
+   "yes": 0,
+   "no": 1
+  },
+  "you": {
+   "yes": 0,
+   "no": 1
+  },
+  "it": {
+   "yes": 1,
+   "no": 0
+  },
+  "<one>": {
+   "yes": 4,
+   "no": 0
+  },
+  "<many>": {
+   "yes": 0,
+   "no": 4
+  }
+ },
+ "mistakes": [
+  {
+   "form": "plural",
+   "word": "hat",
+   "said": "hat",
+   "right": "hats",
+   "how": "guess"
+  },
+  {
+   "form": "plural",
+   "word": "frog",
+   "said": "frog",
+   "right": "frogs",
+   "how": "guess"
+  },
+  {
+   "form": "plural",
+   "word": "ball",
+   "said": "ball",
+   "right": "balls",
+   "how": "guess"
+  },
+  {
+   "form": "plural",
+   "word": "door",
+   "said": "door",
+   "right": "doors",
+   "how": "guess"
+  },
+  {
+   "form": "plural",
+   "word": "bed",
+   "said": "bed",
+   "right": "beds",
+   "how": "guess"
+  },
+  {
+   "form": "plural",
+   "word": "bus",
+   "said": "bus",
+   "right": "buses",
+   "how": "guess"
+  },
+  {
+   "form": "plural",
+   "word": "glass",
+   "said": "glass",
+   "right": "glasses",
+   "how": "guess"
+  },
+  {
+   "form": "plural",
+   "word": "box",
+   "said": "box",
+   "right": "boxes",
+   "how": "guess"
+  },
+  {
+   "form": "plural",
+   "word": "fox",
+   "said": "fox",
+   "right": "foxes",
+   "how": "guess"
+  },
+  {
+   "form": "plural",
+   "word": "dish",
+   "said": "dish",
+   "right": "dishes",
+   "how": "guess"
+  },
+  {
+   "form": "plural",
+   "word": "brush",
+   "said": "brush",
+   "right": "brushes",
+   "how": "guess"
+  },
+  {
+   "form": "plural",
+   "word": "watch",
+   "said": "watch",
+   "right": "watches",
+   "how": "guess"
+  },
+  {
+   "form": "plural",
+   "word": "bench",
+   "said": "bench",
+   "right": "benches",
+   "how": "guess"
+  },
+  {
+   "form": "plural",
+   "word": "dress",
+   "said": "dress",
+   "right": "dresses",
+   "how": "guess"
+  },
+  {
+   "form": "plural",
+   "word": "lunch",
+   "said": "lunch",
+   "right": "lunches",
+   "how": "guess"
+  },
+  {
+   "form": "article",
+   "word": "apple",
+   "said": "a apple",
+   "right": "an apple",
+   "how": "guess"
+  },
+  {
+   "form": "article",
+   "word": "egg",
+   "said": "a egg",
+   "right": "an egg",
+   "how": "guess"
+  },
+  {
+   "form": "article",
+   "word": "orange",
+   "said": "a orange",
+   "right": "an orange",
+   "how": "guess"
+  },
+  {
+   "form": "article",
+   "word": "umbrella",
+   "said": "a umbrella",
+   "right": "an umbrella",
+   "how": "guess"
+  },
+  {
+   "form": "article",
+   "word": "ant",
+   "said": "a ant",
+   "right": "an ant",
+   "how": "guess"
+  },
+  {
+   "form": "article",
+   "word": "elephant",
+   "said": "a elephant",
+   "right": "an elephant",
+   "how": "guess"
+  },
+  {
+   "form": "third",
+   "word": "play",
+   "said": "play",
+   "right": "plays",
+   "how": "guess"
+  },
+  {
+   "form": "third",
+   "word": "run",
+   "said": "run",
+   "right": "runs",
+   "how": "guess"
+  },
+  {
+   "form": "third",
+   "word": "eat",
+   "said": "eat",
+   "right": "eats",
+   "how": "guess"
+  },
+  {
+   "form": "third",
+   "word": "sing",
+   "said": "sing",
+   "right": "sings",
+   "how": "guess"
+  },
+  {
+   "form": "third",
+   "word": "jump",
+   "said": "jump",
+   "right": "jumps",
+   "how": "guess"
+  },
+  {
+   "form": "third",
+   "word": "read",
+   "said": "read",
+   "right": "reads",
+   "how": "guess"
+  },
+  {
+   "form": "third",
+   "word": "walk",
+   "said": "walk",
+   "right": "walks",
+   "how": "guess"
+  },
+  {
+   "form": "third",
+   "word": "help",
+   "said": "help",
+   "right": "helps",
+   "how": "guess"
+  },
+  {
+   "form": "third",
+   "word": "go",
+   "said": "go",
+   "right": "goes",
+   "how": "guess"
+  },
+  {
+   "form": "third",
+   "word": "watch",
+   "said": "watch",
+   "right": "watches",
+   "how": "guess"
+  },
+  {
+   "form": "third",
+   "word": "fix",
+   "said": "fix",
+   "right": "fixes",
+   "how": "guess"
+  },
+  {
+   "form": "third",
+   "word": "wash",
+   "said": "wash",
+   "right": "washes",
+   "how": "guess"
+  },
+  {
+   "form": "third",
+   "word": "catch",
+   "said": "catch",
+   "right": "catches",
+   "how": "guess"
+  },
+  {
+   "form": "past",
+   "word": "walk",
+   "said": "walk",
+   "right": "walked",
+   "how": "guess"
+  },
+  {
+   "form": "past",
+   "word": "jump",
+   "said": "jump",
+   "right": "jumped",
+   "how": "guess"
+  },
+  {
+   "form": "past",
+   "word": "play",
+   "said": "play",
+   "right": "played",
+   "how": "guess"
+  },
+  {
+   "form": "past",
+   "word": "look",
+   "said": "look",
+   "right": "looked",
+   "how": "guess"
+  },
+  {
+   "form": "past",
+   "word": "help",
+   "said": "help",
+   "right": "helped",
+   "how": "guess"
+  },
+  {
+   "form": "past",
+   "word": "call",
+   "said": "call",
+   "right": "called",
+   "how": "guess"
+  },
+  {
+   "form": "past",
+   "word": "clean",
+   "said": "clean",
+   "right": "cleaned",
+   "how": "guess"
+  },
+  {
+   "form": "past",
+   "word": "cook",
+   "said": "cook",
+   "right": "cooked",
+   "how": "guess"
+  },
+  {
+   "form": "past",
+   "word": "kick",
+   "said": "kick",
+   "right": "kicked",
+   "how": "guess"
+  },
+  {
+   "form": "past",
+   "word": "pull",
+   "said": "pull",
+   "right": "pulled",
+   "how": "guess"
+  },
+  {
+   "form": "past",
+   "word": "talk",
+   "said": "talk",
+   "right": "talked",
+   "how": "guess"
+  },
+  {
+   "form": "past",
+   "word": "climb",
+   "said": "climb",
+   "right": "climbed",
+   "how": "guess"
+  },
+  {
+   "form": "past",
+   "word": "like",
+   "said": "like",
+   "right": "liked",
+   "how": "guess"
+  },
+  {
+   "form": "past",
+   "word": "love",
+   "said": "love",
+   "right": "loved",
+   "how": "guess"
+  },
+  {
+   "form": "past",
+   "word": "smile",
+   "said": "smile",
+   "right": "smiled",
+   "how": "guess"
+  },
+  {
+   "form": "past",
+   "word": "dance",
+   "said": "dance",
+   "right": "danced",
+   "how": "guess"
+  },
+  {
+   "form": "past",
+   "word": "bake",
+   "said": "bake",
+   "right": "baked",
+   "how": "guess"
+  },
+  {
+   "form": "past",
+   "word": "close",
+   "said": "close",
+   "right": "closed",
+   "how": "guess"
+  },
+  {
+   "form": "plural",
+   "word": "baby",
+   "said": "babys",
+   "right": "babies",
+   "how": "rule: plural: any word: add -s"
+  },
+  {
+   "form": "plural",
+   "word": "city",
+   "said": "citys",
+   "right": "cities",
+   "how": "rule: plural: any word: add -s"
+  },
+  {
+   "form": "plural",
+   "word": "lady",
+   "said": "ladys",
+   "right": "ladies",
+   "how": "rule: plural: any word: add -s"
+  },
+  {
+   "form": "plural",
+   "word": "story",
+   "said": "storys",
+   "right": "stories",
+   "how": "rule: plural: any word: add -s"
+  },
+  {
+   "form": "plural",
+   "word": "party",
+   "said": "partys",
+   "right": "parties",
+   "how": "rule: plural: any word: add -s"
+  },
+  {
+   "form": "plural",
+   "word": "berry",
+   "said": "berrys",
+   "right": "berries",
+   "how": "rule: plural: any word: add -s"
+  },
+  {
+   "form": "plural",
+   "word": "child",
+   "said": "childs",
+   "right": "children",
+   "how": "rule: plural: any word: add -s"
+  },
+  {
+   "form": "plural",
+   "word": "man",
+   "said": "mans",
+   "right": "men",
+   "how": "rule: plural: any word: add -s"
+  },
+  {
+   "form": "plural",
+   "word": "woman",
+   "said": "womans",
+   "right": "women",
+   "how": "rule: plural: any word: add -s"
+  },
+  {
+   "form": "plural",
+   "word": "foot",
+   "said": "foots",
+   "right": "feet",
+   "how": "rule: plural: any word: add -s"
+  },
+  {
+   "form": "plural",
+   "word": "tooth",
+   "said": "toothes",
+   "right": "teeth",
+   "how": "rule: plural: ends in -h: add -es"
+  },
+  {
+   "form": "plural",
+   "word": "mouse",
+   "said": "mouses",
+   "right": "mice",
+   "how": "rule: plural: any word: add -s"
+  },
+  {
+   "form": "plural",
+   "word": "sheep",
+   "said": "sheeps",
+   "right": "sheep",
+   "how": "rule: plural: any word: add -s"
+  },
+  {
+   "form": "plural",
+   "word": "fish",
+   "said": "fishes",
+   "right": "fish",
+   "how": "rule: plural: ends in -h: add -es"
+  },
+  {
+   "form": "plural",
+   "word": "goose",
+   "said": "gooses",
+   "right": "geese",
+   "how": "rule: plural: any word: add -s"
+  },
+  {
+   "form": "plural",
+   "word": "person",
+   "said": "persons",
+   "right": "people",
+   "how": "rule: plural: any word: add -s"
+  },
+  {
+   "form": "past",
+   "word": "carry",
+   "said": "carryed",
+   "right": "carried",
+   "how": "rule: past: any word: add -ed"
+  },
+  {
+   "form": "past",
+   "word": "cry",
+   "said": "cryed",
+   "right": "cried",
+   "how": "rule: past: any word: add -ed"
+  },
+  {
+   "form": "past",
+   "word": "try",
+   "said": "tryed",
+   "right": "tried",
+   "how": "rule: past: any word: add -ed"
+  },
+  {
+   "form": "past",
+   "word": "study",
+   "said": "studyed",
+   "right": "studied",
+   "how": "rule: past: any word: add -ed"
+  },
+  {
+   "form": "past",
+   "word": "stop",
+   "said": "stoped",
+   "right": "stopped",
+   "how": "rule: past: any word: add -ed"
+  },
+  {
+   "form": "past",
+   "word": "hop",
+   "said": "hoped",
+   "right": "hopped",
+   "how": "rule: past: any word: add -ed"
+  },
+  {
+   "form": "past",
+   "word": "clap",
+   "said": "claped",
+   "right": "clapped",
+   "how": "rule: past: any word: add -ed"
+  },
+  {
+   "form": "past",
+   "word": "drop",
+   "said": "droped",
+   "right": "dropped",
+   "how": "rule: past: any word: add -ed"
+  },
+  {
+   "form": "past",
+   "word": "plan",
+   "said": "planed",
+   "right": "planned",
+   "how": "rule: past: any word: add -ed"
+  },
+  {
+   "form": "past",
+   "word": "hug",
+   "said": "huged",
+   "right": "hugged",
+   "how": "rule: past: any word: add -ed"
+  },
+  {
+   "form": "past",
+   "word": "go",
+   "said": "goed",
+   "right": "went",
+   "how": "rule: past: any word: add -ed"
+  },
+  {
+   "form": "past",
+   "word": "eat",
+   "said": "eated",
+   "right": "ate",
+   "how": "rule: past: any word: add -ed"
+  },
+  {
+   "form": "past",
+   "word": "see",
+   "said": "seed",
+   "right": "saw",
+   "how": "rule: past: ends in -e: add -d"
+  },
+  {
+   "form": "past",
+   "word": "run",
+   "said": "runed",
+   "right": "ran",
+   "how": "rule: past: any word: add -ed"
+  },
+  {
+   "form": "past",
+   "word": "come",
+   "said": "comed",
+   "right": "came",
+   "how": "rule: past: ends in -e: add -d"
+  },
+  {
+   "form": "past",
+   "word": "have",
+   "said": "haved",
+   "right": "had",
+   "how": "rule: past: ends in -e: add -d"
+  },
+  {
+   "form": "past",
+   "word": "sit",
+   "said": "sited",
+   "right": "sat",
+   "how": "rule: past: any word: add -ed"
+  },
+  {
+   "form": "past",
+   "word": "swim",
+   "said": "swimed",
+   "right": "swam",
+   "how": "rule: past: any word: add -ed"
+  },
+  {
+   "form": "past",
+   "word": "drink",
+   "said": "drinked",
+   "right": "drank",
+   "how": "rule: past: any word: add -ed"
+  },
+  {
+   "form": "past",
+   "word": "write",
+   "said": "writed",
+   "right": "wrote",
+   "how": "rule: past: ends in -e: add -d"
+  },
+  {
+   "form": "past",
+   "word": "give",
+   "said": "gived",
+   "right": "gave",
+   "how": "rule: past: ends in -e: add -d"
+  },
+  {
+   "form": "past",
+   "word": "take",
+   "said": "taked",
+   "right": "took",
+   "how": "rule: past: ends in -e: add -d"
+  },
+  {
+   "form": "past",
+   "word": "sing",
+   "said": "sing",
+   "right": "sang",
+   "how": "memory"
+  },
+  {
+   "form": "past",
+   "word": "make",
+   "said": "maked",
+   "right": "made",
+   "how": "rule: past: ends in -e: add -d"
+  },
+  {
+   "form": "past",
+   "word": "get",
+   "said": "geted",
+   "right": "got",
+   "how": "rule: past: any word: add -ed"
+  },
+  {
+   "form": "past",
+   "word": "say",
+   "said": "sayed",
+   "right": "said",
+   "how": "rule: past: any word: add -ed"
+  },
+  {
+   "form": "past",
+   "word": "do",
+   "said": "doed",
+   "right": "did",
+   "how": "rule: past: any word: add -ed"
+  },
+  {
+   "form": "past",
+   "word": "buy",
+   "said": "buyed",
+   "right": "bought",
+   "how": "rule: past: any word: add -ed"
+  },
+  {
+   "form": "past",
+   "word": "fly",
+   "said": "flyed",
+   "right": "flew",
+   "how": "rule: past: any word: add -ed"
+  },
+  {
+   "form": "ing",
+   "word": "play",
+   "said": "play",
+   "right": "playing",
+   "how": "guess"
+  },
+  {
+   "form": "ing",
+   "word": "read",
+   "said": "read",
+   "right": "reading",
+   "how": "guess"
+  },
+  {
+   "form": "ing",
+   "word": "eat",
+   "said": "eat",
+   "right": "eating",
+   "how": "guess"
+  },
+  {
+   "form": "ing",
+   "word": "sing",
+   "said": "sing",
+   "right": "singing",
+   "how": "guess"
+  },
+  {
+   "form": "ing",
+   "word": "jump",
+   "said": "jump",
+   "right": "jumping",
+   "how": "guess"
+  },
+  {
+   "form": "ing",
+   "word": "walk",
+   "said": "walk",
+   "right": "walking",
+   "how": "guess"
+  },
+  {
+   "form": "ing",
+   "word": "make",
+   "said": "make",
+   "right": "making",
+   "how": "guess"
+  },
+  {
+   "form": "ing",
+   "word": "ride",
+   "said": "ride",
+   "right": "riding",
+   "how": "guess"
+  },
+  {
+   "form": "ing",
+   "word": "write",
+   "said": "write",
+   "right": "writing",
+   "how": "guess"
+  },
+  {
+   "form": "ing",
+   "word": "smile",
+   "said": "smile",
+   "right": "smiling",
+   "how": "guess"
+  },
+  {
+   "form": "ing",
+   "word": "dance",
+   "said": "dance",
+   "right": "dancing",
+   "how": "guess"
+  },
+  {
+   "form": "ing",
+   "word": "run",
+   "said": "run",
+   "right": "running",
+   "how": "guess"
+  },
+  {
+   "form": "ing",
+   "word": "swim",
+   "said": "swim",
+   "right": "swimming",
+   "how": "guess"
+  },
+  {
+   "form": "ing",
+   "word": "sit",
+   "said": "sit",
+   "right": "sitting",
+   "how": "guess"
+  },
+  {
+   "form": "ing",
+   "word": "hop",
+   "said": "hop",
+   "right": "hopping",
+   "how": "guess"
+  },
+  {
+   "form": "ing",
+   "word": "stop",
+   "said": "stop",
+   "right": "stopping",
+   "how": "guess"
+  },
+  {
+   "form": "ing",
+   "word": "clap",
+   "said": "clap",
+   "right": "clapping",
+   "how": "guess"
+  },
+  {
+   "form": "third",
+   "word": "cry",
+   "said": "crys",
+   "right": "cries",
+   "how": "rule: third: any word: add -s"
+  },
+  {
+   "form": "third",
+   "word": "fly",
+   "said": "flys",
+   "right": "flies",
+   "how": "rule: third: any word: add -s"
+  },
+  {
+   "form": "third",
+   "word": "carry",
+   "said": "carrys",
+   "right": "carries",
+   "how": "rule: third: any word: add -s"
+  },
+  {
+   "form": "third",
+   "word": "try",
+   "said": "trys",
+   "right": "tries",
+   "how": "rule: third: any word: add -s"
+  },
+  {
+   "form": "third",
+   "word": "do",
+   "said": "dos",
+   "right": "does",
+   "how": "rule: third: any word: add -s"
+  },
+  {
+   "form": "third",
+   "word": "have",
+   "said": "haves",
+   "right": "has",
+   "how": "rule: third: any word: add -s"
+  },
+  {
+   "form": "comparative",
+   "word": "tall",
+   "said": "tall",
+   "right": "taller",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "short",
+   "said": "short",
+   "right": "shorter",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "fast",
+   "said": "fast",
+   "right": "faster",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "small",
+   "said": "small",
+   "right": "smaller",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "old",
+   "said": "old",
+   "right": "older",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "cold",
+   "said": "cold",
+   "right": "colder",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "strong",
+   "said": "strong",
+   "right": "stronger",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "quick",
+   "said": "quick",
+   "right": "quicker",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "nice",
+   "said": "nice",
+   "right": "nicer",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "large",
+   "said": "large",
+   "right": "larger",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "wide",
+   "said": "wide",
+   "right": "wider",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "safe",
+   "said": "safe",
+   "right": "safer",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "happy",
+   "said": "happy",
+   "right": "happier",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "easy",
+   "said": "easy",
+   "right": "easier",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "busy",
+   "said": "busy",
+   "right": "busier",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "heavy",
+   "said": "heavy",
+   "right": "heavier",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "big",
+   "said": "big",
+   "right": "bigger",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "hot",
+   "said": "hot",
+   "right": "hotter",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "thin",
+   "said": "thin",
+   "right": "thinner",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "fat",
+   "said": "fat",
+   "right": "fatter",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "beautiful",
+   "said": "beautiful",
+   "right": "more beautiful",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "expensive",
+   "said": "expensive",
+   "right": "more expensive",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "dangerous",
+   "said": "dangerous",
+   "right": "more dangerous",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "important",
+   "said": "important",
+   "right": "more important",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "famous",
+   "said": "famous",
+   "right": "more famous",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "careful",
+   "said": "careful",
+   "right": "more careful",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "good",
+   "said": "good",
+   "right": "better",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "bad",
+   "said": "bad",
+   "right": "worse",
+   "how": "guess"
+  },
+  {
+   "form": "comparative",
+   "word": "far",
+   "said": "far",
+   "right": "farther",
+   "how": "guess"
+  },
+  {
+   "form": "superlative",
+   "word": "tall",
+   "said": "tall",
+   "right": "tallest",
+   "how": "guess"
+  },
+  {
+   "form": "superlative",
+   "word": "short",
+   "said": "short",
+   "right": "shortest",
+   "how": "guess"
+  },
+  {
+   "form": "superlative",
+   "word": "fast",
+   "said": "fast",
+   "right": "fastest",
+   "how": "guess"
+  },
+  {
+   "form": "superlative",
+   "word": "small",
+   "said": "small",
+   "right": "smallest",
+   "how": "guess"
+  },
+  {
+   "form": "superlative",
+   "word": "old",
+   "said": "old",
+   "right": "oldest",
+   "how": "guess"
+  },
+  {
+   "form": "superlative",
+   "word": "nice",
+   "said": "nice",
+   "right": "nicest",
+   "how": "guess"
+  },
+  {
+   "form": "superlative",
+   "word": "large",
+   "said": "large",
+   "right": "largest",
+   "how": "guess"
+  },
+  {
+   "form": "superlative",
+   "word": "wide",
+   "said": "wide",
+   "right": "widest",
+   "how": "guess"
+  },
+  {
+   "form": "superlative",
+   "word": "happy",
+   "said": "happy",
+   "right": "happiest",
+   "how": "guess"
+  },
+  {
+   "form": "superlative",
+   "word": "easy",
+   "said": "easy",
+   "right": "easiest",
+   "how": "guess"
+  },
+  {
+   "form": "superlative",
+   "word": "busy",
+   "said": "busy",
+   "right": "busiest",
+   "how": "guess"
+  },
+  {
+   "form": "superlative",
+   "word": "big",
+   "said": "big",
+   "right": "biggest",
+   "how": "guess"
+  },
+  {
+   "form": "superlative",
+   "word": "hot",
+   "said": "hot",
+   "right": "hottest",
+   "how": "guess"
+  },
+  {
+   "form": "superlative",
+   "word": "thin",
+   "said": "thin",
+   "right": "thinnest",
+   "how": "guess"
+  },
+  {
+   "form": "superlative",
+   "word": "beautiful",
+   "said": "beautiful",
+   "right": "most beautiful",
+   "how": "guess"
+  },
+  {
+   "form": "superlative",
+   "word": "expensive",
+   "said": "expensive",
+   "right": "most expensive",
+   "how": "guess"
+  },
+  {
+   "form": "superlative",
+   "word": "dangerous",
+   "said": "dangerous",
+   "right": "most dangerous",
+   "how": "guess"
+  },
+  {
+   "form": "superlative",
+   "word": "famous",
+   "said": "famous",
+   "right": "most famous",
+   "how": "guess"
+  },
+  {
+   "form": "superlative",
+   "word": "good",
+   "said": "good",
+   "right": "best",
+   "how": "guess"
+  },
+  {
+   "form": "superlative",
+   "word": "bad",
+   "said": "bad",
+   "right": "worst",
+   "how": "guess"
+  },
+  {
+   "form": "superlative",
+   "word": "far",
+   "said": "far",
+   "right": "farthest",
+   "how": "guess"
+  },
+  {
+   "form": "adverb",
+   "word": "quick",
+   "said": "quick",
+   "right": "quickly",
+   "how": "guess"
+  },
+  {
+   "form": "adverb",
+   "word": "slow",
+   "said": "slow",
+   "right": "slowly",
+   "how": "guess"
+  },
+  {
+   "form": "adverb",
+   "word": "loud",
+   "said": "loud",
+   "right": "loudly",
+   "how": "guess"
+  },
+  {
+   "form": "adverb",
+   "word": "quiet",
+   "said": "quiet",
+   "right": "quietly",
+   "how": "guess"
+  },
+  {
+   "form": "adverb",
+   "word": "careful",
+   "said": "careful",
+   "right": "carefully",
+   "how": "guess"
+  },
+  {
+   "form": "adverb",
+   "word": "sad",
+   "said": "sad",
+   "right": "sadly",
+   "how": "guess"
+  },
+  {
+   "form": "adverb",
+   "word": "kind",
+   "said": "kind",
+   "right": "kindly",
+   "how": "guess"
+  },
+  {
+   "form": "adverb",
+   "word": "brave",
+   "said": "brave",
+   "right": "bravely",
+   "how": "guess"
+  },
+  {
+   "form": "adverb",
+   "word": "nice",
+   "said": "nice",
+   "right": "nicely",
+   "how": "guess"
+  },
+  {
+   "form": "adverb",
+   "word": "happy",
+   "said": "happy",
+   "right": "happily",
+   "how": "guess"
+  },
+  {
+   "form": "adverb",
+   "word": "easy",
+   "said": "easy",
+   "right": "easily",
+   "how": "guess"
+  },
+  {
+   "form": "adverb",
+   "word": "angry",
+   "said": "angry",
+   "right": "angrily",
+   "how": "guess"
+  },
+  {
+   "form": "adverb",
+   "word": "busy",
+   "said": "busy",
+   "right": "busily",
+   "how": "guess"
+  },
+  {
+   "form": "adverb",
+   "word": "gentle",
+   "said": "gentle",
+   "right": "gently",
+   "how": "guess"
+  },
+  {
+   "form": "adverb",
+   "word": "simple",
+   "said": "simple",
+   "right": "simply",
+   "how": "guess"
+  },
+  {
+   "form": "adverb",
+   "word": "terrible",
+   "said": "terrible",
+   "right": "terribly",
+   "how": "guess"
+  },
+  {
+   "form": "adverb",
+   "word": "good",
+   "said": "good",
+   "right": "well",
+   "how": "guess"
+  },
+  {
+   "form": "negative",
+   "word": "happy",
+   "said": "happy",
+   "right": "unhappy",
+   "how": "guess"
+  },
+  {
+   "form": "negative",
+   "word": "kind",
+   "said": "kind",
+   "right": "unkind",
+   "how": "guess"
+  },
+  {
+   "form": "negative",
+   "word": "fair",
+   "said": "fair",
+   "right": "unfair",
+   "how": "guess"
+  },
+  {
+   "form": "negative",
+   "word": "safe",
+   "said": "safe",
+   "right": "unsafe",
+   "how": "guess"
+  },
+  {
+   "form": "negative",
+   "word": "tidy",
+   "said": "tidy",
+   "right": "untidy",
+   "how": "guess"
+  },
+  {
+   "form": "negative",
+   "word": "well",
+   "said": "well",
+   "right": "unwell",
+   "how": "guess"
+  },
+  {
+   "form": "negative",
+   "word": "friendly",
+   "said": "friendly",
+   "right": "unfriendly",
+   "how": "guess"
+  },
+  {
+   "form": "negative",
+   "word": "known",
+   "said": "known",
+   "right": "unknown",
+   "how": "guess"
+  },
+  {
+   "form": "negative",
+   "word": "agree",
+   "said": "agree",
+   "right": "disagree",
+   "how": "guess"
+  },
+  {
+   "form": "negative",
+   "word": "like",
+   "said": "like",
+   "right": "dislike",
+   "how": "guess"
+  },
+  {
+   "form": "negative",
+   "word": "honest",
+   "said": "honest",
+   "right": "dishonest",
+   "how": "guess"
+  },
+  {
+   "form": "negative",
+   "word": "obey",
+   "said": "obey",
+   "right": "disobey",
+   "how": "guess"
+  },
+  {
+   "form": "negative",
+   "word": "appear",
+   "said": "appear",
+   "right": "disappear",
+   "how": "guess"
+  }
+ ]
+}

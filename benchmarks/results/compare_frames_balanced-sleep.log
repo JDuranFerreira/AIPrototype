@@ -1,0 +1,5 @@
+balanced-sleep ['kindergarten', {'g1 dev': [9, 16, 17, 97], 'g1 test': [6, 9, 17, 97], 'g2 dev': [10, 18, 22, 163], 'g2 test': [11, 17, 19, 162], 'P1 world': 0.567, 'P2 world': 0.475}] 25s
+balanced-sleep ['P1 round 1', {'g1 dev': [10, 22, 20, 97], 'g1 test': [12, 24, 31, 97], 'g2 dev': [17, 40, 31, 163], 'g2 test': [17, 30, 36, 162], 'P1 world': 0.944, 'P2 world': 0.814}] 121s
+balanced-sleep ['P2 round 1', {'g1 dev': [16, 26, 25, 97], 'g1 test': [16, 29, 29, 97], 'g2 dev': [26, 48, 39, 163], 'g2 test': [17, 35, 32, 162], 'P1 world': 0.942, 'P2 world': 0.911}] 219s
+balanced-sleep ['P1 round 2', {'g1 dev': [17, 25, 25, 97], 'g1 test': [16, 25, 29, 97], 'g2 dev': [24, 48, 38, 163], 'g2 test': [20, 37, 32, 162], 'P1 world': 0.942, 'P2 world': 0.911}] 199s
+balanced-sleep ['P2 round 2', {'g1 dev': [22, 37, 29, 97], 'g1 test': [19, 31, 29, 97], 'g2 dev': [23, 53, 40, 163], 'g2 test': [26, 40, 39, 162], 'P1 world': 0.947, 'P2 world': 0.92}] 277s

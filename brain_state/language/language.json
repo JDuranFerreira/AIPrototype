@@ -1,0 +1,268 @@
+{
+ "phrases": {
+  "i have 4 candies and i need to divide withe me friend, how many candies do i give too him": [
+   {
+    "say": "4/2"
+   }
+  ],
+  "i have 3 bags of 4 apples, i eat 2 and share the rest between 5 friends. how many does each friend get": [
+   {
+    "say": "plan: left/5"
+   }
+  ],
+  "i have 1000 meters to doin my car and the car uses 8 km of distance per 1 liter of gasoline, how much gasoline will the car use": [
+   {
+    "say": "1000/8"
+   }
+  ],
+  "the answer is 125 ml or 0.125 l": [
+   {
+    "say": "answer = 125 ml or 0.125 l",
+    "literal": true
+   }
+  ],
+  "tom has 5 apples and gets 3 more. how many apples does he have now": [
+   {
+    "say": "5+3"
+   }
+  ],
+  "there are 12 birds on a tree. 4 fly away. how many birds are left": [
+   {
+    "say": "12-4"
+   }
+  ],
+  "ana has 7 pencils. ben has 2 more pencils than ana. how many pencils does ben have": [
+   {
+    "say": "7+2"
+   }
+  ],
+  "there are 3 plates with 4 cakes on each plate. how many cakes are there": [
+   {
+    "say": "3*4"
+   }
+  ],
+  "mum shares 12 sweets equally among 3 children. how many sweets does each child get": [
+   {
+    "say": "12/3"
+   }
+  ],
+  "a pencil costs 30 cents and a rubber costs 20 cents. how many cents do they cost together": [
+   {
+    "say": "30+20"
+   }
+  ],
+  "ali has 1 dollar. he spends 40 cents. how many cents does he have left": [
+   {
+    "say": "1*100-40"
+   }
+  ],
+  "school starts at 8 o'clock and ends 6 hours later. at what o'clock does it end": [
+   {
+    "say": "8+6"
+   }
+  ],
+  "a ribbon is 3 metres long. how many centimetres long is it": [
+   {
+    "say": "3*100"
+   }
+  ],
+  "a shop has 245 red balloons and 138 blue balloons. how many balloons are there": [
+   {
+    "say": "245+138"
+   }
+  ],
+  "a baker made 500 buns and sold 263. how many buns are left": [
+   {
+    "say": "500-263"
+   }
+  ],
+  "there are 5 bags with 4 apples in each bag. 6 apples are eaten. how many apples are left": [
+   {
+    "say": "plan: apples = 5*4; apples-6"
+   }
+  ],
+  "a cake is cut into 8 equal pieces. sam eats 3 pieces. what fraction of the cake did he eat": [
+   {
+    "say": "3/8"
+   }
+  ],
+  "a shirt costs 8 dollars and a cap costs 5 dollars. ken pays with 20 dollars. how much change does he get": [
+   {
+    "say": "plan: cost = 8+5; 20-cost"
+   }
+  ],
+  "a pencil is 15 centimetres long. how long are 4 pencils in a row, in centimetres": [
+   {
+    "say": "15*4"
+   }
+  ],
+  "a farmer packs 245 eggs into boxes of 12. how many boxes can he fill completely": [
+   {
+    "say": "245 div 12"
+   }
+  ],
+  "each box holds 24 books. how many boxes are needed for 1000 books": [
+   {
+    "say": "1000 divup 24"
+   }
+  ],
+  "29 sweets are shared equally by 4 children. how many sweets are left over": [
+   {
+    "say": "29 rem 4"
+   }
+  ],
+  "a lesson starts at 9:15 and ends at 10:05. how long is the lesson in minutes": [
+   {
+    "say": "(10*60+5)-(9*60+15)"
+   }
+  ],
+  "a road is 3 km 250 m long. how many metres is that": [
+   {
+    "say": "3*1000+250"
+   }
+  ],
+  "what is the perimeter of a rectangle 8 m long and 5 m wide": [
+   {
+    "say": "2*(8+5)"
+   }
+  ],
+  "what is the area of a rectangle 9 cm long and 6 cm wide": [
+   {
+    "say": "9*6"
+   }
+  ],
+  "mum buys a bag for $12.50 and a hat for $8.75. how much does she spend": [
+   {
+    "say": "12.50+8.75"
+   }
+  ],
+  "a book costs $7.85. sara pays with a $10 note. how much change does she get": [
+   {
+    "say": "10-7.85"
+   }
+  ],
+  "a class of 31 children goes on a trip. each car takes 4 children. how many cars are needed": [
+   {
+    "say": "31 divup 4"
+   }
+  ],
+  "a garden is 12 m long and 8 m wide. a fence goes all the way round. how long is the fence": [
+   {
+    "say": "2*(12+8)"
+   }
+  ]
+ },
+ "patterns": {
+  "i have {0} meters to doin my car and the car uses {{2}} km of distance per {2} liter of gasoline, how much gasoline will the car use": [
+   {
+    "say": "{0}/{{2}}"
+   }
+  ],
+  "the answer is {0} ml or {1} l": [
+   {
+    "say": "answer = {0} ml or {1} l",
+    "literal": true
+   }
+  ],
+  "tom has {0} apples and gets {1} more. how many apples does he have now": [
+   {
+    "say": "{0}+{1}"
+   }
+  ],
+  "there are {0} birds on a tree. {1} fly away. how many birds are left": [
+   {
+    "say": "{0}-{1}"
+   }
+  ],
+  "ana has {0} pencils. ben has {1} more pencils than ana. how many pencils does ben have": [
+   {
+    "say": "{0}+{1}"
+   }
+  ],
+  "there are {0} plates with {1} cakes on each plate. how many cakes are there": [
+   {
+    "say": "{0}*{1}"
+   }
+  ],
+  "mum shares {0} sweets equally among {1} children. how many sweets does each child get": [
+   {
+    "say": "{0}/{1}"
+   }
+  ],
+  "a pencil costs {0} cents and a rubber costs {1} cents. how many cents do they cost together": [
+   {
+    "say": "{0}+{1}"
+   }
+  ],
+  "school starts at {0} o'clock and ends {1} hours later. at what o'clock does it end": [
+   {
+    "say": "{0}+{1}"
+   }
+  ],
+  "a shop has {0} red balloons and {1} blue balloons. how many balloons are there": [
+   {
+    "say": "{0}+{1}"
+   }
+  ],
+  "a baker made {0} buns and sold 263. how many buns are left": [
+   {
+    "say": "{0}-{1}"
+   }
+  ],
+  "there are {0} bags with {1} apples in each bag. {2} apples are eaten. how many apples are left": [
+   {
+    "say": "plan: apples = {0}*{1}; apples-{2}"
+   }
+  ],
+  "a cake is cut into {0} equal pieces. sam eats {1} pieces. what fraction of the cake did he eat": [
+   {
+    "say": "{1}/{0}"
+   }
+  ],
+  "a shirt costs {0} dollars and a cap costs {1} dollars. ken pays with {2} dollars. how much change does he get": [
+   {
+    "say": "plan: cost = {0}+{1}; {2}-cost"
+   }
+  ],
+  "a pencil is {0} centimetres long. how long are {1} pencils in a row, in centimetres": [
+   {
+    "say": "{0}*{1}"
+   }
+  ],
+  "a farmer packs {0} eggs into boxes of 12. how many boxes can he fill completely": [
+   {
+    "say": "{0} div {1}"
+   }
+  ],
+  "each box holds {0} books. how many boxes are needed for {1} books": [
+   {
+    "say": "{1} divup {0}"
+   }
+  ],
+  "{0} sweets are shared equally by {1} children. how many sweets are left over": [
+   {
+    "say": "{0} rem {1}"
+   }
+  ],
+  "what is the area of a rectangle {0} cm long and {1} cm wide": [
+   {
+    "say": "{0}*{1}"
+   }
+  ],
+  "mum buys a bag for ${0} and a hat for $8.75. how much does she spend": [
+   {
+    "say": "{0}+{1}"
+   }
+  ],
+  "a book costs $7.85. sara pays with a ${1} note. how much change does she get": [
+   {
+    "say": "{1}-{0}"
+   }
+  ],
+  "a class of {0} children goes on a trip. each car takes {1} children. how many cars are needed": [
+   {
+    "say": "{0} divup {1}"
+   }
+  ]
+ }
+}

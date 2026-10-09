@@ -1,0 +1,13 @@
+worked solutions it can learn from: {'svamp-train': '3113/3138', 'asdiv': '1694/2305', 'gsm8k': '5204/7473', 'school': '19/20'} -> 10068 (2s)
+  epoch 1: 20291 wrong steps
+  epoch 2: 17370 wrong steps
+  epoch 3: 15947 wrong steps
+  epoch 4: 14735 wrong steps
+  epoch 5: 13902 wrong steps
+  epoch 6: 13283 wrong steps
+trained in 297s, 334,787 non-zero weights
+SVAMP (1000): 282/1000 = 28.2%   (15.6 ms per problem, CPU)
+SVAMP first 300: 67/300 = 22.3%   (14.2 ms per problem, CPU)
+GSM8K first 100: 3/100 = 3.0%   (43.8 ms per problem, CPU)
+GSM8K 500: 20/500 = 4.0%   (42.0 ms per problem, CPU)
+saved into benchmarks\results\tmp_e6/reasoner.npz

@@ -1,0 +1,5 @@
+balanced-sleep-say500-oldkinds ['kindergarten', {'g1 dev': [9, 16, 17, 97], 'g1 test': [7, 10, 19, 97], 'g2 dev': [10, 18, 22, 163], 'g2 test': [11, 17, 19, 162], 'P1 world': 0.569, 'P2 world': 0.477}] 32s
+balanced-sleep-say500-oldkinds ['P1 round 1', {'g1 dev': [13, 27, 21, 97], 'g1 test': [13, 26, 30, 97], 'g2 dev': [17, 38, 33, 163], 'g2 test': [17, 36, 31, 162], 'P1 world': 0.975, 'P2 world': 0.832}] 140s
+balanced-sleep-say500-oldkinds ['P2 round 1', {'g1 dev': [17, 31, 24, 97], 'g1 test': [16, 31, 24, 97], 'g2 dev': [24, 43, 39, 163], 'g2 test': [22, 45, 31, 162], 'P1 world': 0.981, 'P2 world': 0.941}] 240s
+balanced-sleep-say500-oldkinds ['P1 round 2', {'g1 dev': [17, 33, 25, 97], 'g1 test': [14, 30, 23, 97], 'g2 dev': [22, 43, 39, 163], 'g2 test': [24, 49, 31, 162], 'P1 world': 0.981, 'P2 world': 0.932}] 187s
+balanced-sleep-say500-oldkinds ['P2 round 2', {'g1 dev': [21, 37, 27, 97], 'g1 test': [16, 32, 21, 97], 'g2 dev': [22, 49, 38, 163], 'g2 test': [31, 53, 36, 162], 'P1 world': 0.981, 'P2 world': 0.941}] 252s

@@ -1,0 +1,5 @@
+pooled-nosleep ['kindergarten', {'g1 dev': [9, 16, 17, 97], 'g1 test': [6, 9, 17, 97], 'g2 dev': [10, 18, 22, 163], 'g2 test': [11, 17, 19, 162], 'P1 world': 0.567, 'P2 world': 0.475}] 24s
+pooled-nosleep ['P1 round 1', {'g1 dev': [12, 25, 21, 97], 'g1 test': [14, 27, 31, 97], 'g2 dev': [17, 37, 34, 163], 'g2 test': [17, 34, 30, 162], 'P1 world': 0.981, 'P2 world': 0.834}] 80s
+pooled-nosleep ['P2 round 1', {'g1 dev': [16, 36, 21, 97], 'g1 test': [14, 29, 23, 97], 'g2 dev': [24, 45, 39, 163], 'g2 test': [20, 46, 30, 162], 'P1 world': 0.981, 'P2 world': 0.941}] 149s
+pooled-nosleep ['P1 round 2', {'g1 dev': [17, 35, 21, 97], 'g1 test': [14, 29, 25, 97], 'g2 dev': [24, 47, 38, 163], 'g2 test': [25, 53, 33, 162], 'P1 world': 0.969, 'P2 world': 0.92}] 109s
+pooled-nosleep ['P2 round 2', {'g1 dev': [16, 36, 21, 97], 'g1 test': [14, 31, 21, 97], 'g2 dev': [23, 53, 36, 163], 'g2 test': [27, 54, 33, 162], 'P1 world': 0.969, 'P2 world': 0.93}] 187s

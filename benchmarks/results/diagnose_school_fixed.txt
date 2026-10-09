@@ -1,0 +1,11 @@
+kindergarten   ASDiv1  6/97 (und  9, guess 16) | ASDiv2 11/162 (und 17, guess 19) | P1 world 57% | P1 real  2/60 | P2 world 48% | P2 real  0/60 | frame keys 606 | pairs 7503 | 10s
+P1 round 1     ASDiv1  3/97 (und 15, guess 20) | ASDiv2 13/162 (und 25, guess 23) | P1 world 64% | P1 real  4/60 | P2 world 48% | P2 real  1/60 | frame keys 2672 | pairs 31145 | 108s
+P2 round 1     ASDiv1  5/97 (und 15, guess 16) | ASDiv2  9/162 (und 36, guess 16) | P1 world 45% | P1 real  4/60 | P2 world 38% | P2 real  0/60 | frame keys 3839 | pairs 47957 | 261s
+P1 round 2     ASDiv1  4/97 (und 17, guess 15) | ASDiv2  5/162 (und 23, guess  8) | P1 world 33% | P1 real  5/60 | P2 world 26% | P2 real  4/60 | frame keys 4823 | pairs 64505 | 203s
+P2 round 2     ASDiv1  6/97 (und 21, guess 14) | ASDiv2 12/162 (und 27, guess 19) | P1 world 30% | P1 real  8/60 | P2 world 20% | P2 real  4/60 | frame keys 5476 | pairs 73131 | 364s
+
+saved and loaded (pruned): {'ASDiv1': ' 5/97 (und 21, guess 13)', 'ASDiv2': '12/162 (und 27, guess 19)', 'P1 world': '29%', 'P1 real': ' 8/60', 'P2 world': '20%', 'P2 real': ' 4/60', 'frame keys': 5476, 'pairs': 28843}
+saved and loaded (no pruning): {'ASDiv1': ' 6/97 (und 21, guess 14)', 'ASDiv2': '12/162 (und 27, guess 19)', 'P1 world': '30%', 'P1 real': ' 8/60', 'P2 world': '20%', 'P2 real': ' 4/60', 'frame keys': 5476, 'pairs': 73131}
+state size: 2.10 MB pruned, 4.11 MB unpruned
+
+ASDiv grade 1 typed in the chat goes to: {'kindergarten (acted out)': 169, "not a story for it: it couldn't act it out": 21, "not a story for it: no digit / 'some'": 4}
