@@ -1,0 +1,80 @@
+diff --git a/brainlike/storyreader.py b/brainlike/storyreader.py
+index 011ac9f..6cd8f25 100644
+--- a/brainlike/storyreader.py
++++ b/brainlike/storyreader.py
+@@ -780,14 +780,14 @@ def perceive(toks, lex, sit):
+             adjs = []
+             while out and out[-1][0] == "L" and lex.colour(out[-1][1]):
+                 adjs.append(out.pop()[1])
+-            out.append(("T", singular(w), tuple(sorted(adjs))))
++            out.append(("T", singular(w), tuple(sorted(adjs)), False))
+         elif after_det(i) and w.isalpha() and not lex.colour(w) and not lex.number(w) and \
+                 (i + 1 >= len(toks) or toks[i + 1] != "of") and w not in _NOT_NOUNS and \
+                 not (_RELCL_FIX and w in _VERB_WORDS and after_relpron(i)):
+             adjs = []
+             while out and out[-1][0] == "L" and (lex.colour(out[-1][1])):
+                 adjs.append(out.pop()[1])
+-            out.append(("T", singular(w), tuple(sorted(adjs))))
++            out.append(("T", singular(w), tuple(sorted(adjs)), False))
+         elif not lex.known(w) and w.isalpha() and subject_slot():
+             out.append(("P", w, None, False))
+         # NOTE (2026-10-07): an earlier version tagged words whose word_property says 'verb' as
+@@ -910,13 +910,16 @@ class Clause:
+                         sit.mention(name, it[2])
+                     elif name:
+                         sit.mention(name)
+-                    if name and name not in self.persons:
++                    if name and name not in self.persons and (it[3] or it[2] != "thing"):
+                         self.persons.append(name)
+             elif it[0] == "T" and (it[1], it[2]) not in self.things:
+                 self.things.append((it[1], it[2]))
+-                if len(it) < 4:                              # a thing not counted here can own things
++                is_counted = len(it) == 4 and it[3]
++                # Only uncounted things can be owners (e.g., 'a pen costs 3 dollars' - pen owns cost)
++                # Counted things are the things being counted, not owners
++                if not is_counted:
+                     self.owners.append(it[1])
+-                if it is first_slot and len(it) < 4 and \
++                if it is first_slot and not is_counted and \
+                         not any(x[0] == "L" and x[1] in ("each", "every", "there") for x in items[:3]):
+                     sit.mention(it[1], "thing")              # 'the game starts ...': a thing the story is about
+                     self.thing_subject = it[1]
+@@ -929,7 +932,15 @@ class Clause:
+         if self.persons:
+             self.P = (self.persons[:2] + [n for n in self.owners if n not in self.persons])[:4]
+         else:
+-            self.P = self.owners[:3] + ([sit.subject] if sit.subject not in self.owners else [])
++            # Don't add sit.subject if it's a thing (not a person)
++            subj = sit.subject
++            if subj and sit.gender.get(subj) != "thing":
++                self.P = self.owners[:3] + ([subj] if subj not in self.owners else [])
++            else:
++                self.P = self.owners[:3]
++        # If there are counted things but no owners and no None owner, add None for ownerless statements
++        if self.nums and not self.owners and None not in self.P:
++            self.P = [None] + self.P
+         if None not in self.P and len(self.P) < 4 and \
+                 any(o is None and t in [n for n, _ in self.things] for o, t, _ in sit.cells):
+             self.P = self.P + [None]                   # 'how many days does she need?': and the apples lying there
+@@ -937,7 +948,7 @@ class Clause:
+         if holders and len(self.P) < 4:                # 'how many tables?': and what each table holds
+             self.P = self.P + holders[:4 - len(self.P)]
+         last_thing = next((p for p in reversed(sit.people) if sit.gender.get(p) == "thing"), None)
+-        if last_thing and last_thing not in self.P and len(self.P) < 4:
++        if last_thing and last_thing not in self.P and len(self.P) < 4 and self.nums:
+             self.P = self.P + [last_thing]                   # the thing just talked about ('pays with 50 dollars')
+         self.T = self.things[:3]
+         if sit.thing and sit.thing[0] not in [n for n, _ in self.T]:
+@@ -1868,6 +1879,12 @@ class Frames:
+             # nothing changed: 'now she has 21' when she has 21. It can't have DONE something to it, so explanations
+             # that use it ('twice 21 minus 21') are coincidences, not meanings
+             pairs += [f"{label}={e}" for e in exprs.get(v.c, []) if e != label and not (same and label in uses(e))]
++            # Stative sentences (no numbers, WORDLESS): allow learning "no change" frames
++            # e.g., "the birds are migrating" -> birds stay the same
++            if same and not clause.nums and self.WORDLESS:
++                # Allow "no change" frame for stative sentences: label = label
++                if label in atoms and atoms[label].c == v.c:
++                    pairs.append(f"{label}={label}")
+             if same:                                          # it says nothing new about now: maybe about the start
+                 f = after.read(*key, first=True)
+                 pairs += [f"F:{label}={e}" for e in exprs.get(f.c, []) if e != label and label not in uses(e)]
