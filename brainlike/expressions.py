@@ -28,7 +28,7 @@ _UNITARY = re.compile(r"^\(([A-Z][A-Za-z0-9.@:]*)/([A-Z][A-Za-z0-9.@:]*)\)\*([A-
 # then one more plain step with a third atom ('(l*w)*h' a volume, '(each*want)-give' three steps).
 # Inner and outer ops stay plain (+, -, *): no division (that is the unitary tool's, gated by 'u'),
 # no ruled ops (tools stay single). Generation is flag-gated; parsing is unconditional, like _UNITARY.
-_TWO_STEP = False
+_TWO_STEP = True
 _CHAINED = re.compile(r"^\(([A-Z][A-Za-z0-9.@:]*)([-+*])([A-Z][A-Za-z0-9.@:]*)\)([-+*])([A-Z][A-Za-z0-9.@:]*)$")
 
 

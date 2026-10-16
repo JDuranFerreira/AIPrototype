@@ -110,3 +110,25 @@ candidate carries c=0.8 which already passes the 0.7 gate.
 - **Costs stated:** none beyond `_KNOWN_NOUN`'s existing claim-precision
   discussion. `left` is also in `_NO_DELTA_Q` and `_NO_BEFORE_Q` so question
   readings ('how many are left?') are unaffected.
+
+## Landing 4: _TWO_STEP — re-landed
+
+From `results/multiop_campaign_2026-10-12.md`. `_TWO_STEP` lifts the single-op
+limit in `expressions()` — it builds chained two-step explanations like
+`(a*b)-c` (one plain pair worked out, then one more plain outer step with a
+third atom). `expressions.py`: `_TWO_STEP = True` + `_CHAINED` regex parse.
+Inner division excluded (unitary tool's `u` gate cannot be bypassed).
+Generation is flag-gated; parsing is unconditional. New file
+`brainlike/model.py` holds `Lin` and `fmt` (extracted from `storyreader.py`)
+so `expressions.py` can import them.
+
+- **Direct probes:** volume `(long*wide)*high` learned at high sureness;
+  chained expressions generated when 3+ base atoms present (len <= 12).
+- **Battery:** worlds P1–P6 96.7/91.2/89.5/89.8/88.9/87.4 — identical to the
+  `_LEFT_FIX` baseline, zero regression; ASDiv g1 38 right / 42 claims,
+  always answers 54 — unchanged; kg 384/400; recipes 5/5, 0/0/200;
+  `brain_state` byte-identical, compileall OK.
+- **Costs stated:** none measurable on the current taught state — the chained
+  code adds candidate expressions but the existing sureness/ranking picks the
+  same best reading. Volume and threestep kinds need teaching (S3 lessons)
+  before they pay off; the flag itself is a zero-cost enablement.
