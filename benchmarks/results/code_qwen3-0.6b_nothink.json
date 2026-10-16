@@ -1,0 +1,361 @@
+{
+ "model": "qwen3:0.6b",
+ "mode": "nothink",
+ "n": 44,
+ "right": 5,
+ "seconds_per_problem": 2.42,
+ "answers": [
+  {
+   "i": 0,
+   "task": "There are 253 people. Each car holds 5 people. How many cars do they need?",
+   "told": "51",
+   "got": "253, 5, 50.6, 51",
+   "right": false,
+   "seconds": 45.8
+  },
+  {
+   "i": 1,
+   "task": "There are 600 apples. There are 24 per basket. How many baskets are needed?",
+   "told": "25",
+   "got": "600, 24, 25, 25",
+   "right": false,
+   "seconds": 3.44
+  },
+  {
+   "i": 2,
+   "task": "48 pens shared between 8 friends: how many each?",
+   "told": "6",
+   "got": "48, 8, 6, 6",
+   "right": false,
+   "seconds": 5.73
+  },
+  {
+   "i": 3,
+   "task": "There are 8 boxes with 7 pencils in each. Ana gives away 9 pencils. How many pencils does Ana have?",
+   "told": "47",
+   "got": "8, 7, 56, 9, 56",
+   "right": false,
+   "seconds": 5.73
+  },
+  {
+   "i": 4,
+   "task": "sort 7, 2, 9, 4",
+   "told": "2, 4, 7, 9",
+   "got": "2, 4, 7, 9",
+   "right": true,
+   "seconds": 2.75
+  },
+  {
+   "i": 5,
+   "task": "count on from 5 to 9",
+   "told": "5, 6, 7, 8, 9",
+   "got": "5, 9, 5, 6, 7, 8, 9",
+   "right": false,
+   "seconds": 4.7
+  },
+  {
+   "i": 6,
+   "task": "2^6",
+   "told": "64",
+   "got": "2, 6, 64, 64",
+   "right": false,
+   "seconds": 12.11
+  },
+  {
+   "i": 7,
+   "task": "17 % 4",
+   "told": "1",
+   "got": "17, 4, 17, 4, 4.25, 4.25",
+   "right": false,
+   "seconds": 0.53
+  },
+  {
+   "i": 8,
+   "task": "plan: total = 9*7; total-5",
+   "told": "58",
+   "got": "9, 7",
+   "right": false,
+   "seconds": 0.21
+  },
+  {
+   "i": 9,
+   "task": "plan: n = 4; if n > 2 then n = n * 10 else n = n + 1",
+   "told": "40",
+   "got": "1, 4, 2, 2, 10, 3, 1, 4, 2, 1, 4, 5, 5",
+   "right": false,
+   "seconds": 1.11
+  },
+  {
+   "i": 10,
+   "task": "There are 8 boxes with 7 pencils in each. How many boxes are there?",
+   "told": "8",
+   "got": "8, 7, 8, 7, 1.142857, 1",
+   "right": false,
+   "seconds": 1.3
+  },
+  {
+   "i": 11,
+   "task": "There are 253 people. Each car holds 5 people. How many people are in one car?",
+   "told": "5",
+   "got": "253, 5, 50.6, 50.6",
+   "right": false,
+   "seconds": 0.65
+  },
+  {
+   "i": 12,
+   "task": "72 marbles shared between 8 friends. How many marbles are there?",
+   "told": "72",
+   "got": "72, 8, 72",
+   "right": false,
+   "seconds": 0.52
+  },
+  {
+   "i": 13,
+   "task": "5 pens cost 15 dollars. How many pens cost 15 dollars?",
+   "told": "5",
+   "got": "15, 5, 15, 15, 5",
+   "right": false,
+   "seconds": 0.54
+  },
+  {
+   "i": 14,
+   "task": "Each jar has 12 sandwiches. There are 72 jars. How many jars are there?",
+   "told": "72",
+   "got": "72, 72",
+   "right": false,
+   "seconds": 0.31
+  },
+  {
+   "i": 15,
+   "task": "There are 30 red pens and 42 blue pens. How many red pens are there?",
+   "told": "30",
+   "got": "30, 30",
+   "right": false,
+   "seconds": 0.26
+  },
+  {
+   "i": 16,
+   "task": "12 kids are going on a trip. 4 kids can sit in each bus. How many buses do they need?",
+   "told": "3",
+   "got": "12, 4, 3, 3",
+   "right": false,
+   "seconds": 0.59
+  },
+  {
+   "i": 17,
+   "task": "Ana has 12 pens. Raj has 3 times as many. How many pens does Raj have?",
+   "told": "36",
+   "got": "36",
+   "right": true,
+   "seconds": 0.16
+  },
+  {
+   "i": 18,
+   "task": "What is 10 percent of 250?",
+   "told": "25",
+   "got": "25",
+   "right": true,
+   "seconds": 0.19
+  },
+  {
+   "i": 19,
+   "task": "A box is 3 cm long, 4 cm wide and 2 cm high. How many cubic cm are inside?",
+   "told": "24",
+   "got": "3, 4, 2, 3, 4, 2, 24, 24",
+   "right": false,
+   "seconds": 1.03
+  },
+  {
+   "i": 20,
+   "task": "Ana scored 70 and then 90. What is Ana's average score?",
+   "told": "80",
+   "got": "70, 90, 2, 160, 2, 80, 80",
+   "right": false,
+   "seconds": 1.08
+  },
+  {
+   "i": 21,
+   "task": "Ana has 20 pears. Raj has 8 pears. How many more pears does Ana have?",
+   "told": "12",
+   "got": "20, 8, 20, 8, 12, 12",
+   "right": false,
+   "seconds": 1.06
+  },
+  {
+   "i": 22,
+   "task": "There are 12 boys and 15 girls in the class. How many children are there?",
+   "told": "27",
+   "got": "12, 15, 27, 27",
+   "right": false,
+   "seconds": 0.55
+  },
+  {
+   "i": 23,
+   "task": "3 tickets cost 21 dollars. How much do 7 tickets cost?",
+   "told": "49",
+   "got": "3, 21, 1, 21, 3, 7, 7, 7, 7, 49, 49",
+   "right": false,
+   "seconds": 5.03
+  },
+  {
+   "i": 24,
+   "task": "Mia destroys 5 robots. Each robot is worth 20 points. How many points does Mia score?",
+   "told": "100",
+   "got": "5, 20, 100, 100",
+   "right": false,
+   "seconds": 4.72
+  },
+  {
+   "i": 25,
+   "task": "There are 5 robots. Each robot is worth 20 points. How many robots are there?",
+   "told": "5",
+   "got": "5, 20, 20, 5",
+   "right": false,
+   "seconds": 0.93
+  },
+  {
+   "i": 26,
+   "task": "Ben has 80 hit points. He takes 25 damage. How many hit points are left?",
+   "told": "55",
+   "got": "80, 25, 80, 25, 55, 55",
+   "right": false,
+   "seconds": 0.55
+  },
+  {
+   "i": 27,
+   "task": "Ben has 80 hit points. He takes 25 damage. How much damage did he take?",
+   "told": "25",
+   "got": "80, 25, 25",
+   "right": false,
+   "seconds": 0.39
+  },
+  {
+   "i": 28,
+   "task": "Zoe is on square 7. She moves forward 6 squares. What square is she on now?",
+   "told": "13",
+   "got": "7, 6, 13",
+   "right": false,
+   "seconds": 0.24
+  },
+  {
+   "i": 29,
+   "task": "Sam is on level 4. He finishes the level. What level is he on next?",
+   "told": "5",
+   "got": "5",
+   "right": true,
+   "seconds": 0.16
+  },
+  {
+   "i": 30,
+   "task": "A studio sells 3 licenses at 40 dollars each. How many dollars does it make?",
+   "told": "120",
+   "got": "3, 40, 3, 40, 120, 120",
+   "right": false,
+   "seconds": 0.58
+  },
+  {
+   "i": 31,
+   "task": "A studio sells 3 licenses at 40 dollars each. How many licenses did it sell?",
+   "told": "3",
+   "got": "3, 40, 3, 3, 40, 120, 120",
+   "right": false,
+   "seconds": 0.65
+  },
+  {
+   "i": 32,
+   "task": "Leo collects 25 coins in each level. He finishes 4 levels. How many coins does he have?",
+   "told": "100",
+   "got": "25, 4, 25, 4, 100, 100",
+   "right": false,
+   "seconds": 0.69
+  },
+  {
+   "i": 33,
+   "task": "Leo collects 25 coins in each level. There are 4 levels. How many levels are there?",
+   "told": "4",
+   "got": "25, 4, 4",
+   "right": false,
+   "seconds": 0.44
+  },
+  {
+   "i": 34,
+   "task": "plan: energy = 90-20; if energy > 50 then energy-10 else energy+10",
+   "told": "60",
+   "got": "90, 10",
+   "right": false,
+   "seconds": 0.23
+  },
+  {
+   "i": 35,
+   "task": "plan: score = 0; for i from 1 to 3 do score = score+50",
+   "told": "150",
+   "got": "0",
+   "right": false,
+   "seconds": 0.14
+  },
+  {
+   "i": 36,
+   "task": "plan: health = 100-30; ammo = 5-2; if health > 0 and ammo > 0 then score = 10 else score = 0",
+   "told": "10",
+   "got": "10",
+   "right": true,
+   "seconds": 0.09
+  },
+  {
+   "i": 37,
+   "task": "plan: lives = 3-3; coins = 10-4; if lives > 0 or coins > 10 then prize = 1 else prize = 0",
+   "told": "0",
+   "got": "1",
+   "right": false,
+   "seconds": 0.15
+  },
+  {
+   "i": 38,
+   "task": "plan: total = 0; for i from 1 to 3 do total = total+10; if total > 20 and total < 40 then bonus = 5 else bonus = 0",
+   "told": "5",
+   "got": "10, 20",
+   "right": false,
+   "seconds": 0.22
+  },
+  {
+   "i": 39,
+   "task": "plan: gems = 2+2; if gems > 10 and gems < 20 then pouch = 1 else pouch = 2",
+   "told": "2",
+   "got": "1",
+   "right": false,
+   "seconds": 0.16
+  },
+  {
+   "i": 40,
+   "task": "plan: base = 100-10; ammo = 2+3; for i from 1 to 2 do base = base-20; if base > 0 and ammo > 0 then win = 1 else win = 0",
+   "told": "1",
+   "got": "0",
+   "right": false,
+   "seconds": 0.48
+  },
+  {
+   "i": 41,
+   "task": "plan: score = 0; for i from 1 to 4 do if score > 100 then score = score+5 else score = score+50",
+   "told": "155",
+   "got": "0",
+   "right": false,
+   "seconds": 0.17
+  },
+  {
+   "i": 42,
+   "task": "plan: gold = 200-30; gems = 2*5; if gold > 150 or gems > 20 then cost = gold-50 else cost = gold",
+   "told": "120",
+   "got": "150",
+   "right": false,
+   "seconds": 0.19
+  },
+  {
+   "i": 43,
+   "task": "plan: total = 0; for i from 1 to 4 do total = total+i; if total > 5 and total < 15 then rank = 1 else rank = 0",
+   "told": "1",
+   "got": "0",
+   "right": false,
+   "seconds": 0.09
+  }
+ ]
+}

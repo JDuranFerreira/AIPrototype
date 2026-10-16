@@ -74,6 +74,8 @@ VERBS = {
     "collect": ("collects", "collected", "+", None), "use": ("uses", "used", "-", None), "win": ("wins", "won", "+", None),
     "receive": ("receives", "received", "+", None), "throw away": ("throws away", "threw away", "-", None),
     "give away": ("gives away", "gave away", "-", None),
+    "fly": ("flies", "flew", "-", None),
+    "board": ("boards", "boarded", "+", None),
 }
 MONEY_VERBS = {"spend": ("spends", "spent", "-"), "earn": ("earns", "earned", "+"), "save": ("saves", "saved", "+"),
                "get": ("gets", "got", "+"), "lose": ("loses", "lost", "-"), "find": ("finds", "found", "+")}

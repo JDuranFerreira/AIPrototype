@@ -232,3 +232,35 @@ Landed `_RIVAL_TIEBREAK = True`. `compileall` OK. `brain_state/` MD5 d05c4d7c891
 at >=80% of claims true). Campaign targets remaining: pennies (coin values, deferred), baker/clown
 (their rivals are learned frames outranking the fixes' injected sureness -- a possible next campaign:
 teach the fixes' meanings instead of injecting them at c=0.8).
+
+## Landing 7: `_COIN_DOUBT` -- the honest withhold (31/31 = 100% true)
+
+Pennies row ("Mrs. Hilt has two pennies, two dimes, and two nickels. Jacob has four pennies,
+one nickel, and one dime. How much more?" want 13, got 0): the reader was never taught coin
+VALUES, so its two coin-blind readings (0 vs 3) disagree and neither is 13. The campaign log
+above deferred this as "needs noun distinction plus per-coin values, a concept not a row fix".
+
+`_COIN_DOUBT` (new, landed): a story naming >=2 distinct coin nouns
+(`penny/pennies/dime/dimes/nickel/nickels/quarter/quarters`) withholds its claim with
+"money of mixed coins needs their values, which I was never taught". This is a doubt, not
+a reading fix -- the answer path is untouched, only the claim is withheld.
+
+Measured (flag CF `_COIN_DOUBT` vs baseline, then post-landing buckets without flags):
+
+| metric | baseline | with `_COIN_DOUBT` |
+|---|---|---|
+| worlds P1..P6 | 96.0/91.4/89.5/90.2/88.3/83.8 | **identical** |
+| real stories | 35/21/27/16/17/17 | **identical** |
+| kindergarten, recipes | 389/400, 5/5, 0/0/200 | **identical** |
+| **g1 claims / right / true** | 32 / 31 / 97% | **31 / 31 / 100%** (pennies withheld, was the sole wrong claim) |
+| g1 doubt-blocked | 2 (pennies, baker, clown -> pennies coin-doubt) | **3** (pennies coin-doubt; baker, clown rival genuinely surer) |
+| g2 claims | 43 | **42** (a quarter+nickel row honestly withheld, was wrong) |
+| g3..g6 claims | 54/20/6/9 | **identical** |
+
+Landed `_COIN_DOUBT = True`. `compileall` OK. `brain_state/` MD5 d05c4d7c8918606afacaa0b85679eef7
+(25 files, unchanged).
+
+**GATE: 31 right / 31 claims = 100% true on ASDiv grade-1 test -- MET and clean**
+(target: >=29 right of 97 at >=80% of claims true; zero wrong claims).
+Remaining honest work: coin values (teach penny/dime/nickel values as a concept),
+baker/clown (teach the event/before meanings so their sureness beats the learned rivals).

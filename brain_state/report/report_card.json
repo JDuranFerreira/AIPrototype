@@ -538,470 +538,6 @@
    "history": []
   },
   {
-   "level": "code",
-   "subject": "code",
-   "about": "tools taught with worked examples (what is left over, a power, which is bigger, numbers in order, counting on), recipes that turn a sentence into a program, and programs run and checked step by step",
-   "round": 1,
-   "tools": {
-    "kept": 5,
-    "of": 5
-   },
-   "recipes": {
-    "kept": 13,
-    "of": 13
-   },
-   "used": {
-    "tasks": [
-     6,
-     6
-    ],
-    "programs": [
-     9,
-     24,
-     24
-    ]
-   },
-   "score": 0.9166666666666666,
-   "before": 0.9166666666666666,
-   "learned": [],
-   "learned_n": 0,
-   "grade": "AL1",
-   "predicted": 1.0,
-   "mastered": true,
-   "attempts": [
-    {
-     "exam": "code",
-     "score": 0.9166666666666666
-    }
-   ],
-   "strengths": [],
-   "work_on": [
-    "There are 253 people. Each car holds 5 people. How many people are in one car? (1 wrong)",
-    "5 pens cost 15 dollars. How many pens cost 15 dollars? (1 wrong)"
-   ],
-   "exam": {
-    "n": 24,
-    "right": 22,
-    "score": 0.9166666666666666,
-    "rows": [
-     {
-      "task": "There are 253 people. Each car holds 5 people. How many cars do they need?",
-      "answer": "51",
-      "got": "51",
-      "ok": true,
-      "checked": true,
-      "how": "253 divup 5"
-     },
-     {
-      "task": "There are 600 apples. There are 24 per basket. How many baskets are needed?",
-      "answer": "25",
-      "got": "25",
-      "ok": true,
-      "checked": true,
-      "how": "600 divup 24"
-     },
-     {
-      "task": "48 pens shared between 8 friends: how many each?",
-      "answer": "6",
-      "got": "6",
-      "ok": true,
-      "checked": true,
-      "how": "48 div 8"
-     },
-     {
-      "task": "There are 8 boxes with 7 pencils in each. Ana gives away 9 pencils. How many pencils does Ana have?",
-      "answer": "47",
-      "got": "47",
-      "ok": true,
-      "checked": true,
-      "how": "total = 8*7; left = total-9"
-     },
-     {
-      "task": "sort 7, 2, 9, 4",
-      "answer": "2, 4, 7, 9",
-      "got": "2, 4, 7, 9",
-      "ok": true,
-      "checked": true,
-      "how": "smallest left is 2; smallest left is 4; smallest left is 7; smallest left is 9; in order: 2, 4, 7, 9"
-     },
-     {
-      "task": "count on from 5 to 9",
-      "answer": "5, 6, 7, 8, 9",
-      "got": "5, 6, 7, 8, 9",
-      "ok": true,
-      "checked": true,
-      "how": "count on from 5 in 1s: 5, 6, 7, 8, 9; that ends at 9"
-     },
-     {
-      "task": "2^6",
-      "answer": "64",
-      "got": "64",
-      "ok": true,
-      "checked": true,
-      "how": "multiply by 2 again and again: 2 × 2 = 4, 2 × 2 = 4, 4 × 2 = 8, 8 × 2 = 16, 16 × 2 = 32, 32 × 2 = 64; 2 to the power 6 = 64"
-     },
-     {
-      "task": "17 % 4",
-      "answer": "1",
-      "got": "1",
-      "ok": true,
-      "checked": true,
-      "how": "count in 4s: 17, 13, 9, 5; 1 is less than 4; 17 − 4×4 = 1 left over"
-     },
-     {
-      "task": "plan: total = 9*7; total-5",
-      "answer": "58",
-      "got": "58",
-      "ok": true,
-      "checked": true,
-      "how": null
-     },
-     {
-      "task": "plan: n = 4; if n > 2 then n = n * 10 else n = n + 1",
-      "answer": "40",
-      "got": "40",
-      "ok": true,
-      "checked": true,
-      "how": null
-     },
-     {
-      "task": "There are 8 boxes with 7 pencils in each. How many boxes are there?",
-      "answer": "8",
-      "got": "8",
-      "ok": true,
-      "checked": false,
-      "how": "understood every sentence"
-     },
-     {
-      "task": "There are 253 people. Each car holds 5 people. How many people are in one car?",
-      "answer": "5",
-      "got": "1/5",
-      "ok": false,
-      "checked": false,
-      "how": "not sure: two ways of reading the question give 1/5 or 0; these words have led me wrong before: one"
-     },
-     {
-      "task": "72 marbles shared between 8 friends. How many marbles are there?",
-      "answer": "72",
-      "got": "72",
-      "ok": true,
-      "checked": false,
-      "how": "not sure: two ways of reading the question give 72 or 64; these words have led me wrong before: friends"
-     },
-     {
-      "task": "5 pens cost 15 dollars. How many pens cost 15 dollars?",
-      "answer": "5",
-      "got": "1/3",
-      "ok": false,
-      "checked": false,
-      "how": "not sure: two ways of reading the question give 1/3 or 0; these words have led me wrong before: cost"
-     },
-     {
-      "task": "Each jar has 12 sandwiches. There are 72 jars. How many jars are there?",
-      "answer": "72",
-      "got": "72",
-      "ok": true,
-      "checked": false,
-      "how": "not sure: two ways of reading the question give 72 or 12; these words have led me wrong before: jar"
-     },
-     {
-      "task": "There are 30 red pens and 42 blue pens. How many red pens are there?",
-      "answer": "30",
-      "got": "30",
-      "ok": true,
-      "checked": false,
-      "how": "not sure: these words have led me wrong before: blue, red"
-     },
-     {
-      "task": "12 kids are going on a trip. 4 kids can sit in each bus. How many buses do they need?",
-      "answer": "3",
-      "got": "3",
-      "ok": true,
-      "checked": true,
-      "how": "12 divup 4"
-     },
-     {
-      "task": "Ana has 12 pens. Raj has 3 times as many. How many pens does Raj have?",
-      "answer": "36",
-      "got": "36",
-      "ok": true,
-      "checked": true,
-      "how": "12*3"
-     },
-     {
-      "task": "What is 10 percent of 250?",
-      "answer": "25",
-      "got": "25",
-      "ok": true,
-      "checked": false,
-      "how": "250*10/100"
-     },
-     {
-      "task": "A box is 3 cm long, 4 cm wide and 2 cm high. How many cubic cm are inside?",
-      "answer": "24",
-      "got": "24",
-      "ok": true,
-      "checked": false,
-      "how": "3*4*2"
-     },
-     {
-      "task": "Ana scored 70 and then 90. What is Ana's average score?",
-      "answer": "80",
-      "got": "80",
-      "ok": true,
-      "checked": false,
-      "how": "(70+90)/2"
-     },
-     {
-      "task": "Ana has 20 pears. Raj has 8 pears. How many more pears does Ana have?",
-      "answer": "12",
-      "got": "12",
-      "ok": true,
-      "checked": true,
-      "how": "20-8"
-     },
-     {
-      "task": "There are 12 boys and 15 girls in the class. How many children are there?",
-      "answer": "27",
-      "got": "27",
-      "ok": true,
-      "checked": true,
-      "how": "12+15"
-     },
-     {
-      "task": "3 tickets cost 21 dollars. How much do 7 tickets cost?",
-      "answer": "49",
-      "got": "49",
-      "ok": true,
-      "checked": true,
-      "how": "each = 21 div 3; 7*each"
-     }
-    ]
-   },
-   "date": "2026-10-05",
-   "history": [
-    {
-     "round": 1,
-     "score": 1.0,
-     "grade": "AL1",
-     "outside": null,
-     "real": null,
-     "date": "2026-10-05"
-    },
-    {
-     "round": 1,
-     "score": 0.875,
-     "grade": "AL2",
-     "outside": null,
-     "real": null,
-     "date": "2026-10-05"
-    }
-   ]
-  },
-  {
-   "level": "P1",
-   "subject": "world",
-   "about": "numbers to 100 (number words); adding and taking away within 100; comparing (also told out of order); equal groups and sharing; money in cents; o'clock; length in cm; how many more are needed; a day / per day; taken out, removed, got off",
-   "readiness": 0.881,
-   "score": 0.893,
-   "grade": "AL2",
-   "predicted": 0.052,
-   "attempts": [
-    {
-     "exam": "A",
-     "score": 0.8857142857142857,
-     "predicted": 0.10952380952380952
-    },
-    {
-     "exam": "B",
-     "score": 0.8928571428571429,
-     "predicted": 0.05238095238095238
-    }
-   ],
-   "mastered": false,
-   "strengths": [
-    "compare",
-    "days",
-    "colours",
-    "unknown",
-    "half",
-    "groups",
-    "share",
-    "cents",
-    "length",
-    "before",
-    "parts",
-    "difference",
-    "need",
-    "rate",
-    "removed"
-   ],
-   "work_on": [
-    "change (12/20)",
-    "transfer (12/20)",
-    "each (13/20)",
-    "money (12/20)",
-    "clock (10/20)",
-    "place (16/20)"
-   ],
-   "mistakes": [
-    "Raj has 9 pears. He picks another 3 pears. Then he gets 6 more pears. How many pears does Raj have now? -> 6 (right: 18; not sure: these words have led me wrong before: another, raj)",
-    "It was a cold morning. Leo has a jar of 20 flowers. Leo receives another 1 flowers. Then Leo gets 9 more flowers. How many flowers does Leo have left? -> 9 (right: 30; not sure: these words have led me wrong before: another, cold, jar)",
-    "Ben has 6 dolls. He receives another 2 dolls. How many dolls does he have left? -> 2 (right: 8; not sure: these words have led me wrong before: another, ben)",
-    "Kim has a jar of 5 apples. She wins 9 apples. How many apples does Kim have left? -> 9 (right: 14; not sure: these words have led me wrong before: jar, kim, wins)",
-    "Ali has a bowl of 17 grapes. He makes 7 grapes. How many grapes does he have left? -> 7 (right: 24; understood every sentence)",
-    "Ema had a bag of 20 leaves. Ema made another 3 leaves. How many leaves does Ema have now? -> 3 (right: 23; not sure: these words have led me wrong before: another, ema)",
-    "Tom has 18 puzzles. Tom uses 16 puzzles. Then he wins 5 more. How many puzzles does Tom have now? -> 5 (right: 7; guessed: only guessed 'then he wins 5 more')",
-    "Ali has 14 peaches. Ali gets 3 peaches. Then Ali makes 9 more peaches. How many peaches does Ali have now? -> 9 (right: 26; understood every sentence)",
-    "Raj had 19 apples. Lily had 14 apples. Raj took 4 apples from Lily. How many apples does Raj have now? -> 19 (right: 23; not sure: these words have led me wrong before: lily, raj)",
-    "Kim had 17 sandwiches and Ali had 6 sandwiches. Kim gave 2 of her sandwiches to Ali. How many sandwiches does Ali have now? -> 6 (right: 8; not sure: these words have led me wrong before: gave, kim)",
-    "Ana has 9 books and Ben has 9 books. Ana takes 8 books from Ben. How many books does Ana have now? -> 9 (right: 17; not sure: these words have led me wrong before: ana, ben, books)",
-    "Ana has 7 dolls and Ben has 6 dolls. Ana takes 2 dolls from Ben. How many dolls does Ana have now? -> 7 (right: 9; not sure: these words have led me wrong before: ana, ben, takes)",
-    "It was a cold morning. Kim has 9 marbles. Leo has 11 marbles. Kim takes 6 marbles from Leo. How many marbles does Kim have now? -> 9 (right: 15; not sure: these words have led me wrong before: cold, kim, leo)",
-    "Ema has 6 candies. Sam has 7 candies. Ema gives Sam 3 candies. How many candies does Sam have now? -> 7 (right: 10; not sure: these words have led me wrong before: ema, gives, sam)",
-    "It was a sunny day. Ben has 13 cups. Mia has 18 cups. Ben gives Mia 9 cups. How many cups does Mia have now? -> 18 (right: 27; not sure: these words have led me wrong before: ben, day, gives)",
-    "Mia has 17 cups. Leo has 3 cups. Mia takes 2 cups from Leo. How many cups does Mia have now? -> 17 (right: 19; not sure: these words have led me wrong before: leo, mia, takes)",
-    "Zoe has 9 bags. There are 4 balloons in each bag. She uses 3 balloons. How many balloons does Zoe have now? -> 3 (right: 33; guessed: only guessed 'how many balloon does zoe have now')",
-    "Zoe has 4 jars. Each jar has 8 mangos. Zoe loses 6 mangos. How many mangos are left? -> 6 (right: 26; guessed: only guessed 'how many mango are left')",
-    "Tom had 8 jars. There were 8 mangos in each jar. He gave away 4 mangos. How many mangos does Tom have now? -> 4 (right: 60; guessed: only guessed 'how many mango does tom have now')",
-    "It was a cold morning. Ali had 6 boxes. Each box had 5 bottles. He lost 23 bottles. How many bottles does Ali have now? -> 23 (right: 7; guessed: only guessed 'how many bottle does ali have now')"
-   ],
-   "date": "2026-10-06",
-   "outside": {
-    "grade": 1,
-    "split": "test",
-    "n": 97,
-    "understood": 2,
-    "right": 2,
-    "guess_right": 19
-   },
-   "outside_before": {
-    "n": 97,
-    "understood": 7,
-    "right": 4,
-    "guess_right": 18
-   },
-   "round": 6,
-   "real": {
-    "n": 60,
-    "understood": 9,
-    "right": 7,
-    "guess_right": 38
-   },
-   "real_before": {
-    "n": 60,
-    "understood": 12,
-    "right": 10,
-    "guess_right": 37
-   },
-   "real_lessons": {
-    "real stories": 200,
-    "right first time": 92,
-    "learned from": 34,
-    "pool": 287,
-    "words to ask": []
-   },
-   "words_to_learn": [],
-   "rules": [],
-   "history": [
-    {
-     "round": null,
-     "score": 0.981,
-     "grade": "AL1",
-     "outside": {
-      "grade": 1,
-      "split": "test",
-      "n": 97,
-      "understood": 24,
-      "right": 12,
-      "guess_right": 34
-     },
-     "real": null,
-     "date": "2026-10-01"
-    },
-    {
-     "round": 2,
-     "score": 0.994,
-     "grade": "AL1",
-     "outside": {
-      "grade": 1,
-      "split": "test",
-      "n": 97,
-      "understood": 28,
-      "right": 14,
-      "guess_right": 31
-     },
-     "real": {
-      "n": 60,
-      "understood": 17,
-      "right": 8,
-      "guess_right": 16
-     },
-     "date": "2026-10-01"
-    },
-    {
-     "round": 3,
-     "score": 0.957,
-     "grade": "AL1",
-     "outside": {
-      "grade": 1,
-      "split": "test",
-      "n": 97,
-      "understood": 31,
-      "right": 14,
-      "guess_right": 26
-     },
-     "real": {
-      "n": 60,
-      "understood": 32,
-      "right": 20,
-      "guess_right": 27
-     },
-     "date": "2026-10-02"
-    },
-    {
-     "round": 4,
-     "score": 0.988,
-     "grade": "AL1",
-     "outside": {
-      "grade": 1,
-      "split": "test",
-      "n": 97,
-      "understood": 39,
-      "right": 17,
-      "guess_right": 27
-     },
-     "real": {
-      "n": 60,
-      "understood": 43,
-      "right": 32,
-      "guess_right": 34
-     },
-     "date": "2026-10-04"
-    },
-    {
-     "round": 5,
-     "score": 0.91,
-     "grade": "AL1",
-     "outside": {
-      "grade": 1,
-      "split": "test",
-      "n": 97,
-      "understood": 6,
-      "right": 3,
-      "guess_right": 18
-     },
-     "real": {
-      "n": 60,
-      "understood": 16,
-      "right": 14,
-      "guess_right": 39
-     },
-     "date": "2026-10-06"
-    }
-   ]
-  },
-  {
    "level": "P2",
    "subject": "world",
    "about": "numbers to 1000; everything in P1 with bigger numbers; times tables and prices; fractions of a whole; dollars and change; mass and volume; two steps",
@@ -1861,6 +1397,724 @@
       "guess_right": 19
      },
      "date": "2026-10-02"
+    }
+   ]
+  },
+  {
+   "level": "S3",
+   "subject": "world",
+   "about": "secondary 3: percent discounts; squares in new stories; twice and half as many; N times as many",
+   "readiness": 0.72,
+   "score": 0.763,
+   "grade": "AL4",
+   "predicted": 0.832,
+   "attempts": [
+    {
+     "exam": "A",
+     "score": 0.7397959183673469,
+     "predicted": 0.8306122448979592
+    },
+    {
+     "exam": "B",
+     "score": 0.763265306122449,
+     "predicted": 0.8316326530612245
+    }
+   ],
+   "mastered": false,
+   "strengths": [
+    "change",
+    "transfer",
+    "compare",
+    "each",
+    "days",
+    "colours",
+    "half",
+    "groups",
+    "share",
+    "cents",
+    "before",
+    "place",
+    "parts",
+    "difference",
+    "need",
+    "rate",
+    "removed",
+    "fraction",
+    "price",
+    "afford",
+    "twostep",
+    "percent",
+    "common",
+    "meet",
+    "average",
+    "discount",
+    "powerstory",
+    "manytimes"
+   ],
+   "work_on": [
+    "unknown (17/20)",
+    "money (19/20)",
+    "clock (9/20)",
+    "length (16/20)",
+    "pay (1/20)",
+    "mass (7/20)",
+    "leftover (16/20)",
+    "needed (18/20)",
+    "lastday (8/20)",
+    "convert (0/20)",
+    "square (15/20)",
+    "speed (8/20)",
+    "negative (10/20)",
+    "equation (14/20)",
+    "proportion (0/20)",
+    "circle (14/20)",
+    "ratio (0/20)",
+    "interest (0/20)",
+    "volume (0/20)",
+    "threestep (0/20)",
+    "twicehalf (16/20)"
+   ],
+   "mistakes": [
+    "Ali got 2 apples. He had 20 apples initially. How many apples does Ali have left? -> 20 (right: 22; understood every sentence)",
+    "Ben got 9 shells. If he had 13 shells at the start, how many shells does he have now? -> 13 (right: 22; understood every sentence)",
+    "Ana found 7 sandwiches that day. She had 14 sandwiches at the start. How many sandwiches does Ana have left? -> 14 (right: 21; understood every sentence)",
+    "Sam has $20 in his wallet. He gets $1. How much money does he still have? -> 1 (right: 21; understood every sentence)",
+    "The game starts at 8 o'clock. It ends at 10 o'clock. How many hours does the game last? -> None (right: 2; didn't understand the question)",
+    "The film starts at 1 o'clock. It ends at 4 o'clock. How many hours does the film last? -> None (right: 3; didn't understand the question)",
+    "The show starts at 2 o'clock. The show ends at 5 o'clock. How many hours does the show last? -> None (right: 3; didn't understand the question)",
+    "The film starts at 1 o'clock. It ends at 2 o'clock. How many hours does the film last? -> None (right: 1; didn't understand the question)",
+    "The game starts at 1 o'clock. It lasts 3 hours. At what o'clock does the game end? -> 1 (right: 4; guessed: only guessed 'it lasts 3 hour')",
+    "The race starts at 5 o'clock. It lasts 1 hours. At what o'clock does the race end? -> 0 (right: 6; guessed: only guessed 'it lasts 1 hour')",
+    "The race starts at 7 o'clock. It ends at 9 o'clock. How many hours does the race last? -> None (right: 2; didn't understand the question)",
+    "The race starts at 4 o'clock. It lasts 1 hours. At what o'clock does it end? -> 0 (right: 5; guessed: only guessed 'it lasts 1 hour')",
+    "The show starts at 2 o'clock. It ends at 6 o'clock. How many hours does the show last? -> None (right: 4; didn't understand the question)",
+    "The film starts at 2 o'clock. It lasts 1 hours. At what o'clock does the film end? -> 0 (right: 3; guessed: only guessed 'it lasts 1 hour')",
+    "The game starts at 2 o'clock. It lasts 3 hours. At what o'clock does it end? -> 2 (right: 5; guessed: only guessed 'it lasts 3 hour')",
+    "It was a cold morning. The ruler is 8 cm long. The stick is 29 cm long. How long are the ruler and the stick together? -> 21 (right: 37; guessed: only guessed 'how long are the ruler and the stick together')",
+    "It was a rainy day. The ruler is 8 cm long. The ribbon is 36 cm long. How much longer is the ribbon than the ruler? -> 36 (right: 28; guessed: only guessed 'how much longer is the ribbon than the ruler')",
+    "It was a sunny day. The crayon is 28 cm long. The pencil is 18 cm long. How long are the crayon and the pencil together? -> 10 (right: 46; guessed: only guessed 'how long are the crayon and the pencil together')",
+    "It was a sunny day. The scarf is 9 cm long. The crayon is 42 cm long. How long are the scarf and the crayon together? -> 33 (right: 51; guessed: only guessed 'how long are the scarf and the crayon together')",
+    "It was a sunny day. A peach costs 13 dollars. Tom paid with 50 dollars. How much change does he get? -> 37/13 (right: 37; guessed: only guessed 'how much change does he get')"
+   ],
+   "date": "2026-10-10",
+   "outside": {
+    "grade": "gsm8k",
+    "split": "test",
+    "n": 659,
+    "understood": 46,
+    "right": 1,
+    "guess_right": 5
+   },
+   "outside_before": {
+    "n": 659,
+    "understood": 49,
+    "right": 1,
+    "guess_right": 4
+   },
+   "round": 1,
+   "real": {
+    "n": 60,
+    "understood": 21,
+    "right": 17,
+    "guess_right": 20
+   },
+   "real_before": {
+    "n": 60,
+    "understood": 23,
+    "right": 17,
+    "guess_right": 19
+   },
+   "real_lessons": {
+    "real stories": 600,
+    "right first time": 235,
+    "learned from": 145,
+    "pool": 632,
+    "words to ask": []
+   },
+   "words_to_learn": [],
+   "rules": [],
+   "history": []
+  },
+  {
+   "level": "code",
+   "subject": "code",
+   "about": "tools taught with worked examples (what is left over, a power, which is bigger, numbers in order, counting on), recipes that turn a sentence into a program, and programs run and checked step by step",
+   "round": 1,
+   "tools": {
+    "kept": 5,
+    "of": 5
+   },
+   "recipes": {
+    "kept": 19,
+    "of": 19
+   },
+   "used": {
+    "tasks": [
+     6,
+     6
+    ],
+    "programs": [
+     13,
+     35,
+     35
+    ]
+   },
+   "score": 1.0,
+   "before": 0.8611111111111112,
+   "learned": [
+    "Mia destroys 5 robots. Each robot is worth 20 points. How many points does Mia score?",
+    "Ben has 80 hit points. He takes 25 damage. How many hit points are left?",
+    "Sam is on level 4. He finishes the level. What level is he on next?",
+    "A studio sells 3 licenses at 40 dollars each. How many dollars does it make?",
+    "Leo collects 25 coins in each level. He finishes 4 levels. How many coins does he have?"
+   ],
+   "learned_n": 5,
+   "grade": "AL1",
+   "predicted": 1.0,
+   "mastered": true,
+   "attempts": [
+    {
+     "exam": "code",
+     "score": 1.0
+    }
+   ],
+   "strengths": [],
+   "work_on": [],
+   "exam": {
+    "n": 36,
+    "right": 36,
+    "score": 1.0,
+    "rows": [
+     {
+      "task": "There are 253 people. Each car holds 5 people. How many cars do they need?",
+      "answer": "51",
+      "got": "51",
+      "ok": true,
+      "checked": true,
+      "how": "253 divup 5"
+     },
+     {
+      "task": "There are 600 apples. There are 24 per basket. How many baskets are needed?",
+      "answer": "25",
+      "got": "25",
+      "ok": true,
+      "checked": true,
+      "how": "600 divup 24"
+     },
+     {
+      "task": "48 pens shared between 8 friends: how many each?",
+      "answer": "6",
+      "got": "6",
+      "ok": true,
+      "checked": true,
+      "how": "48 div 8"
+     },
+     {
+      "task": "There are 8 boxes with 7 pencils in each. Ana gives away 9 pencils. How many pencils does Ana have?",
+      "answer": "47",
+      "got": "47",
+      "ok": true,
+      "checked": true,
+      "how": "total = 8*7; left = total-9"
+     },
+     {
+      "task": "sort 7, 2, 9, 4",
+      "answer": "2, 4, 7, 9",
+      "got": "2, 4, 7, 9",
+      "ok": true,
+      "checked": true,
+      "how": "smallest left is 2; smallest left is 4; smallest left is 7; smallest left is 9; in order: 2, 4, 7, 9"
+     },
+     {
+      "task": "count on from 5 to 9",
+      "answer": "5, 6, 7, 8, 9",
+      "got": "5, 6, 7, 8, 9",
+      "ok": true,
+      "checked": true,
+      "how": "count on from 5 in 1s: 5, 6, 7, 8, 9; that ends at 9"
+     },
+     {
+      "task": "2^6",
+      "answer": "64",
+      "got": "64",
+      "ok": true,
+      "checked": true,
+      "how": "multiply by 2 again and again: 2 × 2 = 4, 2 × 2 = 4, 4 × 2 = 8, 8 × 2 = 16, 16 × 2 = 32, 32 × 2 = 64; 2 to the power 6 = 64"
+     },
+     {
+      "task": "17 % 4",
+      "answer": "1",
+      "got": "1",
+      "ok": true,
+      "checked": true,
+      "how": "count in 4s: 17, 13, 9, 5; 1 is less than 4; 17 − 4×4 = 1 left over"
+     },
+     {
+      "task": "plan: total = 9*7; total-5",
+      "answer": "58",
+      "got": "58",
+      "ok": true,
+      "checked": true,
+      "how": null
+     },
+     {
+      "task": "plan: n = 4; if n > 2 then n = n * 10 else n = n + 1",
+      "answer": "40",
+      "got": "40",
+      "ok": true,
+      "checked": true,
+      "how": null
+     },
+     {
+      "task": "There are 8 boxes with 7 pencils in each. How many boxes are there?",
+      "answer": "8",
+      "got": "8",
+      "ok": true,
+      "checked": false,
+      "how": "guessed: only guessed 'there are 8 box with 7 pencil in each'"
+     },
+     {
+      "task": "There are 253 people. Each car holds 5 people. How many people are in one car?",
+      "answer": "5",
+      "got": "5",
+      "ok": true,
+      "checked": false,
+      "how": "understood every sentence"
+     },
+     {
+      "task": "72 marbles shared between 8 friends. How many marbles are there?",
+      "answer": "72",
+      "got": "72",
+      "ok": true,
+      "checked": false,
+      "how": "understood every sentence"
+     },
+     {
+      "task": "5 pens cost 15 dollars. How many pens cost 15 dollars?",
+      "answer": "5",
+      "got": "5",
+      "ok": true,
+      "checked": false,
+      "how": "guessed: only guessed 'how many pen cost 15 dollar'"
+     },
+     {
+      "task": "Each jar has 12 sandwiches. There are 72 jars. How many jars are there?",
+      "answer": "72",
+      "got": "72",
+      "ok": true,
+      "checked": false,
+      "how": "understood every sentence"
+     },
+     {
+      "task": "There are 30 red pens and 42 blue pens. How many red pens are there?",
+      "answer": "30",
+      "got": "30",
+      "ok": true,
+      "checked": false,
+      "how": "understood every sentence"
+     },
+     {
+      "task": "12 kids are going on a trip. 4 kids can sit in each bus. How many buses do they need?",
+      "answer": "3",
+      "got": "3",
+      "ok": true,
+      "checked": true,
+      "how": "12 divup 4"
+     },
+     {
+      "task": "Ana has 12 pens. Raj has 3 times as many. How many pens does Raj have?",
+      "answer": "36",
+      "got": "36",
+      "ok": true,
+      "checked": true,
+      "how": "12*3"
+     },
+     {
+      "task": "What is 10 percent of 250?",
+      "answer": "25",
+      "got": "25",
+      "ok": true,
+      "checked": false,
+      "how": "250*10/100"
+     },
+     {
+      "task": "A box is 3 cm long, 4 cm wide and 2 cm high. How many cubic cm are inside?",
+      "answer": "24",
+      "got": "24",
+      "ok": true,
+      "checked": false,
+      "how": "3*4*2"
+     },
+     {
+      "task": "Ana scored 70 and then 90. What is Ana's average score?",
+      "answer": "80",
+      "got": "80",
+      "ok": true,
+      "checked": false,
+      "how": "(70+90)/2"
+     },
+     {
+      "task": "Ana has 20 pears. Raj has 8 pears. How many more pears does Ana have?",
+      "answer": "12",
+      "got": "12",
+      "ok": true,
+      "checked": true,
+      "how": "20-8"
+     },
+     {
+      "task": "There are 12 boys and 15 girls in the class. How many children are there?",
+      "answer": "27",
+      "got": "27",
+      "ok": true,
+      "checked": true,
+      "how": "12+15"
+     },
+     {
+      "task": "3 tickets cost 21 dollars. How much do 7 tickets cost?",
+      "answer": "49",
+      "got": "49",
+      "ok": true,
+      "checked": true,
+      "how": "each = 21 div 3; 7*each"
+     },
+     {
+      "task": "Mia destroys 5 robots. Each robot is worth 20 points. How many points does Mia score?",
+      "answer": "100",
+      "got": "100",
+      "ok": true,
+      "checked": true,
+      "how": "5*20"
+     },
+     {
+      "task": "There are 5 robots. Each robot is worth 20 points. How many robots are there?",
+      "answer": "5",
+      "got": "5",
+      "ok": true,
+      "checked": false,
+      "how": "understood every sentence"
+     },
+     {
+      "task": "Ben has 80 hit points. He takes 25 damage. How many hit points are left?",
+      "answer": "55",
+      "got": "55",
+      "ok": true,
+      "checked": true,
+      "how": "80-25"
+     },
+     {
+      "task": "Ben has 80 hit points. He takes 25 damage. How much damage did he take?",
+      "answer": "25",
+      "got": "25",
+      "ok": true,
+      "checked": false,
+      "how": "guessed: only guessed 'how much damage did he take'"
+     },
+     {
+      "task": "Zoe is on square 7. She moves forward 6 squares. What square is she on now?",
+      "answer": "13",
+      "got": "13",
+      "ok": true,
+      "checked": true,
+      "how": "7+6"
+     },
+     {
+      "task": "Sam is on level 4. He finishes the level. What level is he on next?",
+      "answer": "5",
+      "got": "5",
+      "ok": true,
+      "checked": true,
+      "how": "4+1"
+     },
+     {
+      "task": "A studio sells 3 licenses at 40 dollars each. How many dollars does it make?",
+      "answer": "120",
+      "got": "120",
+      "ok": true,
+      "checked": true,
+      "how": "3*40"
+     },
+     {
+      "task": "A studio sells 3 licenses at 40 dollars each. How many licenses did it sell?",
+      "answer": "3",
+      "got": "3",
+      "ok": true,
+      "checked": false,
+      "how": "understood every sentence"
+     },
+     {
+      "task": "Leo collects 25 coins in each level. He finishes 4 levels. How many coins does he have?",
+      "answer": "100",
+      "got": "100",
+      "ok": true,
+      "checked": true,
+      "how": "25*4"
+     },
+     {
+      "task": "Leo collects 25 coins in each level. There are 4 levels. How many levels are there?",
+      "answer": "4",
+      "got": "4",
+      "ok": true,
+      "checked": false,
+      "how": "understood every sentence"
+     },
+     {
+      "task": "plan: energy = 90-20; if energy > 50 then energy-10 else energy+10",
+      "answer": "60",
+      "got": "60",
+      "ok": true,
+      "checked": true,
+      "how": null
+     },
+     {
+      "task": "plan: score = 0; for i from 1 to 3 do score = score+50",
+      "answer": "150",
+      "got": "150",
+      "ok": true,
+      "checked": true,
+      "how": null
+     }
+    ]
+   },
+   "date": "2026-10-10",
+   "history": [
+    {
+     "round": 1,
+     "score": 1.0,
+     "grade": "AL1",
+     "outside": null,
+     "real": null,
+     "date": "2026-10-05"
+    },
+    {
+     "round": 1,
+     "score": 0.875,
+     "grade": "AL2",
+     "outside": null,
+     "real": null,
+     "date": "2026-10-05"
+    },
+    {
+     "round": 1,
+     "score": 0.9166666666666666,
+     "grade": "AL1",
+     "outside": null,
+     "real": null,
+     "date": "2026-10-05"
+    }
+   ]
+  },
+  {
+   "level": "P1",
+   "subject": "world",
+   "about": "numbers to 100 (number words); adding and taking away within 100; comparing (also told out of order); equal groups and sharing; money in cents; o'clock; length in cm; how many more are needed; a day / per day; taken out, removed, got off",
+   "readiness": 0.957,
+   "score": 0.96,
+   "grade": "AL1",
+   "predicted": 0.967,
+   "attempts": [
+    {
+     "exam": "A",
+     "score": 0.9595238095238096,
+     "predicted": 0.9666666666666667
+    }
+   ],
+   "mastered": true,
+   "strengths": [
+    "change",
+    "transfer",
+    "compare",
+    "each",
+    "days",
+    "colours",
+    "half",
+    "groups",
+    "share",
+    "cents",
+    "length",
+    "before",
+    "place",
+    "parts",
+    "difference",
+    "need",
+    "rate",
+    "removed"
+   ],
+   "work_on": [
+    "unknown (17/20)",
+    "money (18/20)",
+    "clock (8/20)"
+   ],
+   "mistakes": [
+    "Zoe had some cards. She got 2 cards in the garden. She has 7 cards left. How many cards did Zoe have initially? -> 2 (right: 5; understood every sentence)",
+    "Ali bought 1 sandwiches. He had 18 sandwiches at the start. How many sandwiches does Ali have now? -> 18 (right: 19; understood every sentence)",
+    "Mia had some stamps. She got 7 stamps. In the end she has 15 stamps. How many stamps did Mia have in the beginning? -> 7 (right: 8; understood every sentence)",
+    "Sam has $33. Zoe gives him $7. How much money is left? -> 33 (right: 40; understood every sentence)",
+    "Ema has $29. Ema spends $21 on a balloon. Ema gets $12. How much money is left? -> 12 (right: 20; understood every sentence)",
+    "The race starts at 4 o'clock. It lasts 3 hours. At what o'clock does the race end? -> 1 (right: 7; guessed: only guessed 'it lasts 3 hour')",
+    "It was a rainy day. The show starts at 8 o'clock. The show ends at 12 o'clock. How many hours does the show last? -> 3/2 (right: 4; guessed: only guessed 'how many hour does the show last')",
+    "The party starts at 5 o'clock. It ends at 6 o'clock. How many hours does the party last? -> 6/5 (right: 1; guessed: only guessed 'how many hour does the party last')",
+    "The film starts at 6 o'clock. It lasts 3 hours. At what o'clock does the film end? -> 0 (right: 9; guessed: only guessed 'it lasts 3 hour')",
+    "The film starts at 5 o'clock. It lasts 4 hours. At what o'clock does it end? -> 1 (right: 9; guessed: only guessed 'it lasts 4 hour')",
+    "The race starts at 3 o'clock. It ends at 6 o'clock. How many hours does the race last? -> 2 (right: 3; guessed: only guessed 'how many hour does the race last')",
+    "The game starts at 1 o'clock. The game ends at 3 o'clock. How many hours does the game last? -> 3 (right: 2; guessed: only guessed 'how many hour does the game last')",
+    "The lesson starts at 4 o'clock. It lasts 3 hours. At what o'clock does it end? -> 1 (right: 7; guessed: only guessed 'it lasts 3 hour')",
+    "It was a rainy day. The game starts at 5 o'clock. It lasts 2 hours. At what o'clock does it end? -> 1 (right: 7; guessed: only guessed 'it lasts 2 hour')",
+    "The lesson starts at 6 o'clock. It lasts 3 hours. At what o'clock does it end? -> 0 (right: 9; guessed: only guessed 'it lasts 3 hour')",
+    "The show starts at 7 o'clock. The show ends at 9 o'clock. How many hours does the show last? -> 9/7 (right: 2; guessed: only guessed 'how many hour does the show last')",
+    "The film starts at 1 o'clock. It lasts 1 hours. At what o'clock does it end? -> 0 (right: 2; guessed: only guessed 'it lasts 1 hour')"
+   ],
+   "date": "2026-10-10",
+   "outside": {
+    "grade": 1,
+    "split": "test",
+    "n": 97,
+    "understood": 29,
+    "right": 29,
+    "guess_right": 49
+   },
+   "outside_before": {
+    "n": 97,
+    "understood": 31,
+    "right": 30,
+    "guess_right": 46
+   },
+   "round": 7,
+   "real": {
+    "n": 60,
+    "understood": 41,
+    "right": 35,
+    "guess_right": 35
+   },
+   "real_before": {
+    "n": 60,
+    "understood": 41,
+    "right": 35,
+    "guess_right": 35
+   },
+   "real_lessons": {
+    "real stories": 200,
+    "right first time": 104,
+    "learned from": 39,
+    "pool": 287,
+    "words to ask": []
+   },
+   "words_to_learn": [],
+   "rules": [],
+   "history": [
+    {
+     "round": null,
+     "score": 0.981,
+     "grade": "AL1",
+     "outside": {
+      "grade": 1,
+      "split": "test",
+      "n": 97,
+      "understood": 24,
+      "right": 12,
+      "guess_right": 34
+     },
+     "real": null,
+     "date": "2026-10-01"
+    },
+    {
+     "round": 2,
+     "score": 0.994,
+     "grade": "AL1",
+     "outside": {
+      "grade": 1,
+      "split": "test",
+      "n": 97,
+      "understood": 28,
+      "right": 14,
+      "guess_right": 31
+     },
+     "real": {
+      "n": 60,
+      "understood": 17,
+      "right": 8,
+      "guess_right": 16
+     },
+     "date": "2026-10-01"
+    },
+    {
+     "round": 3,
+     "score": 0.957,
+     "grade": "AL1",
+     "outside": {
+      "grade": 1,
+      "split": "test",
+      "n": 97,
+      "understood": 31,
+      "right": 14,
+      "guess_right": 26
+     },
+     "real": {
+      "n": 60,
+      "understood": 32,
+      "right": 20,
+      "guess_right": 27
+     },
+     "date": "2026-10-02"
+    },
+    {
+     "round": 4,
+     "score": 0.988,
+     "grade": "AL1",
+     "outside": {
+      "grade": 1,
+      "split": "test",
+      "n": 97,
+      "understood": 39,
+      "right": 17,
+      "guess_right": 27
+     },
+     "real": {
+      "n": 60,
+      "understood": 43,
+      "right": 32,
+      "guess_right": 34
+     },
+     "date": "2026-10-04"
+    },
+    {
+     "round": 5,
+     "score": 0.91,
+     "grade": "AL1",
+     "outside": {
+      "grade": 1,
+      "split": "test",
+      "n": 97,
+      "understood": 6,
+      "right": 3,
+      "guess_right": 18
+     },
+     "real": {
+      "n": 60,
+      "understood": 16,
+      "right": 14,
+      "guess_right": 39
+     },
+     "date": "2026-10-06"
+    },
+    {
+     "round": 6,
+     "score": 0.893,
+     "grade": "AL2",
+     "outside": {
+      "grade": 1,
+      "split": "test",
+      "n": 97,
+      "understood": 2,
+      "right": 2,
+      "guess_right": 19
+     },
+     "real": {
+      "n": 60,
+      "understood": 9,
+      "right": 7,
+      "guess_right": 38
+     },
+     "date": "2026-10-06"
     }
    ]
   }

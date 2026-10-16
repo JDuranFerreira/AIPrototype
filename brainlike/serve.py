@@ -696,6 +696,14 @@ def handle(mind, cmd):
                 "note": "Normal: it answers like a person and learns nothing from the chat."
                         if mode == "normal" else
                         "Training: every story with its answer teaches it, and it asks you to check its work."}
+    # Small talk: greetings and phatic questions, answered, never learned from
+    from .smalltalk import reply as smalltalk_reply
+    problem = cmd.get("problem")
+    if problem:
+        smalltalk = smalltalk_reply(problem)
+        if smalltalk is not None:
+            return {"problem": problem, "source": "smalltalk", "region": "smalltalk",
+                    "answer": smalltalk, "how": "greeting"}
     kindergarten = handle_kindergarten(mind, action, cmd)
     if kindergarten is not None:
         return kindergarten

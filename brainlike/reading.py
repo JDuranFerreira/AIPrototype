@@ -362,6 +362,7 @@ class Reading:
     # ---- meanings the teacher gives --------------------------------------------------------------------
     KINDS_SAID = {"colour": "colour", "color": "colour", "size": "size", "day": "day", "time of day": "time",
                   "thing": "thing", "animal": "thing", "toy": "thing", "fruit": "thing", "food": "thing",
+                  "direction": "direction",
                   "boy's name": "person:boy", "girl's name": "person:girl", "name of a boy": "person:boy",
                   "name of a girl": "person:girl", "boy": "person:boy", "girl": "person:girl"}
 
@@ -369,7 +370,7 @@ class Reading:
     def reads_as_meaning(text):
         low = text.strip().lower().rstrip(".!")
         return bool(re.fullmatch(r"(?:the words? )?'?[a-z][a-z'-]*(?: [a-z][a-z'-]*){0,3}'? means .+", low) or
-                    re.fullmatch(r"[a-z][a-z'-]* is (?:a|an) (?:colour|color|size|day|time of day|thing|animal|toy|fruit|"
+                    re.fullmatch(r"[a-z][a-z'-]* is (?:a|an) (?:colour|color|size|day|time of day|direction|thing|animal|toy|fruit|"
                                  r"food|boy's name|girl's name|name of a boy|name of a girl|boy|girl)", low))
 
     def teach_meaning(self, text):
@@ -614,13 +615,15 @@ class Reading:
         return self.exam
 
     # ---- talking to it ----------------------------------------------------------------------------------
-    @staticmethod
     def is_story(text):
-        low = text.lower()
         numbers = r"\d|\bsome\b|\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|" \
                   r"fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety)\b"
         asks = r"\bhow (many|much)\b|\bwhat(?:'s| is) the (difference|total)\b|\bat what\b|\bwhat fraction\b"
-        return bool(re.search(asks, low)) and bool(re.search(numbers, low))
+        # A story has a question word OR a number OR a simple action verb
+        has_question = bool(re.search(asks, text.lower()))
+        has_number = bool(re.search(numbers, text.lower()))
+        has_action = bool(re.search(r"\b(got|got on|got off|board|boarded|get on|get off|get in|get out|go|goes|went|come|came|arrive|arrived|depart|departed)\b", text.lower()))
+        return bool(re.search(asks, text.lower())) or bool(re.search(numbers, text.lower())) or has_action
 
     def read_story(self, text, check=True):
         got, how, trace = self.reader().solve(text)
@@ -675,9 +678,12 @@ class Reading:
     def chat(self, text):
         """A question for the kindergarten region -> reply, or None if it isn't one."""
         t = text.strip()
-        if self.is_story(t):
+        if Reading.is_story(t):
             return self.read_story(t)
-        low = t.lower().strip(" ?.!")
+        # Also try reading as a story for simple declarative sentences that the kindergarten module understands
+        if self._looks_like_simple_sentence(text):
+            return self.read_story(t)
+        low = text.strip().lower().strip(" ?.!")
         v, how = self.know.ask(low)
         m = re.fullmatch(r"is an? (\w+) an? (\w+)", low)
         if m and m[1] not in self.know.isa:
@@ -691,6 +697,31 @@ class Reading:
                 return {"problem": t, "source": "language", "kind": "word", "region": "language",
                         "answer": said, "how": "words from scenes"}
         return None
+
+    @staticmethod
+    def _looks_like_simple_sentence(text):
+        """Heuristic: does this look like a simple declarative sentence the kindergarten module can handle?"""
+        t = text.strip().lower()
+        # Must have at least 3 words, contain a verb-like word, and not be a question
+        words = text.strip().split()
+        if len(words) < 3:
+            return False
+        if text.strip().endswith(('?', '¿')):
+            return False
+        # Check for common verb patterns
+        verb_starters = {'am', 'is', 'are', 'was', 'were', 'have', 'has', 'had', 'do', 'does', 'did',
+                         'will', 'would', 'can', 'could', 'should', 'may', 'might', 'must',
+                         'go', 'goes', 'went', 'come', 'came', 'see', 'saw', 'see', 'saw',
+                         'eat', 'eats', 'ate', 'go', 'goes', 'went', 'run', 'runs', 'ran',
+                         'play', 'plays', 'played', 'read', 'reads', 'read', 'write', 'writes', 'wrote'}
+        first_verb_pos = -1
+        for i, w in enumerate(words):
+            if w in verb_starters:
+                first_verb_pos = i
+                break
+        if first_verb_pos <= 0 or first_verb_pos >= len(words) - 1:
+            return False
+        return True
 
     def hear_fact(self, text):
         """'a zebra has four legs', 'a lamb says baa', 'a foal is a young horse' -> True if understood."""

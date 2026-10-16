@@ -1,0 +1,970 @@
+{
+ "tasks": {
+  "math": [
+   {
+    "task": "A baker packs 9 boxes with 7 muffins in each box. How many muffins are there altogether?",
+    "answer": "63"
+   },
+   {
+    "task": "Lena shares 56 stickers equally among 8 friends. How many stickers does each friend get?",
+    "answer": "7"
+   },
+   {
+    "task": "A farmer collects 50 eggs. He packs them in boxes of 6. How many eggs are left over?",
+    "answer": "2"
+   },
+   {
+    "task": "Tom has 15 marbles. He buys 3 bags with 6 marbles in each bag. How many marbles does he have now?",
+    "answer": "33"
+   },
+   {
+    "task": "5 notebooks cost 20 dollars. How much do 8 notebooks cost?",
+    "answer": "32"
+   },
+   {
+    "task": "A shirt costs 40 dollars. There is 25 percent off. What is 25 percent of 40 dollars?",
+    "answer": "10"
+   },
+   {
+    "task": "A crate is 4 cm long, 5 cm wide and 3 cm high. How many cubic cm are inside the crate?",
+    "answer": "60"
+   },
+   {
+    "task": "3 eggs make 6 pancakes. How many eggs do you need for 12 pancakes?",
+    "answer": "6"
+   },
+   {
+    "task": "There are 6 bags with 9 beads in each bag. Mia takes 6 bags and gives away 5 beads. How many beads does Mia have now?",
+    "answer": "49"
+   },
+   {
+    "task": "Ana scored 84 points on Monday and 96 points on Tuesday. What is her average score?",
+    "answer": "90"
+   },
+   {
+    "task": "A classroom has 4 rows with 6 desks in each row. 5 desks are broken. How many whole desks are there?",
+    "answer": "19"
+   },
+   {
+    "task": "A train goes 70 km in one hour. How many km does it go in 4 hours?",
+    "answer": "280"
+   }
+  ],
+  "language": [
+   {
+    "task": "Tom has 5 apples. He gives 2 apples to Ana. How many apples does Tom have now?",
+    "answer": "3"
+   },
+   {
+    "task": "Mia has 8 pears. Ana has 3 pears. Ana gives Mia 4 more pears. How many pears does Mia have now?",
+    "answer": "12"
+   },
+   {
+    "task": "Sam has 6 balls. He finds 3 more balls. He gives 4 balls to his friend. How many balls does Sam have now?",
+    "answer": "5"
+   },
+   {
+    "task": "Lily has 10 stickers. Her brother has 6 stickers. How many more stickers does Lily have than her brother?",
+    "answer": "4"
+   },
+   {
+    "task": "Ben has 7 toy cars. His sister takes 2 of his cars. How many cars does Ben have left?",
+    "answer": "5"
+   },
+   {
+    "task": "There are 12 birds in a tree. 5 birds fly away. 3 more birds come. How many birds are in the tree now?",
+    "answer": "10"
+   },
+   {
+    "task": "Zoe has 9 marbles. She puts 3 marbles in a box. She puts 2 more marbles in the box. How many marbles are in the box?",
+    "answer": "5"
+   },
+   {
+    "task": "Raj has 11 pencils. He breaks 2 pencils. How many whole pencils does Raj have now?",
+    "answer": "9"
+   },
+   {
+    "task": "Ana and Mia pick apples. Ana picks 7 apples. Mia picks 5 apples. They put all the apples in one basket. How many apples are in the basket?",
+    "answer": "12"
+   },
+   {
+    "task": "Tom has 4 red balls and 3 green balls. How many balls does Tom have altogether?",
+    "answer": "7"
+   },
+   {
+    "task": "A farmer has 15 cows. He buys 6 more cows. He sells 4 cows. How many cows does the farmer have now?",
+    "answer": "17"
+   },
+   {
+    "task": "Ella has 20 beads. She gives 5 beads to Sam and 3 beads to Ana. How many beads does Ella have left?",
+    "answer": "12"
+   }
+  ],
+  "code": [
+   {
+    "task": "There are 315 people. Each bus holds 40 people. How many buses are needed?",
+    "answer": "8"
+   },
+   {
+    "task": "A shop made 96 dollars. It shares the money equally among 8 workers. How much does each worker get?",
+    "answer": "12"
+   },
+   {
+    "task": "A game hero has 45 health. He loses 18 health. How much health is left?",
+    "answer": "27"
+   },
+   {
+    "task": "A player scores 150 points. A bonus adds 60 points. What is the total score?",
+    "answer": "210"
+   },
+   {
+    "task": "A box holds 120 marbles. 35 marbles are taken out. How many marbles are in the box now?",
+    "answer": "85"
+   },
+   {
+    "task": "A level needs 200 coins. You have 145 coins. How many more coins do you need?",
+    "answer": "55"
+   },
+   {
+    "task": "plan: total = 6*7; total = total - 2",
+    "answer": "40"
+   },
+   {
+    "task": "plan: score = 10; if score > 5 then score = score + 5 else score = score - 5",
+    "answer": "15"
+   },
+   {
+    "task": "plan: counter = 0; for i from 1 to 4 do counter = counter + 3",
+    "answer": "12"
+   },
+   {
+    "task": "plan: n = 3*4; if n > 10 then for i from 1 to 2 do n = n + n else n = n - 1",
+    "answer": "48"
+   },
+   {
+    "task": "plan: health = 100; if health > 50 and health < 150 then health = health - 30 else health = health + 10",
+    "answer": "70"
+   },
+   {
+    "task": "plan: a = 2*9; b = a + 6; b/3",
+    "answer": "8"
+   }
+  ]
+ },
+ "brain": {
+  "math": [
+   {
+    "task": "A baker packs 9 boxes with 7 muffins in each box. How many muffins are there altogether?",
+    "told": "63",
+    "got": "7",
+    "right": false,
+    "source": "language",
+    "seconds": 0.044
+   },
+   {
+    "task": "Lena shares 56 stickers equally among 8 friends. How many stickers does each friend get?",
+    "told": "7",
+    "got": "7",
+    "right": true,
+    "source": "language",
+    "seconds": 0.005
+   },
+   {
+    "task": "A farmer collects 50 eggs. He packs them in boxes of 6. How many eggs are left over?",
+    "told": "2",
+    "got": "2",
+    "right": true,
+    "source": "language",
+    "seconds": 0.003
+   },
+   {
+    "task": "Tom has 15 marbles. He buys 3 bags with 6 marbles in each bag. How many marbles does he have now?",
+    "told": "33",
+    "got": "15",
+    "right": false,
+    "source": "language",
+    "seconds": 0.004
+   },
+   {
+    "task": "5 notebooks cost 20 dollars. How much do 8 notebooks cost?",
+    "told": "32",
+    "got": "32",
+    "right": true,
+    "source": "plan",
+    "seconds": 0.002
+   },
+   {
+    "task": "A shirt costs 40 dollars. There is 25 percent off. What is 25 percent of 40 dollars?",
+    "told": "10",
+    "got": "10",
+    "right": true,
+    "source": "plan",
+    "seconds": 0.001
+   },
+   {
+    "task": "A crate is 4 cm long, 5 cm wide and 3 cm high. How many cubic cm are inside the crate?",
+    "told": "60",
+    "got": "60",
+    "right": true,
+    "source": "plan",
+    "seconds": 0.001
+   },
+   {
+    "task": "3 eggs make 6 pancakes. How many eggs do you need for 12 pancakes?",
+    "told": "6",
+    "got": "6",
+    "right": true,
+    "source": "language",
+    "seconds": 0.002
+   },
+   {
+    "task": "There are 6 bags with 9 beads in each bag. Mia takes 6 bags and gives away 5 beads. How many beads does Mia have now?",
+    "told": "49",
+    "got": "49",
+    "right": true,
+    "source": "plan",
+    "seconds": 0.002
+   },
+   {
+    "task": "Ana scored 84 points on Monday and 96 points on Tuesday. What is her average score?",
+    "told": "90",
+    "got": "90",
+    "right": true,
+    "source": "plan",
+    "seconds": 0.001
+   },
+   {
+    "task": "A classroom has 4 rows with 6 desks in each row. 5 desks are broken. How many whole desks are there?",
+    "told": "19",
+    "got": "5",
+    "right": false,
+    "source": "language",
+    "seconds": 0.003
+   },
+   {
+    "task": "A train goes 70 km in one hour. How many km does it go in 4 hours?",
+    "told": "280",
+    "got": "280",
+    "right": true,
+    "source": "language",
+    "seconds": 0.003
+   }
+  ],
+  "language": [
+   {
+    "task": "Tom has 5 apples. He gives 2 apples to Ana. How many apples does Tom have now?",
+    "told": "3",
+    "got": "3",
+    "right": true,
+    "source": "language",
+    "seconds": 0.003
+   },
+   {
+    "task": "Mia has 8 pears. Ana has 3 pears. Ana gives Mia 4 more pears. How many pears does Mia have now?",
+    "told": "12",
+    "got": "12",
+    "right": true,
+    "source": "language",
+    "seconds": 0.003
+   },
+   {
+    "task": "Sam has 6 balls. He finds 3 more balls. He gives 4 balls to his friend. How many balls does Sam have now?",
+    "told": "5",
+    "got": "5",
+    "right": true,
+    "source": "language",
+    "seconds": 0.002
+   },
+   {
+    "task": "Lily has 10 stickers. Her brother has 6 stickers. How many more stickers does Lily have than her brother?",
+    "told": "4",
+    "got": "4",
+    "right": true,
+    "source": "plan",
+    "seconds": 0.001
+   },
+   {
+    "task": "Ben has 7 toy cars. His sister takes 2 of his cars. How many cars does Ben have left?",
+    "told": "5",
+    "got": "5",
+    "right": true,
+    "source": "steps",
+    "seconds": 0.01
+   },
+   {
+    "task": "There are 12 birds in a tree. 5 birds fly away. 3 more birds come. How many birds are in the tree now?",
+    "told": "10",
+    "got": "10",
+    "right": true,
+    "source": "language",
+    "seconds": 0.003
+   },
+   {
+    "task": "Zoe has 9 marbles. She puts 3 marbles in a box. She puts 2 more marbles in the box. How many marbles are in the box?",
+    "told": "5",
+    "got": "2",
+    "right": false,
+    "source": "language",
+    "seconds": 0.002
+   },
+   {
+    "task": "Raj has 11 pencils. He breaks 2 pencils. How many whole pencils does Raj have now?",
+    "told": "9",
+    "got": "9",
+    "right": true,
+    "source": "language",
+    "seconds": 0.002
+   },
+   {
+    "task": "Ana and Mia pick apples. Ana picks 7 apples. Mia picks 5 apples. They put all the apples in one basket. How many apples are in the basket?",
+    "told": "12",
+    "got": "12",
+    "right": true,
+    "source": "steps",
+    "seconds": 0.006
+   },
+   {
+    "task": "Tom has 4 red balls and 3 green balls. How many balls does Tom have altogether?",
+    "told": "7",
+    "got": "7",
+    "right": true,
+    "source": "language",
+    "seconds": 0.002
+   },
+   {
+    "task": "A farmer has 15 cows. He buys 6 more cows. He sells 4 cows. How many cows does the farmer have now?",
+    "told": "17",
+    "got": "2",
+    "right": false,
+    "source": "language",
+    "seconds": 0.003
+   },
+   {
+    "task": "Ella has 20 beads. She gives 5 beads to Sam and 3 beads to Ana. How many beads does Ella have left?",
+    "told": "12",
+    "got": "12",
+    "right": true,
+    "source": "language",
+    "seconds": 0.003
+   }
+  ],
+  "code": [
+   {
+    "task": "There are 315 people. Each bus holds 40 people. How many buses are needed?",
+    "told": "8",
+    "got": "8",
+    "right": true,
+    "source": "plan",
+    "seconds": 0.001
+   },
+   {
+    "task": "A shop made 96 dollars. It shares the money equally among 8 workers. How much does each worker get?",
+    "told": "12",
+    "got": "44",
+    "right": false,
+    "source": "language",
+    "seconds": 0.004
+   },
+   {
+    "task": "A game hero has 45 health. He loses 18 health. How much health is left?",
+    "told": "27",
+    "got": "27",
+    "right": true,
+    "source": "plan",
+    "seconds": 0.002
+   },
+   {
+    "task": "A player scores 150 points. A bonus adds 60 points. What is the total score?",
+    "told": "210",
+    "got": "60",
+    "right": false,
+    "source": "language",
+    "seconds": 0.044
+   },
+   {
+    "task": "A box holds 120 marbles. 35 marbles are taken out. How many marbles are in the box now?",
+    "told": "85",
+    "got": "85",
+    "right": true,
+    "source": "language",
+    "seconds": 0.002
+   },
+   {
+    "task": "A level needs 200 coins. You have 145 coins. How many more coins do you need?",
+    "told": "55",
+    "got": "55",
+    "right": true,
+    "source": "language",
+    "seconds": 0.003
+   },
+   {
+    "task": "plan: total = 6*7; total = total - 2",
+    "told": "40",
+    "got": "40",
+    "right": true,
+    "source": "plan",
+    "seconds": 0.003
+   },
+   {
+    "task": "plan: score = 10; if score > 5 then score = score + 5 else score = score - 5",
+    "told": "15",
+    "got": "15",
+    "right": true,
+    "source": "plan",
+    "seconds": 0.002
+   },
+   {
+    "task": "plan: counter = 0; for i from 1 to 4 do counter = counter + 3",
+    "told": "12",
+    "got": "12",
+    "right": true,
+    "source": "plan",
+    "seconds": 0.002
+   },
+   {
+    "task": "plan: n = 3*4; if n > 10 then for i from 1 to 2 do n = n + n else n = n - 1",
+    "told": "48",
+    "got": "48",
+    "right": true,
+    "source": "plan",
+    "seconds": 0.003
+   },
+   {
+    "task": "plan: health = 100; if health > 50 and health < 150 then health = health - 30 else health = health + 10",
+    "told": "70",
+    "got": "70",
+    "right": true,
+    "source": "plan",
+    "seconds": 0.002
+   },
+   {
+    "task": "plan: a = 2*9; b = a + 6; b/3",
+    "told": "8",
+    "got": "8",
+    "right": true,
+    "source": "plan",
+    "seconds": 0.003
+   }
+  ]
+ },
+ "qwen3:0.6b": {
+  "math": [
+   {
+    "task": "A baker packs 9 boxes with 7 muffins in each box. How many muffins are there altogether?",
+    "told": "63",
+    "got": "9, 7, 9, 7, 63, 63",
+    "right": false,
+    "seconds": 2.49
+   },
+   {
+    "task": "Lena shares 56 stickers equally among 8 friends. How many stickers does each friend get?",
+    "told": "7",
+    "got": "56, 8, 7, 7",
+    "right": false,
+    "seconds": 0.12
+   },
+   {
+    "task": "A farmer collects 50 eggs. He packs them in boxes of 6. How many eggs are left over?",
+    "told": "2",
+    "got": "50, 6, 50, 6, 0",
+    "right": false,
+    "seconds": 0.17
+   },
+   {
+    "task": "Tom has 15 marbles. He buys 3 bags with 6 marbles in each bag. How many marbles does he have now?",
+    "told": "33",
+    "got": "15",
+    "right": false,
+    "seconds": 0.07
+   },
+   {
+    "task": "5 notebooks cost 20 dollars. How much do 8 notebooks cost?",
+    "told": "32",
+    "got": "5, 20, 1, 20, 5, 4, 8, 4, 8, 32, 32",
+    "right": false,
+    "seconds": 0.25
+   },
+   {
+    "task": "A shirt costs 40 dollars. There is 25 percent off. What is 25 percent of 40 dollars?",
+    "told": "10",
+    "got": "25, 40, 10",
+    "right": false,
+    "seconds": 0.1
+   },
+   {
+    "task": "A crate is 4 cm long, 5 cm wide and 3 cm high. How many cubic cm are inside the crate?",
+    "told": "60",
+    "got": "4, 5, 3, 60, 60",
+    "right": false,
+    "seconds": 0.34
+   },
+   {
+    "task": "3 eggs make 6 pancakes. How many eggs do you need for 12 pancakes?",
+    "told": "6",
+    "got": "3, 6, 12, 3, 6, 1, 2, 12, 12, 2, 24, 24",
+    "right": false,
+    "seconds": 0.3
+   },
+   {
+    "task": "There are 6 bags with 9 beads in each bag. Mia takes 6 bags and gives away 5 beads. How many beads does Mia have now?",
+    "told": "49",
+    "got": "6, 9, 6, 5, 6, 9, 54, 54, 5, 49, 49",
+    "right": false,
+    "seconds": 0.49
+   },
+   {
+    "task": "Ana scored 84 points on Monday and 96 points on Tuesday. What is her average score?",
+    "told": "90",
+    "got": "84, 96, 2, 180, 2, 90, 90",
+    "right": false,
+    "seconds": 0.25
+   },
+   {
+    "task": "A classroom has 4 rows with 6 desks in each row. 5 desks are broken. How many whole desks are there?",
+    "told": "19",
+    "got": "4, 6, 24, 5, 24, 5, 19",
+    "right": false,
+    "seconds": 0.27
+   },
+   {
+    "task": "A train goes 70 km in one hour. How many km does it go in 4 hours?",
+    "told": "280",
+    "got": "70, 4, 70, 4, 280, 280",
+    "right": false,
+    "seconds": 0.19
+   }
+  ],
+  "language": [
+   {
+    "task": "Tom has 5 apples. He gives 2 apples to Ana. How many apples does Tom have now?",
+    "told": "3",
+    "got": "3",
+    "right": true,
+    "seconds": 0.09
+   },
+   {
+    "task": "Mia has 8 pears. Ana has 3 pears. Ana gives Mia 4 more pears. How many pears does Mia have now?",
+    "told": "12",
+    "got": "8",
+    "right": false,
+    "seconds": 0.08
+   },
+   {
+    "task": "Sam has 6 balls. He finds 3 more balls. He gives 4 balls to his friend. How many balls does Sam have now?",
+    "told": "5",
+    "got": "6",
+    "right": false,
+    "seconds": 0.08
+   },
+   {
+    "task": "Lily has 10 stickers. Her brother has 6 stickers. How many more stickers does Lily have than her brother?",
+    "told": "4",
+    "got": "10, 6, 10, 6, 4, 4",
+    "right": false,
+    "seconds": 0.2
+   },
+   {
+    "task": "Ben has 7 toy cars. His sister takes 2 of his cars. How many cars does Ben have left?",
+    "told": "5",
+    "got": "5",
+    "right": true,
+    "seconds": 0.08
+   },
+   {
+    "task": "There are 12 birds in a tree. 5 birds fly away. 3 more birds come. How many birds are in the tree now?",
+    "told": "10",
+    "got": "5, 3, 12, 5, 3, 10, 10",
+    "right": false,
+    "seconds": 0.24
+   },
+   {
+    "task": "Zoe has 9 marbles. She puts 3 marbles in a box. She puts 2 more marbles in the box. How many marbles are in the box?",
+    "told": "5",
+    "got": "5",
+    "right": true,
+    "seconds": 0.09
+   },
+   {
+    "task": "Raj has 11 pencils. He breaks 2 pencils. How many whole pencils does Raj have now?",
+    "told": "9",
+    "got": "9",
+    "right": true,
+    "seconds": 0.07
+   },
+   {
+    "task": "Ana and Mia pick apples. Ana picks 7 apples. Mia picks 5 apples. They put all the apples in one basket. How many apples are in the basket?",
+    "told": "12",
+    "got": "7, 5, 12, 12",
+    "right": false,
+    "seconds": 0.15
+   },
+   {
+    "task": "Tom has 4 red balls and 3 green balls. How many balls does Tom have altogether?",
+    "told": "7",
+    "got": "4, 3, 7, 7",
+    "right": false,
+    "seconds": 0.13
+   },
+   {
+    "task": "A farmer has 15 cows. He buys 6 more cows. He sells 4 cows. How many cows does the farmer have now?",
+    "told": "17",
+    "got": "15, 6, 15, 6, 21, 4, 21, 4, 17, 17",
+    "right": false,
+    "seconds": 0.27
+   },
+   {
+    "task": "Ella has 20 beads. She gives 5 beads to Sam and 3 beads to Ana. How many beads does Ella have left?",
+    "told": "12",
+    "got": "20, 5, 3, 12",
+    "right": false,
+    "seconds": 0.17
+   }
+  ],
+  "code": [
+   {
+    "task": "There are 315 people. Each bus holds 40 people. How many buses are needed?",
+    "told": "8",
+    "got": "315, 40, 7.875, 8, 8",
+    "right": false,
+    "seconds": 0.28
+   },
+   {
+    "task": "A shop made 96 dollars. It shares the money equally among 8 workers. How much does each worker get?",
+    "told": "12",
+    "got": "96, 8, 12, 12",
+    "right": false,
+    "seconds": 0.14
+   },
+   {
+    "task": "A game hero has 45 health. He loses 18 health. How much health is left?",
+    "told": "27",
+    "got": "45, 18, 27",
+    "right": false,
+    "seconds": 0.09
+   },
+   {
+    "task": "A player scores 150 points. A bonus adds 60 points. What is the total score?",
+    "told": "210",
+    "got": "150, 60, 210, 210",
+    "right": false,
+    "seconds": 0.19
+   },
+   {
+    "task": "A box holds 120 marbles. 35 marbles are taken out. How many marbles are in the box now?",
+    "told": "85",
+    "got": "120, 35, 120, 35, 85, 85",
+    "right": false,
+    "seconds": 0.26
+   },
+   {
+    "task": "A level needs 200 coins. You have 145 coins. How many more coins do you need?",
+    "told": "55",
+    "got": "200, 145, 55, 55",
+    "right": false,
+    "seconds": 0.17
+   },
+   {
+    "task": "plan: total = 6*7; total = total - 2",
+    "told": "40",
+    "got": "6, 7, 42",
+    "right": false,
+    "seconds": 0.09
+   },
+   {
+    "task": "plan: score = 10; if score > 5 then score = score + 5 else score = score - 5",
+    "told": "15",
+    "got": "15",
+    "right": true,
+    "seconds": 0.08
+   },
+   {
+    "task": "plan: counter = 0; for i from 1 to 4 do counter = counter + 3",
+    "told": "12",
+    "got": "3",
+    "right": false,
+    "seconds": 0.06
+   },
+   {
+    "task": "plan: n = 3*4; if n > 10 then for i from 1 to 2 do n = n + n else n = n - 1",
+    "told": "48",
+    "got": "3",
+    "right": false,
+    "seconds": 0.07
+   },
+   {
+    "task": "plan: health = 100; if health > 50 and health < 150 then health = health - 30 else health = health + 10",
+    "told": "70",
+    "got": "70",
+    "right": true,
+    "seconds": 0.07
+   },
+   {
+    "task": "plan: a = 2*9; b = a + 6; b/3",
+    "told": "8",
+    "got": "2",
+    "right": false,
+    "seconds": 0.07
+   }
+  ]
+ },
+ "qwen3:8b": {
+  "math": [
+   {
+    "task": "A baker packs 9 boxes with 7 muffins in each box. How many muffins are there altogether?",
+    "told": "63",
+    "got": "63",
+    "right": true,
+    "seconds": 4.5
+   },
+   {
+    "task": "Lena shares 56 stickers equally among 8 friends. How many stickers does each friend get?",
+    "told": "7",
+    "got": "8",
+    "right": false,
+    "seconds": 0.08
+   },
+   {
+    "task": "A farmer collects 50 eggs. He packs them in boxes of 6. How many eggs are left over?",
+    "told": "2",
+    "got": "50, 6, 8, 2, 2",
+    "right": false,
+    "seconds": 0.31
+   },
+   {
+    "task": "Tom has 15 marbles. He buys 3 bags with 6 marbles in each bag. How many marbles does he have now?",
+    "told": "33",
+    "got": "45",
+    "right": false,
+    "seconds": 0.12
+   },
+   {
+    "task": "5 notebooks cost 20 dollars. How much do 8 notebooks cost?",
+    "told": "32",
+    "got": "40",
+    "right": false,
+    "seconds": 0.09
+   },
+   {
+    "task": "A shirt costs 40 dollars. There is 25 percent off. What is 25 percent of 40 dollars?",
+    "told": "10",
+    "got": "10",
+    "right": true,
+    "seconds": 0.11
+   },
+   {
+    "task": "A crate is 4 cm long, 5 cm wide and 3 cm high. How many cubic cm are inside the crate?",
+    "told": "60",
+    "got": "60",
+    "right": true,
+    "seconds": 0.11
+   },
+   {
+    "task": "3 eggs make 6 pancakes. How many eggs do you need for 12 pancakes?",
+    "told": "6",
+    "got": "4",
+    "right": false,
+    "seconds": 0.09
+   },
+   {
+    "task": "There are 6 bags with 9 beads in each bag. Mia takes 6 bags and gives away 5 beads. How many beads does Mia have now?",
+    "told": "49",
+    "got": "6, 9, 54, 5, 54, 5, 49, 49",
+    "right": false,
+    "seconds": 0.73
+   },
+   {
+    "task": "Ana scored 84 points on Monday and 96 points on Tuesday. What is her average score?",
+    "told": "90",
+    "got": "85",
+    "right": false,
+    "seconds": 0.1
+   },
+   {
+    "task": "A classroom has 4 rows with 6 desks in each row. 5 desks are broken. How many whole desks are there?",
+    "told": "19",
+    "got": "89",
+    "right": false,
+    "seconds": 0.11
+   },
+   {
+    "task": "A train goes 70 km in one hour. How many km does it go in 4 hours?",
+    "told": "280",
+    "got": "280",
+    "right": true,
+    "seconds": 0.14
+   }
+  ],
+  "language": [
+   {
+    "task": "Tom has 5 apples. He gives 2 apples to Ana. How many apples does Tom have now?",
+    "told": "3",
+    "got": "3",
+    "right": true,
+    "seconds": 0.08
+   },
+   {
+    "task": "Mia has 8 pears. Ana has 3 pears. Ana gives Mia 4 more pears. How many pears does Mia have now?",
+    "told": "12",
+    "got": "13",
+    "right": false,
+    "seconds": 0.11
+   },
+   {
+    "task": "Sam has 6 balls. He finds 3 more balls. He gives 4 balls to his friend. How many balls does Sam have now?",
+    "told": "5",
+    "got": "6, 3, 9, 9, 4, 5, 5",
+    "right": false,
+    "seconds": 0.37
+   },
+   {
+    "task": "Lily has 10 stickers. Her brother has 6 stickers. How many more stickers does Lily have than her brother?",
+    "told": "4",
+    "got": "6",
+    "right": false,
+    "seconds": 0.1
+   },
+   {
+    "task": "Ben has 7 toy cars. His sister takes 2 of his cars. How many cars does Ben have left?",
+    "told": "5",
+    "got": "5",
+    "right": true,
+    "seconds": 0.08
+   },
+   {
+    "task": "There are 12 birds in a tree. 5 birds fly away. 3 more birds come. How many birds are in the tree now?",
+    "told": "10",
+    "got": "10",
+    "right": true,
+    "seconds": 0.11
+   },
+   {
+    "task": "Zoe has 9 marbles. She puts 3 marbles in a box. She puts 2 more marbles in the box. How many marbles are in the box?",
+    "told": "5",
+    "got": "12",
+    "right": false,
+    "seconds": 0.13
+   },
+   {
+    "task": "Raj has 11 pencils. He breaks 2 pencils. How many whole pencils does Raj have now?",
+    "told": "9",
+    "got": "9",
+    "right": true,
+    "seconds": 0.09
+   },
+   {
+    "task": "Ana and Mia pick apples. Ana picks 7 apples. Mia picks 5 apples. They put all the apples in one basket. How many apples are in the basket?",
+    "told": "12",
+    "got": "12",
+    "right": true,
+    "seconds": 0.09
+   },
+   {
+    "task": "Tom has 4 red balls and 3 green balls. How many balls does Tom have altogether?",
+    "told": "7",
+    "got": "7",
+    "right": true,
+    "seconds": 0.1
+   },
+   {
+    "task": "A farmer has 15 cows. He buys 6 more cows. He sells 4 cows. How many cows does the farmer have now?",
+    "told": "17",
+    "got": "17",
+    "right": true,
+    "seconds": 0.1
+   },
+   {
+    "task": "Ella has 20 beads. She gives 5 beads to Sam and 3 beads to Ana. How many beads does Ella have left?",
+    "told": "12",
+    "got": "12",
+    "right": true,
+    "seconds": 0.1
+   }
+  ],
+  "code": [
+   {
+    "task": "There are 315 people. Each bus holds 40 people. How many buses are needed?",
+    "told": "8",
+    "got": "40",
+    "right": false,
+    "seconds": 0.13
+   },
+   {
+    "task": "A shop made 96 dollars. It shares the money equally among 8 workers. How much does each worker get?",
+    "told": "12",
+    "got": "12",
+    "right": true,
+    "seconds": 0.11
+   },
+   {
+    "task": "A game hero has 45 health. He loses 18 health. How much health is left?",
+    "told": "27",
+    "got": "27",
+    "right": true,
+    "seconds": 0.12
+   },
+   {
+    "task": "A player scores 150 points. A bonus adds 60 points. What is the total score?",
+    "told": "210",
+    "got": "150, 60, 210",
+    "right": false,
+    "seconds": 0.3
+   },
+   {
+    "task": "A box holds 120 marbles. 35 marbles are taken out. How many marbles are in the box now?",
+    "told": "85",
+    "got": "85",
+    "right": true,
+    "seconds": 0.11
+   },
+   {
+    "task": "A level needs 200 coins. You have 145 coins. How many more coins do you need?",
+    "told": "55",
+    "got": "55",
+    "right": true,
+    "seconds": 0.09
+   },
+   {
+    "task": "plan: total = 6*7; total = total - 2",
+    "told": "40",
+    "got": "40",
+    "right": true,
+    "seconds": 0.1
+   },
+   {
+    "task": "plan: score = 10; if score > 5 then score = score + 5 else score = score - 5",
+    "told": "15",
+    "got": "15",
+    "right": true,
+    "seconds": 0.1
+   },
+   {
+    "task": "plan: counter = 0; for i from 1 to 4 do counter = counter + 3",
+    "told": "12",
+    "got": "0",
+    "right": false,
+    "seconds": 0.1
+   },
+   {
+    "task": "plan: n = 3*4; if n > 10 then for i from 1 to 2 do n = n + n else n = n - 1",
+    "told": "48",
+    "got": "12",
+    "right": false,
+    "seconds": 0.11
+   },
+   {
+    "task": "plan: health = 100; if health > 50 and health < 150 then health = health - 30 else health = health + 10",
+    "told": "70",
+    "got": "80",
+    "right": false,
+    "seconds": 0.11
+   },
+   {
+    "task": "plan: a = 2*9; b = a + 6; b/3",
+    "told": "8",
+    "got": "36",
+    "right": false,
+    "seconds": 0.1
+   }
+  ]
+ }
+}
