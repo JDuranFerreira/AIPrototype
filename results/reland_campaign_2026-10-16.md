@@ -8,7 +8,7 @@ gate (8 right / 12 claims = 67% true)**. With it went:
 - the 10-09-evening _COIN_DOUBT landing,
 - the 10-07tier clock fixes _LASTS_FIX / _LAST_Q (2026-10-10),
 - the 10-12 campaign fixes _M_ATOMS (+ riders), _KNOWN_NOUN, _LEFT_FIX
-  (+ threshold 0.7→0.65), _DIM_DESC, and the _TWO_STEP wiring,
+  (via _OUT_VERBS), _DIM_DESC, and the _TWO_STEP wiring,
 - the 10-09 refactor's 770-line storyreader.py shell (still lost; the split
   files rames.py/perception.py/scope.py/expressions.py survive),
 - the S3 teller in primary.py, the inc tool in coordination.py, and the
@@ -90,3 +90,23 @@ eeds.
   g4/g6, now visible on g1 too because the taught state has two more school
   years in it. Not hidden above the gate: 92.5% is within the gate but below the
   10-09-era 97/100% record.
+
+## Landing 3: _LEFT_FIX — re-landed
+
+From `results/left_fix_2026-10-12.md`. Bare `left` after a number (not `left over`,
+not stative `is/are/was/were/be/been`) is a departure verb ('10 birds, 3 left' ->
+7 remain). Instead of custom logic, `"left"` was added to `_OUT_VERBS` so the
+existing `_CHANGE_FIX_VERB` change-injection machinery at `apply()` treats it as
+an OUT (departure) verb: `cell-N1`. No threshold change needed — the injected
+candidate carries c=0.8 which already passes the 0.7 gate.
+
+- **Direct probes (zero learning):** 10 birds, 3 left → **7** ✓; 8 cookies,
+  2 left → **6** ✓; `_KNOWN_NOUN` probes still pass (shirts 9, kittens 2,
+  cherries 28).
+- **Battery:** worlds P1–P6 96.7/91.2/89.5/89.8/88.9/87.4 — identical to the
+  `_KNOWN_NOUN` baseline, zero regression; ASDiv g1 38 right / 42 claims,
+  always answers 54 (+1 right, +2 claims vs baseline); kg 384/400; recipes
+  5/5, 0/0/200; `brain_state` byte-identical, compileall OK.
+- **Costs stated:** none beyond `_KNOWN_NOUN`'s existing claim-precision
+  discussion. `left` is also in `_NO_DELTA_Q` and `_NO_BEFORE_Q` so question
+  readings ('how many are left?') are unaffected.

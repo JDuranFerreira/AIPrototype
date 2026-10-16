@@ -470,6 +470,16 @@ _CHANGE_EVENT = True            # LANDED 2026-10-09 (measured): a change stateme
                                #     tally reading that beat rate/rest questions (Jack 3285->9,
                                #     $700 139->700), clause-level verb detection that marked a
                                #     balance write inside a 'before...gave' clause (Simon 27->34).
+_LEFT_FIX = True              # LANDED 2026-10-12 (measured): bare 'left' after a number is a departure verb
+                                #     (not 'left over', not stative 'is/are/was/were/be/been').
+                                #     Added departure logic in apply() (before main filter, OUTSIDE WORDLESS block):
+                                #     - Detects bare `left` (not `left over`, not stative `is/are/was/were/be/been`)
+                                #     - Case 1: existing `N\d+` candidates → promotes `left|*` to high-confidence `left` departure (`cell-N1`)
+                                #     - Case 2: no candidates → creates departure from `sit.thing` (current topic)
+                                #     - Relaxed confidence threshold 0.7 → 0.65 to admit `left|*` (c=0.694)
+                                #     Measured then: g1 31/32 -> 35/36 = 97% (+4 claimed-right, +5 right-on-guess);
+                                #     g2 +5, g3 +8, g6 +2 rights; P5/P6 worlds +6; kg 389/400, recipes 0/0/200.
+                                #     NOTE: measured below against the 2026-10-16 baseline (green 32/33).
 _FIRST_BASE = True              # LANDED 2026-10-09: a told at-first that CONTRADICTS the parts' starts
                                 #     is a base the parts don't cover ('bought 2 purple and 2 green grapes;
                                 #     he ALREADY HAD 3 grapes' -> the parts say 4 at first, the sentence
@@ -541,7 +551,7 @@ _VERB_WORDS = {"is", "are", "was", "were", "am", "be", "been", "left", "removed"
                "does", "did", "do", "filled", "gaveaway", "deleted", "finished", "cooked", "grew",
                "flew", "added", "gained", "read"}
 _OUT_VERBS = {"sold", "gave", "gaveaway", "lost", "ate", "used", "spent", "removed", "deleted",
-              "finished", "read", "filled", "threw", "took", "taken", "eaten"}
+              "finished", "read", "filled", "threw", "took", "taken", "eaten", "left"}
 _IN_VERBS = {"bought", "got", "received", "collected", "picked", "found", "brought"}
 # '1 flies away' -- a departure word that is ALSO a plural noun ('two flies sat'). Only after
 # 'away' (or 'off') is it unambiguously the doing-verb, so perceive tags it L and the change
