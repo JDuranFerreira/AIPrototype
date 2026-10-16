@@ -509,6 +509,16 @@ _RIVAL_TIEBREAK = True          # LANDED 2026-10-09 (measured; THE GATE IS MET):
                                 #     ~73-83%), kindergarten 389/400 and recipes 5/5 and chat
                                 #     0/0/200 identical; g2-g6 claims 40->43/47->54/16->20/5->6/7->9
                                 #     with precision not degraded.
+_COIN_DOUBT = True               # LANDED 2026-10-10 (measured): a story naming 2+ distinct coin nouns
+                                 #     (coin VALUES were never taught) withholds its claim with a money
+                                 #     doubt. Claim-time only -- the answer path untouched. Measured:
+                                 #     g1 31/32=97% -> 31/31=100% true (pennies withheld, the sole
+                                 #     wrong claim); g2 43->42 (a quarter+nickel row honestly
+                                 #     withheld); worlds/real stories/kindergarten/recipes identical.
+                                 #     NOTE (2026-10-16): re-landed from the campaign log item 7 after
+                                 #     the 10-15 session lost the original with the split shell.
+_COIN_WORDS = {"penny", "pennies", "dime", "dimes", "nickel", "nickels",
+               "quarter", "quarters"}
 _NAMES_FIX = True              # LANDED 2026-10-08 (measured): a known word where a name goes is tagged
                                #     person so the clause gets its OWN cells and the taught cross-person
                                #     pair 'P1 = N1 + P2' can be offered ('Ellen has 6 more than Marin').
@@ -2399,6 +2409,11 @@ class StoryReader:
         the tool that made this answer agree when it works it out again, and has any of these words led
         it wrong before? -> (doubts in words, checks in words)."""
         doubts, checks = [], []
+        if _COIN_DOUBT and len({t for t in re.findall(r"[a-z]+", text.lower()) if t in _COIN_WORDS}) >= 2:
+            # coins count as things in the story but their VALUES were never taught (deferred),
+            # so any answer over them is a guess wearing a claim -- withhold it honestly
+            self.doubts.doubt("coin", "mixed-coin money asked without taught values: " + text[:60])
+            doubts.append("money of mixed coins needs their values, which I was never taught")
         if rivals:
             r = rivals[0]
             r_val, r_c = (r if isinstance(r, tuple) else (r, None))
