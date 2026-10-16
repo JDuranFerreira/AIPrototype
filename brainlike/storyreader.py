@@ -633,6 +633,20 @@ _NONNEG_FIX = True             # LANDED 2026-10-08 (measured): never claim a neg
                                #     + recipes flat, nodoubt precision 70%->74%.
 
 
+_KNOWN_NOUN = True              # RE-LANDED 2026-10-16 (10-12 campaign, results/blocked_rows_2026-10-12.md):
+                                #     a word heard many times but never classified sits in L forever
+                                #     ('shirts' heard 18x, `Tom has 12 shirts` dies while apples works).
+                                #     Lexical + positional fix in perceive.nounish: a PLURAL-LOOKING word
+                                #     after a number, that is not function/verb/colour/name/pronoun/
+                                #     numeral/day (both forms), may be the counted noun. Measured then:
+                                #     g1 31/32 -> 35/36 = 97% (+4 claimed-right); g2 +5, g3 +8, g6 +2
+                                #     rights; P5/P6 worlds +6; kg 389/400, recipes 0/0/200.
+                                #     Adverbs never look plural (away/still/more/each/left: not -s), so
+                                #     the morphology gate keeps them out without a list.
+                                #     NOTE: measured below against the 2026-10-16 baseline (green 32/33).
+_KNOWN_NOUN_KEEP = _FLY_AWAY | _SMALL | _BETWEEN | _BREAK | _DET | _GLUE | _NOT_NOUNS | _WHERE
+
+
 def perceive(toks, lex, sit):
     """Tokens -> items: ('P', word, gender, pronoun?) ('N', value or None) ('T', noun, adjs) ('D', word) ('L', word)."""
     toks = lex.expand(toks) if hasattr(lex, "expand") else toks
@@ -642,6 +656,10 @@ def perceive(toks, lex, sit):
     def nounish(w):
         if w in _SMALL:
             return False
+        if _KNOWN_NOUN and w not in _KNOWN_NOUN_KEEP and not lex.colour(w) and not lex.person(w) and \
+                not lex.pronoun(w) and not lex.day(w) and not lex.day(singular(w)) and \
+                plural_looking(w) and "verb" not in lex.frames.word_property(w):
+            return True
         return bool(lex.thing(w)) or singular(w) in nouns or lex.frames.is_noun(w) or             (not lex.known(w) and w.isalpha() and len(w) > 1 and not lex.pronoun(w))
 
     def chunk(j, question=False):
